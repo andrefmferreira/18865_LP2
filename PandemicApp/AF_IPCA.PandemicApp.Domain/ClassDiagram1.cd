@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AF_IPCA.PandemicApp.Domain.Person">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACEBAQIiABEGAgAYAAAICAAACAIAACACgAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="contactInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.SickPerson">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="AF_IPCA.PandemicApp.Domain.Person" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1" />
+        <Point X="1.25" Y="0.625" />
+        <Point X="7" Y="0.625" />
+        <Point X="7" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAAAAAAIBAIAAAQAAACAACQAAAAgEEACAABAA=</HashCode>
+      <FileName>SickPerson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="emrContactPerson" />
+      <Property Name="InHospital" />
+      <Property Name="InHome" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="diseases" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.EmergencyContactPerson">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABAAAAABAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmergencyContactPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.DiseaseHistory">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAIIAAgAAAAIAAAAACAAAAAgAAAAggAA=</HashCode>
+      <FileName>DiseaseHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.InHome">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAACAAAAAAAAAAAAAAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>InHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.InHospital">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAUAgAABCAAAAAgAAQgAAAACAAAAAgAAAAABAgAEA=</HashCode>
+      <FileName>InHospital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.Domain.ContactPerson">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAACAAACCAAAAggEAAQABCAEAAQgAAAAAAAAAgAAA=</HashCode>
+      <FileName>ContactPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

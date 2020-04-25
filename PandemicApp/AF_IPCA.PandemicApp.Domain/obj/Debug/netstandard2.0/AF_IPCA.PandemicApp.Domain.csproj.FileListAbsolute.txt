@@ -1,0 +1,9 @@
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.deps.json
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.AssemblyInfo.cs
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.Domain\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.Domain.csproj.CoreCompileInputs.cache

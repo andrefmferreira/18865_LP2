@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c0qL/0AiNWyVmju3x4xKONrPgwrcb2kVBaH6SBrPyO6N1WKORXjxWbQnfZoDXd3nzxKInXxZ2Y3RSJ/2lok8+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andre\\Desktop\\LESI\\Ano_1\\LP_2\\Code\\Project\\PandemicApp\\AF_IPCA.PandemicApp.Domain\\AF_IPCA.PandemicApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
