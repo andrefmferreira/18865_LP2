@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 /// <summary>
 /// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// this class handls a person's contact.

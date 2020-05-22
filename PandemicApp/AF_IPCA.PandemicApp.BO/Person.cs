@@ -9,15 +9,19 @@
  */
 
 using System;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 /// <summary>
-/// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
+/// Pandemic App Business Object level DLL. 
+/// Here is where everything is defined
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// This is Person's class. This will define a person.
     /// </summary>
+    [Serializable]
     public class Person
     {
         #region ------- MEMBER VARIABLES -------
@@ -29,6 +33,7 @@ namespace AF_IPCA.PandemicApp.Domain
         private string lastName;                                                    //Person's last name
         private string fullName;                                                    //Person's full name
         private DateTime birthDate;                                                 //Person's birthdate
+        [NonSerialized]
         private int age;                                                            //Person's age
         private string gender;                                                      //Person's gender
 
@@ -39,7 +44,7 @@ namespace AF_IPCA.PandemicApp.Domain
         #region ------- CONSTRUCTORS -------
 
         /// <summary>
-        /// standard constructor for class Nation
+        /// standard constructor for class Person
         /// </summary>
         public Person()
         {
@@ -69,7 +74,7 @@ namespace AF_IPCA.PandemicApp.Domain
         public string Country
         {
             get { return country; }
-            set { country = CapitalLetter(value); }
+            set { country = value; }
         }
 
         /// <summary>
@@ -78,7 +83,7 @@ namespace AF_IPCA.PandemicApp.Domain
         public string Citizenship
         {
             get { return citizenship; }
-            set { citizenship = CapitalLetter(value); }
+            set { citizenship = value; }
         }
 
         /// <summary>
@@ -92,7 +97,7 @@ namespace AF_IPCA.PandemicApp.Domain
             }
             set
             {
-                language = CapitalLetter(value);
+                language = value;
             }
         }
 
@@ -103,7 +108,7 @@ namespace AF_IPCA.PandemicApp.Domain
         {
             get
             {
-                return CapitalLetter(firstName);
+                return firstName;
             }
             set
             {
@@ -118,7 +123,7 @@ namespace AF_IPCA.PandemicApp.Domain
         {
             get
             {
-                return CapitalLetter(lastName);
+                return lastName;
             }
             set
             {
@@ -134,7 +139,7 @@ namespace AF_IPCA.PandemicApp.Domain
             get { return fullName; }
             set
             {
-                fullName = CapitalLetter(value);
+                fullName = value;
             }
         }
 
@@ -184,21 +189,20 @@ namespace AF_IPCA.PandemicApp.Domain
                     switch (value.ToUpper())
                     {
                         case "M":
-                            value = "Masculino";
+                            gender = "Masculino";
                             break;
 
                         case "F":
-                            value = "Feminino";
+                            gender = "Feminino";
                             break;
 
                         default:
                             break;
                     }
-                    gender = CapitalLetter(value);
                 }
                 else
                 {
-                    gender = "";
+                    gender = null;
                 }
             }
         }
@@ -215,46 +219,6 @@ namespace AF_IPCA.PandemicApp.Domain
 
         #region ------- FUNCTIONS -------
 
-        /// <summary>
-        /// checks if an inserted birthdate is correct, by parsing it to an aux variable. Also returns the age, using a procedure
-        /// </summary>
-        /// <param name="date"></param>
-        /// <returns>birthDate and age</returns>
-        public DateTime CheckDate(string date)
-        {
-            DateTime aux;
-            bool b = DateTime.TryParse(date, out aux);
-
-            this.BirthDate = b ? aux : DateTime.Today;
-
-            this.Age = DateToAge(this.BirthDate);
-
-            return this.BirthDate;
-        }
-
-        /// <summary>
-        /// Converts a given birthdate into an age
-        /// </summary>
-        /// <param name="date">already parsed date, inputed from user</param>
-        /// <returns>returns the age based on the difference of current date and the inserted birthdate</returns>
-        private int DateToAge(DateTime date)
-        {
-            TimeSpan aux = DateTime.Now - date;
-            double years = aux.Days / (365.242);                                  //365.242 is an accountability for leap years
-
-            Age = (int)years;
-            return Age;
-        }
-
-        /// <summary>
-        /// will capitalize the first letter.
-        /// </summary>
-        /// <param name="s">receives a string as parameter</param>
-        /// <returns>returns the string with the first letter capitalized</returns>
-        public static string CapitalLetter(string s)
-        {
-            return System.Globalization.CultureInfo.CurrentUICulture.TextInfo.ToTitleCase(s.ToLower());
-        }
 
         #endregion ------- FUNCTIONS -------
 

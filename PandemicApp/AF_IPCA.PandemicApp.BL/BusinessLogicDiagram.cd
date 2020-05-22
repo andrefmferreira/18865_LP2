@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AF_IPCA.PandemicApp.BL.CrossRules" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CrossRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BL.DiseaseRules">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAgACAAAIAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiseaseRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BL.HospitalRules">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAACAAAgIACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HospitalRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BL.SickPersonRules">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAAIABABAAAAAEAICAAAAABCACIEAAAAAAAAAA=</HashCode>
+      <FileName>SickPersonRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

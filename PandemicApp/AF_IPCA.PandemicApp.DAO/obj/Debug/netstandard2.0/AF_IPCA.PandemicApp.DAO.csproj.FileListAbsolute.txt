@@ -1,0 +1,12 @@
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.AssemblyInfoInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.AssemblyInfo.cs
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.deps.json
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.csproj.CopyComplete
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.DAO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.pdb

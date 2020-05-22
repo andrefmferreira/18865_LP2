@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AF_IPCA.PandemicApp.BO.Disease" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIQAAgAgAAJAIAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Disease.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="diseaseID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.DiseaseHistory" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAIIAAgAggAIAIIAACAAAAAgAAAAAgAA=</HashCode>
+      <FileName>DiseaseHistory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="diseaseID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.EmergencyContactPerson">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABAAAAABAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmergencyContactPerson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="relativeStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.Hospital" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABCAAABAgBAQgADQACAAgAAgAAAAABAgAAA=</HashCode>
+      <FileName>Hospital.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hospId" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.Person" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACABAQIiABECAgAYAAAICAAACAIAACACAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.SickPerson" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAQAAAAAAALAAAAAAAAAAAAAAAAAgAAEEIAGABAA=</HashCode>
+      <FileName>SickPerson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="diseases" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Int32" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

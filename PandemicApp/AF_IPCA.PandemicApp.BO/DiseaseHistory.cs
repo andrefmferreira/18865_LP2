@@ -9,37 +9,72 @@
  */
 
 using System;
-using System.Collections.Generic;
+
 /// <summary>
-/// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
+/// Pandemic App Business Object level DLL. 
+/// Here is where everything is defined
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// This class is responsible to manage a person's disease. As so, it will become a patient.
     /// </summary>
+    [Serializable]
     public class DiseaseHistory
     {
         #region ------- MEMBER VARIABLES -------
 
+        private static int diseaseID;
         private string typeOfDisease;                                                   //type of disease (COVID, BIRDFLUE, Others)
         private string diseaseSintoms;                                                  //describes the sintoms
         private DateTime diagnosticDate;                                                //date of diagnose
+        private DateTime medDischargeDate;                                              //date of medical discharge from the pandemic virus infection
         private bool isCured;                                                           //bool value, if the patient is cured or not
-
 
         #endregion ------- MEMBER VARIABLES -------
 
         #region ------- CONSTRUCTORS -------
 
+        /// <summary>
+        /// Default constructor for DiseaseHistory class
+        /// </summary>
         public DiseaseHistory()
         {
+        }
+
+        /// <summary>
+        /// Constructor for DiseaseHistory object class
+        /// </summary>
+        /// <param name="d">receives the disease type with "default" values</param>
+        /// <param name="personSintoms">Sick person's sintoms</param>
+        public DiseaseHistory(Disease d, string personSintoms)
+        {
+            this.DiseaseID = d.DiseaseID;
+            this.TypeOfDisease = d.TypeOfDisease;
+            this.DiseaseSintoms = personSintoms;
+            isCured = false;
+            medDischargeDate = MedDischargeDate;
+            DiagnosticDate = DateTime.Today;
         }
 
         #endregion ------- CONSTRUCTORS -------
 
         #region ------- PROPERTIES -------
 
+        /// <summary>
+        /// this property manages the medical discharge date. It defines when a sick person, is no longer sick!
+        /// </summary>
+        public DateTime MedDischargeDate
+        {
+            get
+            {
+                return medDischargeDate;
+            }
+            set
+            {
+                medDischargeDate = value;
+            }
+        }
 
         /// <summary>
         /// This property handles the type of diseases
@@ -52,7 +87,22 @@ namespace AF_IPCA.PandemicApp.Domain
             }
             set
             {
-                typeOfDisease = CapitalLetter(value);
+                typeOfDisease = value;
+            }
+        }
+
+        /// <summary>
+        /// Defines the disease ID based on the diseases selected
+        /// </summary>
+        public int DiseaseID
+        {
+            get
+            {
+                return diseaseID;
+            }
+            set
+            {
+                diseaseID = value;
             }
         }
 
@@ -82,7 +132,7 @@ namespace AF_IPCA.PandemicApp.Domain
             }
             set
             {
-                diagnosticDate = value;                //sets the date of "creation" as the date of diagnose
+                diagnosticDate = value;
             }
         }
 
@@ -99,24 +149,11 @@ namespace AF_IPCA.PandemicApp.Domain
             {
                 isCured = value;
             }
-
         }
 
         #endregion ------- PROPERTIES -------
 
         #region ------- FUNCTIONS -------
-
-        /// <summary>
-        /// will capitalize the first letter.
-        /// </summary>
-        /// <param name="s">receives a string as parameter</param>
-        /// <returns>returns the string with the first letter capitalized</returns>
-        public static string CapitalLetter(string s)
-        {
-            return System.Globalization.CultureInfo.CurrentUICulture.TextInfo.ToTitleCase(s.ToLower());
-        }
-
-      
 
         #endregion ------- FUNCTIONS -------
 

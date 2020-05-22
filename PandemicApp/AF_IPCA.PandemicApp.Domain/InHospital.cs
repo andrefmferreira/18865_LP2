@@ -12,7 +12,7 @@ using System;
 /// <summary>
 /// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// This will struct the information, if a sickperson is admited at a hospital

@@ -1,0 +1,14 @@
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.AssemblyInfoInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.AssemblyInfo.cs
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.deps.json
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.DAO.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.csproj.CopyComplete
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BL\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BL.pdb

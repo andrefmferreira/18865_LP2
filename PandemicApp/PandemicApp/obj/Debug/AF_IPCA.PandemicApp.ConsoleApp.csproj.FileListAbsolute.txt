@@ -2,9 +2,13 @@ C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\obj\
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\PandemicApp.exe.config
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\PandemicApp.exe
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\PandemicApp.pdb
-C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.Domain.dll
-C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.Domain.pdb
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\obj\Debug\AF_IPCA.PandemicApp.ConsoleApp.csproj.CopyComplete
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\obj\Debug\PandemicApp.exe
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\obj\Debug\PandemicApp.pdb
 C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\obj\Debug\AF_IPCA.PandemicApp.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.BL.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.BO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.DAO.dll
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.BL.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.BO.pdb
+C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\PandemicApp\bin\Debug\AF_IPCA.PandemicApp.DAO.pdb

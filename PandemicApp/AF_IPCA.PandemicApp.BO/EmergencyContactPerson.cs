@@ -8,16 +8,17 @@
  * ********************************************************************************
  */
 
-using System;
 
 /// <summary>
-/// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
+/// Pandemic App Business Object level DLL. 
+/// Here is where everything is defined
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// This class is the structure of an emergency contact person. It inherits from class Person
     /// </summary>
+    [System.Serializable]
     public class EmergencyContactPerson : Person
     {
 
@@ -33,11 +34,30 @@ namespace AF_IPCA.PandemicApp.Domain
 
         #region ------- CONSTRUCTORS -------
 
+        /// <summary>
+        /// default constructor
+        /// </summary>
         public EmergencyContactPerson()
         {
 
         }
 
+        /// <summary>
+        /// Parameterized constructor. It gives all the info needed to build this object
+        /// </summary>
+        /// <param name="fName">EMR first name</param>
+        /// <param name="lName">EMR last name</param>
+        /// <param name="phoneNum">EMR phone number</param>
+        /// <param name="relStatus">EMR relationship with sick person</param>
+        public EmergencyContactPerson(string fName, string lName, string phoneNum, string relStatus)
+        {
+            this.HasEPC = true;
+            this.FirstName = fName;
+            this.LastName = lName;
+            this.FullName = fName + " " + lName;
+            this.ContactInfo.PhoneNumber = phoneNum;
+            this.RelativeStatus = relStatus;
+        }
         #endregion
 
 

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AF_IPCA.PandemicApp.DAO.Diseases" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAADAAAE=</HashCode>
+      <FileName>Diseases.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="allDiseases" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.DAO.Hospitals">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAACBCAAAAAAAAAAAAAAAAAAAAACAAAE=</HashCode>
+      <FileName>Hospitals.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="hospitalList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.DAO.PandemicExceptions" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PandemicExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.DAO.SickPersons">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAIAAAIBABAAABAAABwAAACAAAAAAAAQAAIAE=</HashCode>
+      <FileName>SickPersons.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="allSickPersons" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="System.ApplicationException" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.Hospital" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AF_IPCA.PandemicApp.BO.SickPerson" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

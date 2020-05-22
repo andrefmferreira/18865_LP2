@@ -13,7 +13,7 @@ using System;
 /// <summary>
 /// Pandemic App Domain mainspace. This is the space where classes are "linked" together in a library
 /// </summary>
-namespace AF_IPCA.PandemicApp.Domain
+namespace AF_IPCA.PandemicApp.BO
 {
     /// <summary>
     /// Class InHome will manage comunication and procedure if a sickperson will recover at home.

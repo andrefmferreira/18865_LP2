@@ -60,9 +60,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestScripting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="FrontEndDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -77,9 +79,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AF_IPCA.PandemicApp.Domain\AF_IPCA.PandemicApp.Domain.csproj">
-      <Project>{21125d31-b074-450c-a055-c467b68b0e21}</Project>
-      <Name>AF_IPCA.PandemicApp.Domain</Name>
+    <ProjectReference Include="..\AF_IPCA.PandemicApp.BL\AF_IPCA.PandemicApp.BL.csproj">
+      <Project>{b4bca32a-7372-4e23-aef7-1a2d6e8ca085}</Project>
+      <Name>AF_IPCA.PandemicApp.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AF_IPCA.PandemicApp.BO\AF_IPCA.PandemicApp.BO.csproj">
+      <Project>{8432fdfe-f206-4692-8be3-00d11073f6b5}</Project>
+      <Name>AF_IPCA.PandemicApp.BO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
