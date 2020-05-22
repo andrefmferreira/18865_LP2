@@ -61,7 +61,7 @@ namespace AF_IPCA.PandemicApp.DAO
             {
                 foreach (Disease dd in allDiseases)
                 {
-                    if (d.TypeOfDisease == d.TypeOfDisease)
+                    if (dd.TypeOfDisease == d.TypeOfDisease)
                     {
                         return false;
                     }
