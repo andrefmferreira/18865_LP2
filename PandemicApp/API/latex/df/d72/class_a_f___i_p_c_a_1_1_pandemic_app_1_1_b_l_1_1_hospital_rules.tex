@@ -1,0 +1,167 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules}\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+
+
+This class handles the logic and rules in the hospitals portfolio  
+
+
+
+
+Inheritance diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules\+:
+% FIG 0
+
+
+Collaboration diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_ac16b14c47147b9039b3de01f02c71a09}{Hospital\+Rules}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a59aa8187dd12ce03af9b095b7e58ab76}{Print\+Hospitals\+From\+District\+Request}} (string h\+District, out int\mbox{[}$\,$\mbox{]} ids)
+\begin{DoxyCompactList}\small\item\em this method moderates the rquest made by user, filtering the hospital database in order to print the hospitals acording to the district \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a7642c157d3b159a5757280ba203f387f}{Get\+Hospital\+By\+I\+D\+Request}} (int id)
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_adc8ef1604549c2fa367e754c377f5f3f}{Add\+New\+Hospital\+Request}} (string h\+Name, string h\+District, string h\+City, string h\+Public, out int id)
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a6cbdb5bafa47e8d5cdd0aad88b9d5206}{Save\+All\+Request}} (string f\+Name)
+\begin{DoxyCompactList}\small\item\em This method mediates the request for saving an entire structure into a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a61819b827783fc54085bae6cacd2ff2e}{Load\+All\+Request}} (string f\+Name)
+\begin{DoxyCompactList}\small\item\em This method mediates the request for loading an entire structure into memory (not ideal) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class handles the logic and rules in the hospitals portfolio 
+
+
+
+Definition at line 24 of file Hospital\+Rules.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_ac16b14c47147b9039b3de01f02c71a09}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_ac16b14c47147b9039b3de01f02c71a09}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!HospitalRules@{HospitalRules}}
+\index{HospitalRules@{HospitalRules}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{HospitalRules()}{HospitalRules()}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Hospital\+Rules (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 32 of file Hospital\+Rules.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_adc8ef1604549c2fa367e754c377f5f3f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_adc8ef1604549c2fa367e754c377f5f3f}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!AddNewHospitalRequest@{AddNewHospitalRequest}}
+\index{AddNewHospitalRequest@{AddNewHospitalRequest}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{AddNewHospitalRequest()}{AddNewHospitalRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Add\+New\+Hospital\+Request (\begin{DoxyParamCaption}\item[{string}]{h\+Name,  }\item[{string}]{h\+District,  }\item[{string}]{h\+City,  }\item[{string}]{h\+Public,  }\item[{out int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+Name} & \\
+\hline
+{\em h\+District} & \\
+\hline
+{\em h\+City} & \\
+\hline
+{\em h\+Public} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 76 of file Hospital\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a7642c157d3b159a5757280ba203f387f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a7642c157d3b159a5757280ba203f387f}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!GetHospitalByIDRequest@{GetHospitalByIDRequest}}
+\index{GetHospitalByIDRequest@{GetHospitalByIDRequest}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{GetHospitalByIDRequest()}{GetHospitalByIDRequest()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Get\+Hospital\+By\+I\+D\+Request (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 63 of file Hospital\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a61819b827783fc54085bae6cacd2ff2e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a61819b827783fc54085bae6cacd2ff2e}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!LoadAllRequest@{LoadAllRequest}}
+\index{LoadAllRequest@{LoadAllRequest}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{LoadAllRequest()}{LoadAllRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Load\+All\+Request (\begin{DoxyParamCaption}\item[{string}]{f\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method mediates the request for loading an entire structure into memory (not ideal) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Name} & Full path and name of bin file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 106 of file Hospital\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a59aa8187dd12ce03af9b095b7e58ab76}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a59aa8187dd12ce03af9b095b7e58ab76}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!PrintHospitalsFromDistrictRequest@{PrintHospitalsFromDistrictRequest}}
+\index{PrintHospitalsFromDistrictRequest@{PrintHospitalsFromDistrictRequest}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{PrintHospitalsFromDistrictRequest()}{PrintHospitalsFromDistrictRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Print\+Hospitals\+From\+District\+Request (\begin{DoxyParamCaption}\item[{string}]{h\+District,  }\item[{out int\mbox{[}$\,$\mbox{]}}]{ids }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+this method moderates the rquest made by user, filtering the hospital database in order to print the hospitals acording to the district 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+District} & user input a district for norrow information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if sucessd, or false if no hospitals found in the district
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Hospital\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a6cbdb5bafa47e8d5cdd0aad88b9d5206}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_a6cbdb5bafa47e8d5cdd0aad88b9d5206}} 
+\index{AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}!SaveAllRequest@{SaveAllRequest}}
+\index{SaveAllRequest@{SaveAllRequest}!AF\_IPCA.PandemicApp.BL.HospitalRules@{AF\_IPCA.PandemicApp.BL.HospitalRules}}
+\doxysubsubsection{\texorpdfstring{SaveAllRequest()}{SaveAllRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Hospital\+Rules.\+Save\+All\+Request (\begin{DoxyParamCaption}\item[{string}]{f\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method mediates the request for saving an entire structure into a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Name} & Full path and name of bin file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Hospital\+Rules.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L/\mbox{\hyperlink{_hospital_rules_8cs}{Hospital\+Rules.\+cs}}\end{DoxyCompactItemize}

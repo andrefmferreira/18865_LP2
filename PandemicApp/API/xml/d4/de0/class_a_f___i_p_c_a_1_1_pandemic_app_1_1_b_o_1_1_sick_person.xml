@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BO::SickPerson</compoundname>
+    <basecompoundref refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BO.Person</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1afb7a7db84a29a79b4365624dcd930246" prot="private" static="no" mutable="no">
+        <type><ref refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" kindref="compound">EmergencyContactPerson</ref></type>
+        <definition>EmergencyContactPerson AF_IPCA.PandemicApp.BO.SickPerson.emrContactPerson</definition>
+        <argsstring></argsstring>
+        <name>emrContactPerson</name>
+        <initializer>= new <ref refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" kindref="compound">EmergencyContactPerson</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="29" column="40" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1abb0f4d1829f66dbe2e5881b505ce773e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.SickPerson.isAdmited</definition>
+        <argsstring></argsstring>
+        <name>isAdmited</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="38" column="22" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae4b2e64ae085c4f2ec4cd99806659ea8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.pId</definition>
+        <argsstring></argsstring>
+        <name>pId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="39" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acd9139faf2edf317e4a191ccce6b8461" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.SickPerson.isAlive</definition>
+        <argsstring></argsstring>
+        <name>isAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="41" column="22" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a90b1f946e72ad1c2aeb917f5df026916" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history" kindref="compound">DiseaseHistory</ref> &gt;</type>
+        <definition>List&lt;DiseaseHistory&gt; AF_IPCA.PandemicApp.BO.SickPerson.diseases</definition>
+        <argsstring></argsstring>
+        <name>diseases</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="31" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acf3e6afa9dcb43508ea8e4cca5dd4da1" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.hospitalId</definition>
+        <argsstring></argsstring>
+        <name>hospitalId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="37" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a29a17bdb9784b51cc88e67deed47d6c0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.globalPID</definition>
+        <argsstring></argsstring>
+        <name>globalPID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="40" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a3466abce894d9bd5649aa8ed8faa902f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.SickPerson.IsAlive</definition>
+        <argsstring></argsstring>
+        <name>IsAlive</name>
+        <briefdescription>
+<para>This property manages the life status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="81" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab07110a46abd6d6d1f5fca318c635c4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.HospitalId</definition>
+        <argsstring></argsstring>
+        <name>HospitalId</name>
+        <briefdescription>
+<para>This property manages the link between a sick person and the hospital where it is hospitalized </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="96" column="20" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="97" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae264e707fc8089126eb358974ea8eb58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.PID</definition>
+        <argsstring></argsstring>
+        <name>PID</name>
+        <briefdescription>
+<para>This property manages the autoincremented id, for every sick persons recorded </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="112" column="20" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab6a20d4a4be3685f295ea43b1fd691cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.SickPerson.IsAdmited</definition>
+        <argsstring></argsstring>
+        <name>IsAdmited</name>
+        <briefdescription>
+<para>this property is responsible to receive and &quot;translate&quot; if a persons has been admited in a hospital </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="127" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="128" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae2b3c2bcf3412df5eab245b2ec5800e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" kindref="compound">EmergencyContactPerson</ref></type>
+        <definition>EmergencyContactPerson AF_IPCA.PandemicApp.BO.SickPerson.EmrContactPerson</definition>
+        <argsstring></argsstring>
+        <name>EmrContactPerson</name>
+        <briefdescription>
+<para>property for emergency contact person object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="142" column="39" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="142" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a8325e0d68f59ff7b65491e97b96b0a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.SickPerson.SickPerson</definition>
+        <argsstring>()</argsstring>
+        <name>SickPerson</name>
+        <briefdescription>
+<para>Default constructor. It will set the person&apos;s id </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="50" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1addbbbccc635fd33c709425dac636268e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.SickPerson.SickPerson</definition>
+        <argsstring>(string fN, string lN, string g)</argsstring>
+        <name>SickPerson</name>
+        <param>
+          <type>string</type>
+          <declname>fN</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lN</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>constructor for a sickPerson, passing some data </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>last name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gender</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="63" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="63" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae1019f94d381789836fbd779dd461d3e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.SickPerson.GetNextId</definition>
+        <argsstring>()</argsstring>
+        <name>GetNextId</name>
+        <briefdescription>
+<para>property for contact person data. This will store all the contact information required for a sick person </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method has the responsability to autoincrement the sickpersons id. It will be unique</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="157" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="157" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>sickperson class. This class handles all information related to a person wich is infected. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BO.SickPerson</label>
+        <link refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Person</label>
+        <link refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BO.SickPerson</label>
+        <link refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>emrContactPerson</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AF_IPCA.PandemicApp.BO.ContactPerson</label>
+        <link refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person"/>
+      </node>
+      <node id="2">
+        <label>Person</label>
+        <link refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>contactInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AF_IPCA.PandemicApp.BO.EmergencyContactPerson</label>
+        <link refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" line="25" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/SickPerson.cs" bodystart="26" bodyend="224"/>
+    <listofallmembers>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5850adbc7a66497a657e163cbe78d7f1" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>age</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5555e24085b801ae5ee2053f7b3abaf3" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Age</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ab0132bd6c818d38e688634816a0e51dd" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>birthDate</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa247a11f5383636de9a3b9563c8f475d" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>BirthDate</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a979ea14437ecd3e6ba9570030ec9bdd7" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>citizenship</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a2dbff0d89cc64be4ed6871b05d221b3e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Citizenship</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7817d2227671bda70c588f7cffd8dcae" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>ContactInfo</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aba32e762a9f426841ec09439db878150" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>contactInfo</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1afc52539e0cbe28686de370ea4c39ac58" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>country</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ac71fc040d07879b23490a096f0825c6c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Country</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a90b1f946e72ad1c2aeb917f5df026916" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>diseases</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1afb7a7db84a29a79b4365624dcd930246" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>emrContactPerson</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae2b3c2bcf3412df5eab245b2ec5800e8" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>EmrContactPerson</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a1f2bca40230f2aa56b5c0508b2f81c1d" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>firstName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a10ef503c54673904f948c4cbd52173b2" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>FirstName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa51bc058537c13b72aea5ff146fa692e" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>fullName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a895c06f613a0bc5cce2e0f4e2cc1692a" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>FullName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa68489549e5e290b8915e3965623e395" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Gender</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a3ba75dd1e46f7230cce8d832b7d85d1f" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>gender</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae1019f94d381789836fbd779dd461d3e" prot="protected" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>GetNextId</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a29a17bdb9784b51cc88e67deed47d6c0" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>globalPID</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acf3e6afa9dcb43508ea8e4cca5dd4da1" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>hospitalId</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab07110a46abd6d6d1f5fca318c635c4c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>HospitalId</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab6a20d4a4be3685f295ea43b1fd691cb" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>IsAdmited</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1abb0f4d1829f66dbe2e5881b505ce773e" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>isAdmited</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a3466abce894d9bd5649aa8ed8faa902f" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>IsAlive</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acd9139faf2edf317e4a191ccce6b8461" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>isAlive</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7196090c4c7edb103badb003c7d546a0" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>language</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a0216b3d23eb4e9c1cdc25040ccf32ebc" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Language</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a446aae06f926648c338e14fd734a212e" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>lastName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1abc877ce18a8031b34914adf266e1d1d3" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>LastName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a94b27e3290629a54f7f9fce2b42a4beb" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Person</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a97bda7737457e429fea57099f74aec8e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>Person</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae264e707fc8089126eb358974ea8eb58" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>PID</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae4b2e64ae085c4f2ec4cd99806659ea8" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>pId</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a8325e0d68f59ff7b65491e97b96b0a42" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>SickPerson</name></member>
+      <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1addbbbccc635fd33c709425dac636268e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::SickPerson</scope><name>SickPerson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

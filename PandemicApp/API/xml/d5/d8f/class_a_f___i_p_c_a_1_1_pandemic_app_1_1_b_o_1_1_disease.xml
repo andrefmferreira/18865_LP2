@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BO::Disease</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a729b20b2cbd594b43ca91a666c844c08" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Disease.globalDiseaseID</definition>
+        <argsstring></argsstring>
+        <name>globalDiseaseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="28" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a851135e76f09c5bbb2c64bf19fad75bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Disease.diseaseID</definition>
+        <argsstring></argsstring>
+        <name>diseaseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="29" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af516ca10dc383c768444f4f7618b14cc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Disease.typeOfDisease</definition>
+        <argsstring></argsstring>
+        <name>typeOfDisease</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="30" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a01b7a3bc2fbea787930e0e5081023696" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Disease.diseaseSintoms</definition>
+        <argsstring></argsstring>
+        <name>diseaseSintoms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="31" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a7e73ca2003666d6ab6955f8094b30a2a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Disease.incubationPeriod</definition>
+        <argsstring></argsstring>
+        <name>incubationPeriod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="32" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a933488d497cca63ac0ba0db6dc18ab2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? AF_IPCA.PandemicApp.BO.Disease.IncubationPeriod</definition>
+        <argsstring></argsstring>
+        <name>IncubationPeriod</name>
+        <briefdescription>
+<para>Manages the diseases incubation period for reference. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="63" column="20" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="64" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1ab935ec22ebec429de26d580602ee6a87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Disease.DiseaseID</definition>
+        <argsstring></argsstring>
+        <name>DiseaseID</name>
+        <briefdescription>
+<para>Defines the disease ID autoincremented </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="79" column="20" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="80" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4573836cc863f3956ffa8a20ef0064f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Disease.TypeOfDisease</definition>
+        <argsstring></argsstring>
+        <name>TypeOfDisease</name>
+        <briefdescription>
+<para>This property handles the type of diseases </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="96" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a6f0edd9f5c41b9f01c925ad197672c63" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Disease.DiseaseSintoms</definition>
+        <argsstring></argsstring>
+        <name>DiseaseSintoms</name>
+        <briefdescription>
+<para>describes the disease sintoms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="111" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="112" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af43f8c229f4fa017a9e42699f9a0e0b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.Disease.Disease</definition>
+        <argsstring>()</argsstring>
+        <name>Disease</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="41" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4b0b6a9b8aa5b2569f02c2b8793545cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.Disease.Disease</definition>
+        <argsstring>(string diseaseType, string diseaseSintoms, int diseaseIncPeriod)</argsstring>
+        <name>Disease</name>
+        <param>
+          <type>string</type>
+          <declname>diseaseType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>diseaseSintoms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>diseaseIncPeriod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="47" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="47" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class handls the diseases. It is the template of a disease </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" line="24" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Disease.cs" bodystart="25" bodyend="138"/>
+    <listofallmembers>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af43f8c229f4fa017a9e42699f9a0e0b8" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>Disease</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4b0b6a9b8aa5b2569f02c2b8793545cf" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>Disease</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a851135e76f09c5bbb2c64bf19fad75bb" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>diseaseID</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1ab935ec22ebec429de26d580602ee6a87" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>DiseaseID</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a6f0edd9f5c41b9f01c925ad197672c63" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>DiseaseSintoms</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a01b7a3bc2fbea787930e0e5081023696" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>diseaseSintoms</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a729b20b2cbd594b43ca91a666c844c08" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>globalDiseaseID</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a933488d497cca63ac0ba0db6dc18ab2c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>IncubationPeriod</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a7e73ca2003666d6ab6955f8094b30a2a" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>incubationPeriod</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af516ca10dc383c768444f4f7618b14cc" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>typeOfDisease</name></member>
+      <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4573836cc863f3956ffa8a20ef0064f5" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Disease</scope><name>TypeOfDisease</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

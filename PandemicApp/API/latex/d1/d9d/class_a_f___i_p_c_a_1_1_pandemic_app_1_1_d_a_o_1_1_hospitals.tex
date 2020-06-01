@@ -1,0 +1,185 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals}\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+
+
+this class handles hospitals.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a75b589db60404b16f66fd505677ceb9e}{Hospitals}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2d04fb9c849a5e7fc2cfdcc1ca700e76}{Add\+To\+Hospital\+List}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} h, out int x)
+\begin{DoxyCompactList}\small\item\em checks if a given hospital is already on the list of hospitals and if not, it will add it up. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a16f44057ebef05086e00361201c95f8b}{Print\+Hospitals\+From\+District}} (string h\+District, out int\mbox{[}$\,$\mbox{]} ids)
+\begin{DoxyCompactList}\small\item\em This method prints on the screen all hospitals, that met the district criteria \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a3c64ab3a2bf12bc05fc668977ac44dfe}{Get\+Hospital\+By\+ID}} (int id)
+\begin{DoxyCompactList}\small\item\em This method searches for an hospital, in the hospitals portfolio, by id. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2ee8e92ce2baaf72b19eb6cd9ca532e8}{Save\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the save procedure of data into a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a09936e5facc5124e4eb14a9728145816}{Load\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the load procedure of data from a file \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} $>$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a83b302b0b0fef2a5fd58e2998d45e583}{hospital\+List}} = new List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}}$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class handles hospitals. 
+
+
+
+Definition at line 29 of file Hospitals.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a75b589db60404b16f66fd505677ceb9e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a75b589db60404b16f66fd505677ceb9e}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!Hospitals@{Hospitals}}
+\index{Hospitals@{Hospitals}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{Hospitals()}{Hospitals()}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Hospitals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file Hospitals.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2d04fb9c849a5e7fc2cfdcc1ca700e76}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2d04fb9c849a5e7fc2cfdcc1ca700e76}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!AddToHospitalList@{AddToHospitalList}}
+\index{AddToHospitalList@{AddToHospitalList}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{AddToHospitalList()}{AddToHospitalList()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Add\+To\+Hospital\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}}}]{h,  }\item[{out int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+checks if a given hospital is already on the list of hospitals and if not, it will add it up. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+Of\+Hospital} & Name o\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true or false. If true, it will also adds up the hospital to the List.
+\end{DoxyReturn}
+
+
+Definition at line 56 of file Hospitals.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a3c64ab3a2bf12bc05fc668977ac44dfe}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a3c64ab3a2bf12bc05fc668977ac44dfe}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!GetHospitalByID@{GetHospitalByID}}
+\index{GetHospitalByID@{GetHospitalByID}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{GetHospitalByID()}{GetHospitalByID()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Get\+Hospital\+By\+ID (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method searches for an hospital, in the hospitals portfolio, by id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Its the id of the hospital\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The object hospital, or null if not found
+\end{DoxyReturn}
+
+
+Definition at line 112 of file Hospitals.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a09936e5facc5124e4eb14a9728145816}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a09936e5facc5124e4eb14a9728145816}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!LoadAll@{LoadAll}}
+\index{LoadAll@{LoadAll}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{LoadAll()}{LoadAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Load\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the load procedure of data from a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file is loaded, or false if something whent wrong
+\end{DoxyReturn}
+
+
+Definition at line 156 of file Hospitals.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a16f44057ebef05086e00361201c95f8b}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a16f44057ebef05086e00361201c95f8b}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!PrintHospitalsFromDistrict@{PrintHospitalsFromDistrict}}
+\index{PrintHospitalsFromDistrict@{PrintHospitalsFromDistrict}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{PrintHospitalsFromDistrict()}{PrintHospitalsFromDistrict()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Print\+Hospitals\+From\+District (\begin{DoxyParamCaption}\item[{string}]{h\+District,  }\item[{out int\mbox{[}$\,$\mbox{]}}]{ids }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method prints on the screen all hospitals, that met the district criteria 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+District} & Input from user. It will define what hospitals are printed\\
+\hline
+{\em ids} & Out parameter, that gives the ids the user can choose. If user chooses a value out of range, it will give an error msg\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if there are hospitals found, or false if no hospitals in the given district
+\end{DoxyReturn}
+
+
+Definition at line 86 of file Hospitals.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2ee8e92ce2baaf72b19eb6cd9ca532e8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a2ee8e92ce2baaf72b19eb6cd9ca532e8}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!SaveAll@{SaveAll}}
+\index{SaveAll@{SaveAll}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{SaveAll()}{SaveAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+Save\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the save procedure of data into a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if save is ok. False if not
+\end{DoxyReturn}
+
+
+Definition at line 129 of file Hospitals.\+cs.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a83b302b0b0fef2a5fd58e2998d45e583}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_a83b302b0b0fef2a5fd58e2998d45e583}} 
+\index{AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}!hospitalList@{hospitalList}}
+\index{hospitalList@{hospitalList}!AF\_IPCA.PandemicApp.DAO.Hospitals@{AF\_IPCA.PandemicApp.DAO.Hospitals}}
+\doxysubsubsection{\texorpdfstring{hospitalList}{hospitalList}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}}$>$ A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Hospitals.\+hospital\+List = new List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital}{Hospital}}$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 33 of file Hospitals.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O/\mbox{\hyperlink{_hospitals_8cs}{Hospitals.\+cs}}\end{DoxyCompactItemize}

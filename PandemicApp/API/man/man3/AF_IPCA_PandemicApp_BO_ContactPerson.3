@@ -1,0 +1,220 @@
+.TH "AF_IPCA.PandemicApp.BO.ContactPerson" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.ContactPerson \- this class handles a person's contact\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBContactPerson\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static string \fBCapitalLetter\fP (string s)"
+.br
+.RI "will capitalize the first letter\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string?? \fBPhoneNumber\fP\fC [get, set]\fP"
+.br
+.RI "Validates a \fBPerson\fP's contact phone number; "
+.ti -1c
+.RI "string? \fBEmail\fP\fC [get, set]\fP"
+.br
+.RI "validates the inserted email (as an alternative contact method) "
+.ti -1c
+.RI "string? \fBAddressCountry\fP\fC [get, set]\fP"
+.br
+.RI "defines the country of address of a person "
+.ti -1c
+.RI "string? \fBAddressDistrict\fP\fC [get, set]\fP"
+.br
+.RI "defines the district of address of a person "
+.ti -1c
+.RI "string? \fBAddressCity\fP\fC [get, set]\fP"
+.br
+.RI "defines the city of address of a person "
+.ti -1c
+.RI "string? \fBAddressDesc\fP\fC [get, set]\fP"
+.br
+.RI "defines the address of a person "
+.ti -1c
+.RI "string?? \fBAddressZipCode\fP\fC [get, set]\fP"
+.br
+.RI "defines the zipcode of person's address "
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBValidate\fP (string n, string pattern)"
+.br
+.RI "Using regular expression library, and specifics patterns, it validates data\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBphoneNumber\fP"
+.br
+.ti -1c
+.RI "string \fBemail\fP"
+.br
+.ti -1c
+.RI "string \fBaddressCountry\fP"
+.br
+.ti -1c
+.RI "string \fBaddressDistrict\fP"
+.br
+.ti -1c
+.RI "string \fBaddressCity\fP"
+.br
+.ti -1c
+.RI "string \fBaddressDesc\fP"
+.br
+.ti -1c
+.RI "string \fBaddressZipCode\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+this class handles a person's contact\&. 
+
+
+.PP
+Definition at line 23 of file ContactPerson\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.ContactPerson ()"
+
+.PP
+Definition at line 39 of file ContactPerson\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.CapitalLetter (string s)\fC [static]\fP"
+
+.PP
+will capitalize the first letter\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIs\fP receives a string as parameter
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns the string with the first letter capitalized
+.RE
+.PP
+
+.PP
+Definition at line 177 of file ContactPerson\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.Validate (string n, string pattern)\fC [private]\fP"
+
+.PP
+Using regular expression library, and specifics patterns, it validates data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP receives a string to validate
+.br
+\fIpattern\fP receives a patter to be the base to validate the string n
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns true if n is valid or false if not
+.RE
+.PP
+
+.PP
+Definition at line 188 of file ContactPerson\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.addressCity\fC [private]\fP"
+
+.PP
+Definition at line 31 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.addressCountry\fC [private]\fP"
+
+.PP
+Definition at line 29 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.addressDesc\fC [private]\fP"
+
+.PP
+Definition at line 32 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.addressDistrict\fC [private]\fP"
+
+.PP
+Definition at line 30 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.addressZipCode\fC [private]\fP"
+
+.PP
+Definition at line 33 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.email\fC [private]\fP"
+
+.PP
+Definition at line 28 of file ContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.phoneNumber\fC [private]\fP"
+
+.PP
+Definition at line 27 of file ContactPerson\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.AddressCity\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the city of address of a person 
+.PP
+Definition at line 124 of file ContactPerson\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.AddressCountry\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the country of address of a person 
+.PP
+Definition at line 94 of file ContactPerson\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.AddressDesc\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the address of a person 
+.PP
+Definition at line 139 of file ContactPerson\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.AddressDistrict\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the district of address of a person 
+.PP
+Definition at line 109 of file ContactPerson\&.cs\&.
+.SS "string?? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.AddressZipCode\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the zipcode of person's address 
+.PP
+Definition at line 154 of file ContactPerson\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.Email\fC [get]\fP, \fC [set]\fP"
+
+.PP
+validates the inserted email (as an alternative contact method) 
+.PP
+Definition at line 75 of file ContactPerson\&.cs\&.
+.SS "string?? AF_IPCA\&.PandemicApp\&.BO\&.ContactPerson\&.PhoneNumber\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Validates a \fBPerson\fP's contact phone number; 
+.PP
+Definition at line 50 of file ContactPerson\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

@@ -1,0 +1,306 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person}\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+
+
+this class handles a person\textquotesingle{}s contact.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a495b956a1c4d0e10bb0a7ff353a98708}{Contact\+Person}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a371b0aa116226209907c5f6a25113262}{Capital\+Letter}} (string s)
+\begin{DoxyCompactList}\small\item\em will capitalize the first letter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string?? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a11017af0ce316bf840aecee8de1ee30b}{Phone\+Number}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Validates a \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person}{Person}}\textquotesingle{}s contact phone number; \end{DoxyCompactList}\item 
+string? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aeccf93211457a33aa23f9b22baa381a8}{Email}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em validates the inserted email (as an alternative contact method) \end{DoxyCompactList}\item 
+string? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a6511b4c0f11850341008dfd0584401d3}{Address\+Country}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em defines the country of address of a person \end{DoxyCompactList}\item 
+string? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0fdfe29943156ad303b0f2fe6837c870}{Address\+District}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em defines the district of address of a person \end{DoxyCompactList}\item 
+string? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aef99dd3c932fd01d075b971c09a9bbfc}{Address\+City}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em defines the city of address of a person \end{DoxyCompactList}\item 
+string? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a189f340d3e6cc1b55127c854f6600e86}{Address\+Desc}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em defines the address of a person \end{DoxyCompactList}\item 
+string?? \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2614e89e89d57bcf0136ad2e299e835c}{Address\+Zip\+Code}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em defines the zipcode of person\textquotesingle{}s address \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a8c7c949cd418e9ad8ad222712d79ac52}{Validate}} (string n, string pattern)
+\begin{DoxyCompactList}\small\item\em Using regular expression library, and specifics patterns, it validates data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a95606ee422bef72d9d0aa5855084948d}{phone\+Number}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a246ae390539728e64880905dda833e4f}{email}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2ab10eab3af31120ef0e654b86126f19}{address\+Country}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0a53763ef484d3aeb714e9b7443ec0fd}{address\+District}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a86ffc534a2ec2b2fc697d580ec8166f2}{address\+City}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_acb1bd68e08be3663710ad74f01056f1f}{address\+Desc}}
+\item 
+string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aac676b22fc9cf777b832543dd779ffd7}{address\+Zip\+Code}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class handles a person\textquotesingle{}s contact. 
+
+
+
+Definition at line 23 of file Contact\+Person.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a495b956a1c4d0e10bb0a7ff353a98708}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a495b956a1c4d0e10bb0a7ff353a98708}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!ContactPerson@{ContactPerson}}
+\index{ContactPerson@{ContactPerson}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{ContactPerson()}{ContactPerson()}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Contact\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file Contact\+Person.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a371b0aa116226209907c5f6a25113262}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a371b0aa116226209907c5f6a25113262}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!CapitalLetter@{CapitalLetter}}
+\index{CapitalLetter@{CapitalLetter}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{CapitalLetter()}{CapitalLetter()}}
+{\footnotesize\ttfamily static string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Capital\+Letter (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+will capitalize the first letter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & receives a string as parameter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the string with the first letter capitalized
+\end{DoxyReturn}
+
+
+Definition at line 177 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a8c7c949cd418e9ad8ad222712d79ac52}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a8c7c949cd418e9ad8ad222712d79ac52}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!Validate@{Validate}}
+\index{Validate@{Validate}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{Validate()}{Validate()}}
+{\footnotesize\ttfamily bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Validate (\begin{DoxyParamCaption}\item[{string}]{n,  }\item[{string}]{pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Using regular expression library, and specifics patterns, it validates data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & receives a string to validate\\
+\hline
+{\em pattern} & receives a patter to be the base to validate the string n\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if n is valid or false if not
+\end{DoxyReturn}
+
+
+Definition at line 188 of file Contact\+Person.\+cs.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a86ffc534a2ec2b2fc697d580ec8166f2}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a86ffc534a2ec2b2fc697d580ec8166f2}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!addressCity@{addressCity}}
+\index{addressCity@{addressCity}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{addressCity}{addressCity}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+address\+City\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 31 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2ab10eab3af31120ef0e654b86126f19}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2ab10eab3af31120ef0e654b86126f19}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!addressCountry@{addressCountry}}
+\index{addressCountry@{addressCountry}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{addressCountry}{addressCountry}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+address\+Country\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_acb1bd68e08be3663710ad74f01056f1f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_acb1bd68e08be3663710ad74f01056f1f}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!addressDesc@{addressDesc}}
+\index{addressDesc@{addressDesc}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{addressDesc}{addressDesc}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+address\+Desc\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 32 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0a53763ef484d3aeb714e9b7443ec0fd}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0a53763ef484d3aeb714e9b7443ec0fd}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!addressDistrict@{addressDistrict}}
+\index{addressDistrict@{addressDistrict}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{addressDistrict}{addressDistrict}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+address\+District\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aac676b22fc9cf777b832543dd779ffd7}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aac676b22fc9cf777b832543dd779ffd7}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!addressZipCode@{addressZipCode}}
+\index{addressZipCode@{addressZipCode}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{addressZipCode}{addressZipCode}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+address\+Zip\+Code\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 33 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a246ae390539728e64880905dda833e4f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a246ae390539728e64880905dda833e4f}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!email@{email}}
+\index{email@{email}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{email}{email}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+email\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a95606ee422bef72d9d0aa5855084948d}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a95606ee422bef72d9d0aa5855084948d}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!phoneNumber@{phoneNumber}}
+\index{phoneNumber@{phoneNumber}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{phoneNumber}{phoneNumber}}
+{\footnotesize\ttfamily string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+phone\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 27 of file Contact\+Person.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aef99dd3c932fd01d075b971c09a9bbfc}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aef99dd3c932fd01d075b971c09a9bbfc}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!AddressCity@{AddressCity}}
+\index{AddressCity@{AddressCity}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{AddressCity}{AddressCity}}
+{\footnotesize\ttfamily string? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Address\+City\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+defines the city of address of a person 
+
+
+
+Definition at line 124 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a6511b4c0f11850341008dfd0584401d3}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a6511b4c0f11850341008dfd0584401d3}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!AddressCountry@{AddressCountry}}
+\index{AddressCountry@{AddressCountry}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{AddressCountry}{AddressCountry}}
+{\footnotesize\ttfamily string? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Address\+Country\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+defines the country of address of a person 
+
+
+
+Definition at line 94 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a189f340d3e6cc1b55127c854f6600e86}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a189f340d3e6cc1b55127c854f6600e86}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!AddressDesc@{AddressDesc}}
+\index{AddressDesc@{AddressDesc}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{AddressDesc}{AddressDesc}}
+{\footnotesize\ttfamily string? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Address\+Desc\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+defines the address of a person 
+
+
+
+Definition at line 139 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0fdfe29943156ad303b0f2fe6837c870}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a0fdfe29943156ad303b0f2fe6837c870}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!AddressDistrict@{AddressDistrict}}
+\index{AddressDistrict@{AddressDistrict}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{AddressDistrict}{AddressDistrict}}
+{\footnotesize\ttfamily string? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Address\+District\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+defines the district of address of a person 
+
+
+
+Definition at line 109 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2614e89e89d57bcf0136ad2e299e835c}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a2614e89e89d57bcf0136ad2e299e835c}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!AddressZipCode@{AddressZipCode}}
+\index{AddressZipCode@{AddressZipCode}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{AddressZipCode}{AddressZipCode}}
+{\footnotesize\ttfamily string?? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Address\+Zip\+Code\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+defines the zipcode of person\textquotesingle{}s address 
+
+
+
+Definition at line 154 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aeccf93211457a33aa23f9b22baa381a8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_aeccf93211457a33aa23f9b22baa381a8}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!Email@{Email}}
+\index{Email@{Email}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{Email}{Email}}
+{\footnotesize\ttfamily string? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Email\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+validates the inserted email (as an alternative contact method) 
+
+
+
+Definition at line 75 of file Contact\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a11017af0ce316bf840aecee8de1ee30b}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_a11017af0ce316bf840aecee8de1ee30b}} 
+\index{AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}!PhoneNumber@{PhoneNumber}}
+\index{PhoneNumber@{PhoneNumber}!AF\_IPCA.PandemicApp.BO.ContactPerson@{AF\_IPCA.PandemicApp.BO.ContactPerson}}
+\doxysubsubsection{\texorpdfstring{PhoneNumber}{PhoneNumber}}
+{\footnotesize\ttfamily string?? A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Contact\+Person.\+Phone\+Number\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Validates a \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person}{Person}}\textquotesingle{}s contact phone number; 
+
+
+
+Definition at line 50 of file Contact\+Person.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O/\mbox{\hyperlink{_contact_person_8cs}{Contact\+Person.\+cs}}\end{DoxyCompactItemize}

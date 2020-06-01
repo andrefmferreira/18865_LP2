@@ -1,0 +1,385 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons}\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+
+
+this class handles all the sickpersons objects.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af995044e93bb6b3dff378e19085230d1}{Set\+Death\+Of\+Sick\+Person}} (string full\+Name)
+\begin{DoxyCompactList}\small\item\em This methodo seeks for a sick person in the database, and sets the status of is\+Alive to false (person\textquotesingle{}s death) \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a6a1c2e40f5a0c0d6cbe9da3157e3998b}{Add\+Sick\+Person}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person)
+\begin{DoxyCompactList}\small\item\em Methodo responsible to add a sickperson to a list of sick\+Person\textquotesingle{}s. \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af477a97c79d068d7e86a5b32dcec7502}{Get\+Gender\+From\+List}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person)
+\begin{DoxyCompactList}\small\item\em This method queries the list of sickpersons, in order to get information from sick\+Person \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aa9680a9358fd646aa471e061fdf47811}{Set\+Persons\+Contact}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person, string phone\+Num, string email, string add\+Desc, string add\+Zip\+Code, string add\+City, string add\+District, string add\+Country)
+\begin{DoxyCompactList}\small\item\em This method sets the values for contact information of a person. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a8cd2c447c39a02b2ca099b81f2e17785}{Set\+Emr\+Contact\+Person}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person, \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}} emr\+Person)
+\begin{DoxyCompactList}\small\item\em Method responsible to set the emergency contact of a sick\+Person. It will store the information in the sickperson\textquotesingle{}s \char`\"{}object\char`\"{} \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a7e4d3669c147f3d380a5e1894e6dbd19}{Add\+Disease\+To\+Sick\+Person\+History}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person, \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history}{Disease\+History}} person\+Disease)
+\begin{DoxyCompactList}\small\item\em This method adds a disease to the person\textquotesingle{}s disease history. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a21260c36f6ce1d621511b750edef6f16}{Add\+Base\+Info\+To\+Sick\+Person}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} sick\+Person, Date\+Time bdate, string p\+Country, string p\+Citizen, string p\+Lang)
+\begin{DoxyCompactList}\small\item\em This method adds more information to the person\textquotesingle{}s file \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a2460bb05347bd7b80671555f0cddc2d8}{Get\+Sick\+Person}} (string full\+Name)
+\begin{DoxyCompactList}\small\item\em This method searches all persons registered as sick persons, and pulls the information out. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aab80254dfc1e083820b898dc45bc3ae8}{Med\+Discharge\+Sick\+Person}} (string sp\+Name)
+\begin{DoxyCompactList}\small\item\em This methodo seeks for all listed sick persons in the \char`\"{}database\char`\"{}, using as criteria the full name (not ideal). If found, seeks for the pandemic virus wich is not cured, and set it to cured, assigning the date when this change is made as medical discharge date. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a49032a30d0340614826cf196932fa221}{Save\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the save procedure of data into a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af469fed8db67ee8b6fa518dcdda60ecd}{Load\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the load procedure of data from a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a54a378380b5e75def41e66f9308a7052}{List\+Sick\+Person\+Dash\+Board}} (out int num\+SP, out int tot\+SP, out int num\+Deaths)
+\begin{DoxyCompactList}\small\item\em This functiion gets data from the database in order to print a dashboard \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_ad564d00eed7b5b108d734e025777e14f}{Sick\+Persons}} ()
+\begin{DoxyCompactList}\small\item\em default constructor for sick\+Person\textquotesingle{}s class \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} $>$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a9424cc77269b9d04144592ecb0410fe0}{all\+Sick\+Persons}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class handles all the sickpersons objects. 
+
+
+
+Definition at line 27 of file Sick\+Persons.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_ad564d00eed7b5b108d734e025777e14f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_ad564d00eed7b5b108d734e025777e14f}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!SickPersons@{SickPersons}}
+\index{SickPersons@{SickPersons}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{SickPersons()}{SickPersons()}}
+{\footnotesize\ttfamily static A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Sick\+Persons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+default constructor for sick\+Person\textquotesingle{}s class 
+
+
+
+Definition at line 40 of file Sick\+Persons.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a21260c36f6ce1d621511b750edef6f16}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a21260c36f6ce1d621511b750edef6f16}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!AddBaseInfoToSickPerson@{AddBaseInfoToSickPerson}}
+\index{AddBaseInfoToSickPerson@{AddBaseInfoToSickPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{AddBaseInfoToSickPerson()}{AddBaseInfoToSickPerson()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Add\+Base\+Info\+To\+Sick\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person,  }\item[{Date\+Time}]{bdate,  }\item[{string}]{p\+Country,  }\item[{string}]{p\+Citizen,  }\item[{string}]{p\+Lang }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method adds more information to the person\textquotesingle{}s file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Person} & sick person\\
+\hline
+{\em bdate} & birthdate\\
+\hline
+{\em p\+Country} & country\\
+\hline
+{\em p\+Citizen} & citzenship\\
+\hline
+{\em p\+Lang} & language\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 186 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a7e4d3669c147f3d380a5e1894e6dbd19}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a7e4d3669c147f3d380a5e1894e6dbd19}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!AddDiseaseToSickPersonHistory@{AddDiseaseToSickPersonHistory}}
+\index{AddDiseaseToSickPersonHistory@{AddDiseaseToSickPersonHistory}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{AddDiseaseToSickPersonHistory()}{AddDiseaseToSickPersonHistory()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Add\+Disease\+To\+Sick\+Person\+History (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person,  }\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history}{Disease\+History}}}]{person\+Disease }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method adds a disease to the person\textquotesingle{}s disease history. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Person} & sick person\\
+\hline
+{\em person\+Disease} & virus disease\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 167 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a6a1c2e40f5a0c0d6cbe9da3157e3998b}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a6a1c2e40f5a0c0d6cbe9da3157e3998b}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!AddSickPerson@{AddSickPerson}}
+\index{AddSickPerson@{AddSickPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{AddSickPerson()}{AddSickPerson()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Add\+Sick\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Methodo responsible to add a sickperson to a list of sick\+Person\textquotesingle{}s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Per} & Sick Person object\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af477a97c79d068d7e86a5b32dcec7502}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af477a97c79d068d7e86a5b32dcec7502}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!GetGenderFromList@{GetGenderFromList}}
+\index{GetGenderFromList@{GetGenderFromList}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{GetGenderFromList()}{GetGenderFromList()}}
+{\footnotesize\ttfamily static string A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Get\+Gender\+From\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method queries the list of sickpersons, in order to get information from sick\+Person 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Person} & Sick Person object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 99 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a2460bb05347bd7b80671555f0cddc2d8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a2460bb05347bd7b80671555f0cddc2d8}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!GetSickPerson@{GetSickPerson}}
+\index{GetSickPerson@{GetSickPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{GetSickPerson()}{GetSickPerson()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Get\+Sick\+Person (\begin{DoxyParamCaption}\item[{string}]{full\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method searches all persons registered as sick persons, and pulls the information out. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em full\+Name} & person\textquotesingle{}s full name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object sick\+Person
+\end{DoxyReturn}
+
+
+Definition at line 205 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a54a378380b5e75def41e66f9308a7052}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a54a378380b5e75def41e66f9308a7052}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!ListSickPersonDashBoard@{ListSickPersonDashBoard}}
+\index{ListSickPersonDashBoard@{ListSickPersonDashBoard}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{ListSickPersonDashBoard()}{ListSickPersonDashBoard()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+List\+Sick\+Person\+Dash\+Board (\begin{DoxyParamCaption}\item[{out int}]{num\+SP,  }\item[{out int}]{tot\+SP,  }\item[{out int}]{num\+Deaths }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This functiion gets data from the database in order to print a dashboard 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+SP} & number of active sickperson\\
+\hline
+{\em tot\+SP} & number of sickperson\\
+\hline
+{\em num\+Deaths} & number of deaths\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success or false if not
+\end{DoxyReturn}
+
+
+Definition at line 308 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af469fed8db67ee8b6fa518dcdda60ecd}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af469fed8db67ee8b6fa518dcdda60ecd}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!LoadAll@{LoadAll}}
+\index{LoadAll@{LoadAll}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{LoadAll()}{LoadAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Load\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the load procedure of data from a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file is loaded, or false if something whent wrong
+\end{DoxyReturn}
+
+
+Definition at line 281 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aab80254dfc1e083820b898dc45bc3ae8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aab80254dfc1e083820b898dc45bc3ae8}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!MedDischargeSickPerson@{MedDischargeSickPerson}}
+\index{MedDischargeSickPerson@{MedDischargeSickPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{MedDischargeSickPerson()}{MedDischargeSickPerson()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Med\+Discharge\+Sick\+Person (\begin{DoxyParamCaption}\item[{string}]{sp\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This methodo seeks for all listed sick persons in the \char`\"{}database\char`\"{}, using as criteria the full name (not ideal). If found, seeks for the pandemic virus wich is not cured, and set it to cured, assigning the date when this change is made as medical discharge date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sp\+Name} & sick person\textquotesingle{}s full name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if found and updated, or false if not
+\end{DoxyReturn}
+
+
+Definition at line 226 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a49032a30d0340614826cf196932fa221}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a49032a30d0340614826cf196932fa221}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!SaveAll@{SaveAll}}
+\index{SaveAll@{SaveAll}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{SaveAll()}{SaveAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Save\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the save procedure of data into a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if save is ok. False if not
+\end{DoxyReturn}
+
+
+Definition at line 254 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af995044e93bb6b3dff378e19085230d1}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_af995044e93bb6b3dff378e19085230d1}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!SetDeathOfSickPerson@{SetDeathOfSickPerson}}
+\index{SetDeathOfSickPerson@{SetDeathOfSickPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{SetDeathOfSickPerson()}{SetDeathOfSickPerson()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Set\+Death\+Of\+Sick\+Person (\begin{DoxyParamCaption}\item[{string}]{full\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This methodo seeks for a sick person in the database, and sets the status of is\+Alive to false (person\textquotesingle{}s death) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em full\+Name} & Uses the full name (not ideal) for searching\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if sucess, or false if not
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a8cd2c447c39a02b2ca099b81f2e17785}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a8cd2c447c39a02b2ca099b81f2e17785}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!SetEmrContactPerson@{SetEmrContactPerson}}
+\index{SetEmrContactPerson@{SetEmrContactPerson}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{SetEmrContactPerson()}{SetEmrContactPerson()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Set\+Emr\+Contact\+Person (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person,  }\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}}}]{emr\+Person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method responsible to set the emergency contact of a sick\+Person. It will store the information in the sickperson\textquotesingle{}s \char`\"{}object\char`\"{} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Person} & Sick\+Person\textquotesingle{}s object\\
+\hline
+{\em emr\+Person} & Emergency contact person object\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if succeed or false if not
+\end{DoxyReturn}
+
+
+Definition at line 154 of file Sick\+Persons.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aa9680a9358fd646aa471e061fdf47811}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_aa9680a9358fd646aa471e061fdf47811}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!SetPersonsContact@{SetPersonsContact}}
+\index{SetPersonsContact@{SetPersonsContact}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{SetPersonsContact()}{SetPersonsContact()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+Set\+Persons\+Contact (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}}]{sick\+Person,  }\item[{string}]{phone\+Num,  }\item[{string}]{email,  }\item[{string}]{add\+Desc,  }\item[{string}]{add\+Zip\+Code,  }\item[{string}]{add\+City,  }\item[{string}]{add\+District,  }\item[{string}]{add\+Country }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method sets the values for contact information of a person. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sick\+Person} & Sick Person object\\
+\hline
+{\em phone\+Num} & Phone Number\\
+\hline
+{\em email} & Email address\\
+\hline
+{\em add\+Desc} & Address street description\\
+\hline
+{\em add\+Zip\+Code} & Address zip code\\
+\hline
+{\em add\+City} & Address city\\
+\hline
+{\em add\+District} & Address district\\
+\hline
+{\em add\+Country} & Address Country\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns truee if insertion is ok!
+\end{DoxyReturn}
+
+
+Definition at line 126 of file Sick\+Persons.\+cs.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a9424cc77269b9d04144592ecb0410fe0}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_a9424cc77269b9d04144592ecb0410fe0}} 
+\index{AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}!allSickPersons@{allSickPersons}}
+\index{allSickPersons@{allSickPersons}!AF\_IPCA.PandemicApp.DAO.SickPersons@{AF\_IPCA.PandemicApp.DAO.SickPersons}}
+\doxysubsubsection{\texorpdfstring{allSickPersons}{allSickPersons}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{Sick\+Person}}$>$ A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Sick\+Persons.\+all\+Sick\+Persons\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 31 of file Sick\+Persons.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O/\mbox{\hyperlink{_sick_persons_8cs}{Sick\+Persons.\+cs}}\end{DoxyCompactItemize}

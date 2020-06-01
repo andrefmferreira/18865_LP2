@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person" kind="class"><name>AF_IPCA::PandemicApp::BO::ContactPerson</name>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a95606ee422bef72d9d0aa5855084948d" kind="variable"><name>phoneNumber</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a246ae390539728e64880905dda833e4f" kind="variable"><name>email</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2ab10eab3af31120ef0e654b86126f19" kind="variable"><name>addressCountry</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0a53763ef484d3aeb714e9b7443ec0fd" kind="variable"><name>addressDistrict</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a86ffc534a2ec2b2fc697d580ec8166f2" kind="variable"><name>addressCity</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1acb1bd68e08be3663710ad74f01056f1f" kind="variable"><name>addressDesc</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aac676b22fc9cf777b832543dd779ffd7" kind="variable"><name>addressZipCode</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a11017af0ce316bf840aecee8de1ee30b" kind="property"><name>PhoneNumber</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aeccf93211457a33aa23f9b22baa381a8" kind="property"><name>Email</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a6511b4c0f11850341008dfd0584401d3" kind="property"><name>AddressCountry</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0fdfe29943156ad303b0f2fe6837c870" kind="property"><name>AddressDistrict</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aef99dd3c932fd01d075b971c09a9bbfc" kind="property"><name>AddressCity</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a189f340d3e6cc1b55127c854f6600e86" kind="property"><name>AddressDesc</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2614e89e89d57bcf0136ad2e299e835c" kind="property"><name>AddressZipCode</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a495b956a1c4d0e10bb0a7ff353a98708" kind="function"><name>ContactPerson</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a371b0aa116226209907c5f6a25113262" kind="function"><name>CapitalLetter</name></member>
+    <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a8c7c949cd418e9ad8ad222712d79ac52" kind="function"><name>Validate</name></member>
+  </compound>
+  <compound refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules" kind="class"><name>AF_IPCA::PandemicApp::BL::CrossRules</name>
+    <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a531ddd20f9cde13ca6810b2a432e1176" kind="function"><name>CrossRules</name></member>
+    <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a2239c5b8bfdde047278a396ca803c09a" kind="function"><name>CapitalLetter</name></member>
+  </compound>
+  <compound refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease" kind="class"><name>AF_IPCA::PandemicApp::BO::Disease</name>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a729b20b2cbd594b43ca91a666c844c08" kind="variable"><name>globalDiseaseID</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a851135e76f09c5bbb2c64bf19fad75bb" kind="variable"><name>diseaseID</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af516ca10dc383c768444f4f7618b14cc" kind="variable"><name>typeOfDisease</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a01b7a3bc2fbea787930e0e5081023696" kind="variable"><name>diseaseSintoms</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a7e73ca2003666d6ab6955f8094b30a2a" kind="variable"><name>incubationPeriod</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a933488d497cca63ac0ba0db6dc18ab2c" kind="property"><name>IncubationPeriod</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1ab935ec22ebec429de26d580602ee6a87" kind="property"><name>DiseaseID</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4573836cc863f3956ffa8a20ef0064f5" kind="property"><name>TypeOfDisease</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a6f0edd9f5c41b9f01c925ad197672c63" kind="property"><name>DiseaseSintoms</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1af43f8c229f4fa017a9e42699f9a0e0b8" kind="function"><name>Disease</name></member>
+    <member refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_1a4b0b6a9b8aa5b2569f02c2b8793545cf" kind="function"><name>Disease</name></member>
+  </compound>
+  <compound refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history" kind="class"><name>AF_IPCA::PandemicApp::BO::DiseaseHistory</name>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a6001549db29c621fe35e4e2128cab0b2" kind="variable"><name>diseaseID</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1aa74717c22942bc1c28da8ad30121b315" kind="variable"><name>typeOfDisease</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a9710d3b3844bd7e3830118855a648c96" kind="variable"><name>diseaseSintoms</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a6bbcbe650fc841664ce05fc6b7402d62" kind="variable"><name>diagnosticDate</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a5325bdadc94b37ca09b29c5362af9fc3" kind="variable"><name>medDischargeDate</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a9fc3d9c8b90346280e992dc005cebf8a" kind="variable"><name>isCured</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a0d25a6aab7baa9f839907dc8896db22f" kind="property"><name>MedDischargeDate</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a438f3fd8d6278900921063fa8ce57684" kind="property"><name>TypeOfDisease</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1ac682c15517485bb68c9c2b45164edbcf" kind="property"><name>DiseaseID</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1a107ce717da7875fa2cff73e4e2d101c1" kind="property"><name>DiseaseSintoms</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1ac9cf78527c8ad7c7a3ea217a45522a63" kind="property"><name>DiagnosticDate</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1af8c7db7c0fdcfb368d70c19e700acb4d" kind="property"><name>IsCured</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1aadc7350b04e60fbe0a4d9399260b93ea" kind="function"><name>DiseaseHistory</name></member>
+    <member refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history_1abcb47630973deee209eb3f2785b1a872" kind="function"><name>DiseaseHistory</name></member>
+  </compound>
+  <compound refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules" kind="class"><name>AF_IPCA::PandemicApp::BL::DiseaseRules</name>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a18d01639e8ccdd02b0dfe23f263b0d89" kind="function"><name>DiseaseRules</name></member>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2ce40d6116ae63f60b9caaa8993a2bec" kind="function"><name>ShowDiseasesRequest</name></member>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a7d996acb9092390689af4ed437308e6b" kind="function"><name>GetDiseaseRequest</name></member>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a58bdae0164e7917f793ddd6099a7477e" kind="function"><name>AddDiseaseRequest</name></member>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2c9a91232ae032520827b4005b90fa25" kind="function"><name>SaveAllRequest</name></member>
+    <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a489eeed9fddb90e69c70561dc3862896" kind="function"><name>LoadAllRequest</name></member>
+  </compound>
+  <compound refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases" kind="class"><name>AF_IPCA::PandemicApp::DAO::Diseases</name>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1a3b5f30aab54d7d1ca2dde2c62236a6fa" kind="variable"><name>allDiseases</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1aea325f8e6b9716551c2f018f22d4af59" kind="function"><name>Diseases</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1a2c91838e1ad092b9854dbd7661380d77" kind="function"><name>AddToDiseases</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1ac106159c1586446ad0d5e4494fd5d4ea" kind="function"><name>ShowDiseases</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1ad9e0431eef4374021ccff1c4beca7ff3" kind="function"><name>GetDisease</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1a8204d511ec86604790b1f861a71de29f" kind="function"><name>SaveAll</name></member>
+    <member refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_1ad7e9253bd06517443e98474966756ef9" kind="function"><name>LoadAll</name></member>
+  </compound>
+  <compound refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" kind="class"><name>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</name>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a66736e58d5d6adca6c68ee3e56486a40" kind="variable"><name>hasEmergencyPersonContact</name></member>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1ae350244cdc8be974c5d70e977c8b7756" kind="variable"><name>relativeStatus</name></member>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a4ca0ca3f23ec44b7a74500c264e2bcc5" kind="property"><name>RelativeStatus</name></member>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1afbc761a73d6089004ab832e262c1dfb0" kind="property"><name>HasEPC</name></member>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a52c111a95d191e685a2331a1b3663e9d" kind="function"><name>EmergencyContactPerson</name></member>
+    <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a2a43ee07ef5710d480d0bede3aad9fd6" kind="function"><name>EmergencyContactPerson</name></member>
+  </compound>
+  <compound refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital" kind="class"><name>AF_IPCA::PandemicApp::BO::Hospital</name>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a91b997ad4081f70313a2aad113e14224" kind="variable"><name>globalHospId</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae17e13da57884db0db15776fd66e37cc" kind="variable"><name>admitDate</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a388ef12c66034a4c1234f6afaef48fdf" kind="variable"><name>hospId</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae2f27c7ad79564881a9760dcb479476d" kind="variable"><name>hospitalName</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a33bff72555f703daf4fff7d29d3a0325" kind="variable"><name>hospitalDistrict</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1abffa0cb09a1399583275ecfb51024a45" kind="variable"><name>hospitalCity</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae90568afcc013455f1cdfb168a847619" kind="variable"><name>isPublic</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a07cd138ebd5844a433df21661a54a3f7" kind="property"><name>AdmitDate</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aaf9dbc3fed8fff39760bab2732b46e79" kind="property"><name>HospId</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa3fea0bd6b2d6d38b4c9dfa5fa900d1f" kind="property"><name>HospitalName</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad91a733a453074bccd96fba8fceb0046" kind="property"><name>HospitalDistrict</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a0f5af92df1349889a521dc6757701af6" kind="property"><name>HospitalCity</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aef2d64187ce3ef2634f4b8a6209cf445" kind="property"><name>IsPublic</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1af87e8f99afbacf773cb14258a01c484c" kind="function"><name>Hospital</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a7c50a768744c0729c84a7dfbdc546376" kind="function"><name>Hospital</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a70a7678c2eee1d2bb1570560dfba63f5" kind="function"><name>ValIsIsPublic</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad8e912451071278fd0915896f035f101" kind="function"><name>AskUserForHospitalInfo</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa6ef78a9d4aa5955c803a0c5151c24a8" kind="function"><name>GetNextHospitalID</name></member>
+    <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a5eadb129dc422f0479452ebb2647bfd9" kind="function"><name>CapitalLetter</name></member>
+  </compound>
+  <compound refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules" kind="class"><name>AF_IPCA::PandemicApp::BL::HospitalRules</name>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1ac16b14c47147b9039b3de01f02c71a09" kind="function"><name>HospitalRules</name></member>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1a59aa8187dd12ce03af9b095b7e58ab76" kind="function"><name>PrintHospitalsFromDistrictRequest</name></member>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1a7642c157d3b159a5757280ba203f387f" kind="function"><name>GetHospitalByIDRequest</name></member>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1adc8ef1604549c2fa367e754c377f5f3f" kind="function"><name>AddNewHospitalRequest</name></member>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1a6cbdb5bafa47e8d5cdd0aad88b9d5206" kind="function"><name>SaveAllRequest</name></member>
+    <member refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules_1a61819b827783fc54085bae6cacd2ff2e" kind="function"><name>LoadAllRequest</name></member>
+  </compound>
+  <compound refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals" kind="class"><name>AF_IPCA::PandemicApp::DAO::Hospitals</name>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a83b302b0b0fef2a5fd58e2998d45e583" kind="variable"><name>hospitalList</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a75b589db60404b16f66fd505677ceb9e" kind="function"><name>Hospitals</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a2d04fb9c849a5e7fc2cfdcc1ca700e76" kind="function"><name>AddToHospitalList</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a16f44057ebef05086e00361201c95f8b" kind="function"><name>PrintHospitalsFromDistrict</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a3c64ab3a2bf12bc05fc668977ac44dfe" kind="function"><name>GetHospitalByID</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a2ee8e92ce2baaf72b19eb6cd9ca532e8" kind="function"><name>SaveAll</name></member>
+    <member refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals_1a09936e5facc5124e4eb14a9728145816" kind="function"><name>LoadAll</name></member>
+  </compound>
+  <compound refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions" kind="class"><name>AF_IPCA::PandemicApp::DAO::PandemicExceptions</name>
+    <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1aaa2adb2e657ceaa2446fd4c866eb0cec" kind="function"><name>PandemicExceptions</name></member>
+    <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a08defd10fe678a5629ac97c6ccdedc5e" kind="function"><name>PandemicExceptions</name></member>
+    <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a31a1bc3bd5dd68a2ae7fcac621431e22" kind="function"><name>PandemicExceptions</name></member>
+  </compound>
+  <compound refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" kind="class"><name>AF_IPCA::PandemicApp::BO::Person</name>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1afc52539e0cbe28686de370ea4c39ac58" kind="variable"><name>country</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a979ea14437ecd3e6ba9570030ec9bdd7" kind="variable"><name>citizenship</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7196090c4c7edb103badb003c7d546a0" kind="variable"><name>language</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a1f2bca40230f2aa56b5c0508b2f81c1d" kind="variable"><name>firstName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a446aae06f926648c338e14fd734a212e" kind="variable"><name>lastName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa51bc058537c13b72aea5ff146fa692e" kind="variable"><name>fullName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ab0132bd6c818d38e688634816a0e51dd" kind="variable"><name>birthDate</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5850adbc7a66497a657e163cbe78d7f1" kind="variable"><name>age</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a3ba75dd1e46f7230cce8d832b7d85d1f" kind="variable"><name>gender</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aba32e762a9f426841ec09439db878150" kind="variable"><name>contactInfo</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ac71fc040d07879b23490a096f0825c6c" kind="property"><name>Country</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a2dbff0d89cc64be4ed6871b05d221b3e" kind="property"><name>Citizenship</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a0216b3d23eb4e9c1cdc25040ccf32ebc" kind="property"><name>Language</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a10ef503c54673904f948c4cbd52173b2" kind="property"><name>FirstName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1abc877ce18a8031b34914adf266e1d1d3" kind="property"><name>LastName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a895c06f613a0bc5cce2e0f4e2cc1692a" kind="property"><name>FullName</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa247a11f5383636de9a3b9563c8f475d" kind="property"><name>BirthDate</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5555e24085b801ae5ee2053f7b3abaf3" kind="property"><name>Age</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa68489549e5e290b8915e3965623e395" kind="property"><name>Gender</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7817d2227671bda70c588f7cffd8dcae" kind="property"><name>ContactInfo</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a94b27e3290629a54f7f9fce2b42a4beb" kind="function"><name>Person</name></member>
+    <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a97bda7737457e429fea57099f74aec8e" kind="function"><name>Person</name></member>
+  </compound>
+  <compound refid="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program" kind="class"><name>AF_IPCA::PandemicApp::ConsoleApp::Program</name>
+    <member refid="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program_1a0c81752009f81bd639976aee616c7b19" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kind="class"><name>AF_IPCA::PandemicApp::BO::SickPerson</name>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1afb7a7db84a29a79b4365624dcd930246" kind="variable"><name>emrContactPerson</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1abb0f4d1829f66dbe2e5881b505ce773e" kind="variable"><name>isAdmited</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae4b2e64ae085c4f2ec4cd99806659ea8" kind="variable"><name>pId</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acd9139faf2edf317e4a191ccce6b8461" kind="variable"><name>isAlive</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a90b1f946e72ad1c2aeb917f5df026916" kind="variable"><name>diseases</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1acf3e6afa9dcb43508ea8e4cca5dd4da1" kind="variable"><name>hospitalId</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a29a17bdb9784b51cc88e67deed47d6c0" kind="variable"><name>globalPID</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a3466abce894d9bd5649aa8ed8faa902f" kind="property"><name>IsAlive</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab07110a46abd6d6d1f5fca318c635c4c" kind="property"><name>HospitalId</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae264e707fc8089126eb358974ea8eb58" kind="property"><name>PID</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ab6a20d4a4be3685f295ea43b1fd691cb" kind="property"><name>IsAdmited</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae2b3c2bcf3412df5eab245b2ec5800e8" kind="property"><name>EmrContactPerson</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1a8325e0d68f59ff7b65491e97b96b0a42" kind="function"><name>SickPerson</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1addbbbccc635fd33c709425dac636268e" kind="function"><name>SickPerson</name></member>
+    <member refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_1ae1019f94d381789836fbd779dd461d3e" kind="function"><name>GetNextId</name></member>
+  </compound>
+  <compound refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules" kind="class"><name>AF_IPCA::PandemicApp::BL::SickPersonRules</name>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a379cad176a3930dcb726af007b0c6e" kind="function"><name>SickPersonRules</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1ad7e3f83c91ff586b222cb0e5d0c562cc" kind="function"><name>SetDeathOfSickPersonRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a0c8fdf6d1ddd6cee8e50257b5174e6c6" kind="function"><name>InsertsSickPerson</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a42034fb8c7d49019febeaff9c4404d" kind="function"><name>GetGender</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaaa11edc67554ee708fe7b381ce327ed" kind="function"><name>SetContactInfo</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaeb435bb1cbd057fc2c5e0a94fd39e43" kind="function"><name>SetEmrContact</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a63c0dc9b308189e34b993acdf20c4c6d" kind="function"><name>AddDiseaseToSickPersonHistoryRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a7ab64e29e77b2e77c03fdc7e8899cc3c" kind="function"><name>AddBaseInfoToSickPersonRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a48a6fcad34e65711fc9735a16af5a92f" kind="function"><name>GetSickPersonRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a2cb498cf695a62471fad65d42a98c370" kind="function"><name>GetAge</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a4fef86bf336f1de955b36c1e4bb48211" kind="function"><name>MedDischargeSickPersonRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a966aa13fba833c744a55a40198cfe579" kind="function"><name>SaveAllRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a6c0a9d94f4a5ba4c429dc41b66dfe564" kind="function"><name>LoadAllRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a60500959b2f9e79dc21e0e3639f9e9b7" kind="function"><name>ListSickPersonDashBoardRequest</name></member>
+    <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a68094cc6219a84afaec7b66740cd3c94" kind="function"><name>DateToAge</name></member>
+  </compound>
+  <compound refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons" kind="class"><name>AF_IPCA::PandemicApp::DAO::SickPersons</name>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a9424cc77269b9d04144592ecb0410fe0" kind="variable"><name>allSickPersons</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1ad564d00eed7b5b108d734e025777e14f" kind="function"><name>SickPersons</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1af995044e93bb6b3dff378e19085230d1" kind="function"><name>SetDeathOfSickPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a6a1c2e40f5a0c0d6cbe9da3157e3998b" kind="function"><name>AddSickPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1af477a97c79d068d7e86a5b32dcec7502" kind="function"><name>GetGenderFromList</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1aa9680a9358fd646aa471e061fdf47811" kind="function"><name>SetPersonsContact</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a8cd2c447c39a02b2ca099b81f2e17785" kind="function"><name>SetEmrContactPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a7e4d3669c147f3d380a5e1894e6dbd19" kind="function"><name>AddDiseaseToSickPersonHistory</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a21260c36f6ce1d621511b750edef6f16" kind="function"><name>AddBaseInfoToSickPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a2460bb05347bd7b80671555f0cddc2d8" kind="function"><name>GetSickPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1aab80254dfc1e083820b898dc45bc3ae8" kind="function"><name>MedDischargeSickPerson</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a49032a30d0340614826cf196932fa221" kind="function"><name>SaveAll</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1af469fed8db67ee8b6fa518dcdda60ecd" kind="function"><name>LoadAll</name></member>
+    <member refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons_1a54a378380b5e75def41e66f9308a7052" kind="function"><name>ListSickPersonDashBoard</name></member>
+  </compound>
+  <compound refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting" kind="class"><name>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</name>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb9615f445e656d9c148892aaf3ae709" kind="function"><name>TestScripting</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a03b76e68482077eaa4dafb8ebdaf4be0" kind="function"><name>TestAddingUser</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a33b1d3de68dc20231c6d1d6c1b38f486" kind="function"><name>TestPrintSickPersonsFile</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb12a8876400212eb1686ad2d7995c87" kind="function"><name>TestMedDischargeSickPerson</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a3fbf9854f6e035a3ed83d2834af7610e" kind="function"><name>TestAddHospitalToList</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ab91123fe9c6b9f79f963224deb02cd86" kind="function"><name>TestAddPandemicVirus</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a560fb7bdba0157560881ef63e918e213" kind="function"><name>TestSetDeathOfSickPerson</name></member>
+    <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ae0203a1c3c8b905b7b65c1b6f9bc2fa2" kind="function"><name>TestListDashBoard</name></member>
+  </compound>
+  <compound refid="df/d41/namespace_a_f___i_p_c_a" kind="namespace"><name>AF_IPCA</name>
+  </compound>
+  <compound refid="d0/de4/namespace_a_f___i_p_c_a_1_1_pandemic_app" kind="namespace"><name>AF_IPCA::PandemicApp</name>
+  </compound>
+  <compound refid="df/d6c/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l" kind="namespace"><name>AF_IPCA::PandemicApp::BL</name>
+  </compound>
+  <compound refid="d0/d14/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o" kind="namespace"><name>AF_IPCA::PandemicApp::BO</name>
+  </compound>
+  <compound refid="df/d65/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app" kind="namespace"><name>AF_IPCA::PandemicApp::ConsoleApp</name>
+  </compound>
+  <compound refid="d3/def/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o" kind="namespace"><name>AF_IPCA::PandemicApp::DAO</name>
+  </compound>
+  <compound refid="d8/dd0/namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="d9/d1b/namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="dc/d30/namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="d5/de4/namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="d0/d9d/namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="da/d54/namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="d1/dee/namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="dd/d85/namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="d0/d16/namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="d5/db7/namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="d3/d81/namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="d4/dc6/_cross_rules_8cs" kind="file"><name>CrossRules.cs</name>
+  </compound>
+  <compound refid="d7/d7b/_disease_rules_8cs" kind="file"><name>DiseaseRules.cs</name>
+  </compound>
+  <compound refid="d9/d76/_hospital_rules_8cs" kind="file"><name>HospitalRules.cs</name>
+  </compound>
+  <compound refid="d1/d3d/_a_f___i_p_c_a_8_pandemic_app_8_b_l_8_assembly_info_8cs" kind="file"><name>AF_IPCA.PandemicApp.BL.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d2/d52/_a_f___i_p_c_a_8_pandemic_app_8_b_l_8csproj_8_file_list_absolute_8txt" kind="file"><name>AF_IPCA.PandemicApp.BL.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="d0/d8a/_sick_person_rules_8cs" kind="file"><name>SickPersonRules.cs</name>
+  </compound>
+  <compound refid="d0/df5/_contact_person_8cs" kind="file"><name>ContactPerson.cs</name>
+  </compound>
+  <compound refid="db/dbe/_disease_8cs" kind="file"><name>Disease.cs</name>
+  </compound>
+  <compound refid="d3/d9a/_disease_history_8cs" kind="file"><name>DiseaseHistory.cs</name>
+  </compound>
+  <compound refid="d3/ded/_emergency_contact_person_8cs" kind="file"><name>EmergencyContactPerson.cs</name>
+  </compound>
+  <compound refid="d0/dd9/_hospital_8cs" kind="file"><name>Hospital.cs</name>
+  </compound>
+  <compound refid="d5/dfd/_a_f___i_p_c_a_8_pandemic_app_8_b_o_8_assembly_info_8cs" kind="file"><name>AF_IPCA.PandemicApp.BO.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dd/d1a/_a_f___i_p_c_a_8_pandemic_app_8_b_o_8csproj_8_file_list_absolute_8txt" kind="file"><name>AF_IPCA.PandemicApp.BO.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="d9/d2d/_person_8cs" kind="file"><name>Person.cs</name>
+  </compound>
+  <compound refid="dd/d0e/_sick_person_8cs" kind="file"><name>SickPerson.cs</name>
+  </compound>
+  <compound refid="d0/d73/_diseases_8cs" kind="file"><name>Diseases.cs</name>
+  </compound>
+  <compound refid="db/de4/_hospitals_8cs" kind="file"><name>Hospitals.cs</name>
+  </compound>
+  <compound refid="d0/d8f/_a_f___i_p_c_a_8_pandemic_app_8_d_a_o_8_assembly_info_8cs" kind="file"><name>AF_IPCA.PandemicApp.DAO.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d7/daf/_a_f___i_p_c_a_8_pandemic_app_8_d_a_o_8csproj_8_file_list_absolute_8txt" kind="file"><name>AF_IPCA.PandemicApp.DAO.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="d9/de8/_pandemic_exceptions_8cs" kind="file"><name>PandemicExceptions.cs</name>
+  </compound>
+  <compound refid="de/ddf/_sick_persons_8cs" kind="file"><name>SickPersons.cs</name>
+  </compound>
+  <compound refid="d3/df2/_a_f___i_p_c_a_8_pandemic_app_8_console_app_8csproj_8_file_list_absolute_8txt" kind="file"><name>AF_IPCA.PandemicApp.ConsoleApp.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="dd/d5c/_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="d7/d2f/_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d1/db2/_test_scripting_8cs" kind="file"><name>TestScripting.cs</name>
+  </compound>
+  <compound refid="dir_3596a1e1fdc1f52dec7b3beb2970386e" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL</name>
+  </compound>
+  <compound refid="dir_0d7dc9357c4b5f09793155e7d32924ff" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO</name>
+  </compound>
+  <compound refid="dir_ff17339291fca4c355709415037594da" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO</name>
+  </compound>
+  <compound refid="dir_23fbd15631675baee5d147bdb7a82528" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/obj/Debug</name>
+  </compound>
+  <compound refid="dir_35a3cae497050a050c80105d9eac759d" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/obj/Debug</name>
+  </compound>
+  <compound refid="dir_894996ff5398f59fbf8c07ab2811e32a" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3098746b12e073e19c74a91da433b0ac" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/obj/Debug</name>
+  </compound>
+  <compound refid="dir_ac725d8f6fd46b91eea51daf89f46500" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_3c114be467990b7ae349e6eff8780661" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_7f6a801f883e9ace6627ce6740b59a42" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_20d05602028ce502d2cea923940ad6fc" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/obj</name>
+  </compound>
+  <compound refid="dir_d9e54d1b4ef4d7973cdbe42ead7dff7a" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/obj</name>
+  </compound>
+  <compound refid="dir_49a3ad0fd4696704586ddcf9a874f395" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/obj</name>
+  </compound>
+  <compound refid="dir_833e238cd39008e8bb42fa5621bf66ae" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/obj</name>
+  </compound>
+  <compound refid="dir_778da54f9f99f3c88d7028bfc0cf0118" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp</name>
+  </compound>
+  <compound refid="dir_e62d84ec894ffab601b517add7f2d86e" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp</name>
+  </compound>
+  <compound refid="dir_a9cb413f976b718b1a76d9aefa2e7de6" kind="dir"><name>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Properties</name>
+  </compound>
+</doxygenindex>

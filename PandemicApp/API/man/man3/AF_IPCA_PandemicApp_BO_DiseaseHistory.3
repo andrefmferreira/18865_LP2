@@ -1,0 +1,173 @@
+.TH "AF_IPCA.PandemicApp.BO.DiseaseHistory" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.DiseaseHistory \- This class is responsible to manage a person's disease\&. As so, it will become a patient\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDiseaseHistory\fP ()"
+.br
+.RI "Default constructor for \fBDiseaseHistory\fP class "
+.ti -1c
+.RI "\fBDiseaseHistory\fP (\fBDisease\fP d, string personSintoms)"
+.br
+.RI "Constructor for \fBDiseaseHistory\fP object class "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "DateTime \fBMedDischargeDate\fP\fC [get, set]\fP"
+.br
+.RI "this property manages the medical discharge date\&. It defines when a sick person, is no longer sick! "
+.ti -1c
+.RI "string \fBTypeOfDisease\fP\fC [get, set]\fP"
+.br
+.RI "This property handles the type of diseases "
+.ti -1c
+.RI "int \fBDiseaseID\fP\fC [get, set]\fP"
+.br
+.RI "Defines the disease ID based on the diseases selected "
+.ti -1c
+.RI "string \fBDiseaseSintoms\fP\fC [get, set]\fP"
+.br
+.RI "describes the disease sintoms "
+.ti -1c
+.RI "DateTime \fBDiagnosticDate\fP\fC [get, set]\fP"
+.br
+.RI "defines the diagnostic date of the disease\&. By default is the insertion date\&. "
+.ti -1c
+.RI "bool \fBIsCured\fP\fC [get, set]\fP"
+.br
+.RI "Bool value for a cured or not status "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBtypeOfDisease\fP"
+.br
+.ti -1c
+.RI "string \fBdiseaseSintoms\fP"
+.br
+.ti -1c
+.RI "DateTime \fBdiagnosticDate\fP"
+.br
+.ti -1c
+.RI "DateTime \fBmedDischargeDate\fP"
+.br
+.ti -1c
+.RI "bool \fBisCured\fP"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBdiseaseID\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class is responsible to manage a person's disease\&. As so, it will become a patient\&. 
+
+
+.PP
+Definition at line 23 of file DiseaseHistory\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.DiseaseHistory ()"
+
+.PP
+Default constructor for \fBDiseaseHistory\fP class 
+.PP
+Definition at line 41 of file DiseaseHistory\&.cs\&.
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.DiseaseHistory (\fBDisease\fP d, string personSintoms)"
+
+.PP
+Constructor for \fBDiseaseHistory\fP object class 
+.PP
+\fBParameters\fP
+.RS 4
+\fId\fP receives the disease type with 'default' values
+.br
+\fIpersonSintoms\fP Sick person's sintoms
+.RE
+.PP
+
+.PP
+Definition at line 50 of file DiseaseHistory\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.diagnosticDate\fC [private]\fP"
+
+.PP
+Definition at line 30 of file DiseaseHistory\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.diseaseID\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 27 of file DiseaseHistory\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.diseaseSintoms\fC [private]\fP"
+
+.PP
+Definition at line 29 of file DiseaseHistory\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.isCured\fC [private]\fP"
+
+.PP
+Definition at line 32 of file DiseaseHistory\&.cs\&.
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.medDischargeDate\fC [private]\fP"
+
+.PP
+Definition at line 31 of file DiseaseHistory\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.typeOfDisease\fC [private]\fP"
+
+.PP
+Definition at line 28 of file DiseaseHistory\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.DiagnosticDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+defines the diagnostic date of the disease\&. By default is the insertion date\&. 
+.PP
+Definition at line 127 of file DiseaseHistory\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.DiseaseID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Defines the disease ID based on the diseases selected 
+.PP
+Definition at line 97 of file DiseaseHistory\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.DiseaseSintoms\fC [get]\fP, \fC [set]\fP"
+
+.PP
+describes the disease sintoms 
+.PP
+Definition at line 112 of file DiseaseHistory\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.IsCured\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Bool value for a cured or not status 
+.PP
+Definition at line 142 of file DiseaseHistory\&.cs\&.
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.MedDischargeDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+this property manages the medical discharge date\&. It defines when a sick person, is no longer sick! 
+.PP
+Definition at line 67 of file DiseaseHistory\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.DiseaseHistory\&.TypeOfDisease\fC [get]\fP, \fC [set]\fP"
+
+.PP
+This property handles the type of diseases 
+.PP
+Definition at line 82 of file DiseaseHistory\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

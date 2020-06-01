@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BO::Hospital</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a91b997ad4081f70313a2aad113e14224" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Hospital.globalHospId</definition>
+        <argsstring></argsstring>
+        <name>globalHospId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="28" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae17e13da57884db0db15776fd66e37cc" prot="private" static="yes" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime AF_IPCA.PandemicApp.BO.Hospital.admitDate</definition>
+        <argsstring></argsstring>
+        <name>admitDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="34" column="33" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a388ef12c66034a4c1234f6afaef48fdf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Hospital.hospId</definition>
+        <argsstring></argsstring>
+        <name>hospId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="29" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae2f27c7ad79564881a9760dcb479476d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Hospital.hospitalName</definition>
+        <argsstring></argsstring>
+        <name>hospitalName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="30" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a33bff72555f703daf4fff7d29d3a0325" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Hospital.hospitalDistrict</definition>
+        <argsstring></argsstring>
+        <name>hospitalDistrict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="31" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1abffa0cb09a1399583275ecfb51024a45" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.Hospital.hospitalCity</definition>
+        <argsstring></argsstring>
+        <name>hospitalCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="32" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae90568afcc013455f1cdfb168a847619" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.Hospital.isPublic</definition>
+        <argsstring></argsstring>
+        <name>isPublic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="33" column="22" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a07cd138ebd5844a433df21661a54a3f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime AF_IPCA.PandemicApp.BO.Hospital.AdmitDate</definition>
+        <argsstring></argsstring>
+        <name>AdmitDate</name>
+        <briefdescription>
+<para>This property defines the date when a sick person is hospitalized. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="64" column="25" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="65" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aaf9dbc3fed8fff39760bab2732b46e79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Hospital.HospId</definition>
+        <argsstring></argsstring>
+        <name>HospId</name>
+        <briefdescription>
+<para>Defines the hospital ID autoincremented </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="79" column="20" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="80" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa3fea0bd6b2d6d38b4c9dfa5fa900d1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.Hospital.HospitalName</definition>
+        <argsstring></argsstring>
+        <name>HospitalName</name>
+        <briefdescription>
+<para>stores the name of the hospital in wich a patient is hospitalized </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="94" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad91a733a453074bccd96fba8fceb0046" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.Hospital.HospitalDistrict</definition>
+        <argsstring></argsstring>
+        <name>HospitalDistrict</name>
+        <briefdescription>
+<para>stores the district of the hospital in wich a patient is hospitalized </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="109" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="110" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a0f5af92df1349889a521dc6757701af6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.Hospital.HospitalCity</definition>
+        <argsstring></argsstring>
+        <name>HospitalCity</name>
+        <briefdescription>
+<para>stores the city of the hospital in wich a patient is hospitalized </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="124" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="125" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="property" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aef2d64187ce3ef2634f4b8a6209cf445" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.Hospital.IsPublic</definition>
+        <argsstring></argsstring>
+        <name>IsPublic</name>
+        <briefdescription>
+<para>as a patient is at a hospital, for &quot;future statistical mesures&quot;, stores if it is a public or private hospital </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="139" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="140" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1af87e8f99afbacf773cb14258a01c484c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.Hospital.Hospital</definition>
+        <argsstring>()</argsstring>
+        <name>Hospital</name>
+        <briefdescription>
+<para>hospital default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="42" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a7c50a768744c0729c84a7dfbdc546376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.Hospital.Hospital</definition>
+        <argsstring>(string hName, string hDistrict, string hCity, bool isPublic)</argsstring>
+        <name>Hospital</name>
+        <param>
+          <type>string</type>
+          <declname>hName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>hDistrict</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>hCity</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isPublic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="47" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a70a7678c2eee1d2bb1570560dfba63f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.Hospital.ValIsIsPublic</definition>
+        <argsstring>(string n)</argsstring>
+        <name>ValIsIsPublic</name>
+        <param>
+          <type>string</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Receives an answer from user and converts the y or Y to bool </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input from user</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if y or Y, else false</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="179" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad8e912451071278fd0915896f035f101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AF_IPCA.PandemicApp.BO.Hospital.AskUserForHospitalInfo</definition>
+        <argsstring>()</argsstring>
+        <name>AskUserForHospitalInfo</name>
+        <briefdescription>
+<para>Prompts the user for additional information. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="187" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="187" bodyend="200"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa6ef78a9d4aa5955c803a0c5151c24a8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AF_IPCA.PandemicApp.BO.Hospital.GetNextHospitalID</definition>
+        <argsstring>()</argsstring>
+        <name>GetNextHospitalID</name>
+        <briefdescription>
+<para>sets the autoincremented ID for hospital </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="159" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="159" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a5eadb129dc422f0479452ebb2647bfd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AF_IPCA.PandemicApp.BO.Hospital.CapitalLetter</definition>
+        <argsstring>(string s)</argsstring>
+        <name>CapitalLetter</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>will capitalize the first letter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives a string as parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns the string with the first letter capitalized</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="169" column="30" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="169" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This will struct the information, if a sickperson is admited at a hospital </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" line="24" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/Hospital.cs" bodystart="25" bodyend="207"/>
+    <listofallmembers>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae17e13da57884db0db15776fd66e37cc" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>admitDate</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a07cd138ebd5844a433df21661a54a3f7" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>AdmitDate</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad8e912451071278fd0915896f035f101" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>AskUserForHospitalInfo</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a5eadb129dc422f0479452ebb2647bfd9" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>CapitalLetter</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa6ef78a9d4aa5955c803a0c5151c24a8" prot="protected" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>GetNextHospitalID</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a91b997ad4081f70313a2aad113e14224" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>globalHospId</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a388ef12c66034a4c1234f6afaef48fdf" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>hospId</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aaf9dbc3fed8fff39760bab2732b46e79" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>HospId</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1af87e8f99afbacf773cb14258a01c484c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>Hospital</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a7c50a768744c0729c84a7dfbdc546376" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>Hospital</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1abffa0cb09a1399583275ecfb51024a45" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>hospitalCity</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a0f5af92df1349889a521dc6757701af6" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>HospitalCity</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a33bff72555f703daf4fff7d29d3a0325" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>hospitalDistrict</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ad91a733a453074bccd96fba8fceb0046" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>HospitalDistrict</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aa3fea0bd6b2d6d38b4c9dfa5fa900d1f" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>HospitalName</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae2f27c7ad79564881a9760dcb479476d" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>hospitalName</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1ae90568afcc013455f1cdfb168a847619" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>isPublic</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1aef2d64187ce3ef2634f4b8a6209cf445" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>IsPublic</name></member>
+      <member refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital_1a70a7678c2eee1d2bb1570560dfba63f5" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::Hospital</scope><name>ValIsIsPublic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

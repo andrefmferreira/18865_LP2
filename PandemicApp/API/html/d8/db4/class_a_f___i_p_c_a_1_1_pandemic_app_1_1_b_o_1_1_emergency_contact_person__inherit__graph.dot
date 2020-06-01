@@ -1,0 +1,9 @@
+digraph "AF_IPCA.PandemicApp.BO.EmergencyContactPerson"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AF_IPCA.PandemicApp.BO.Emergency\lContactPerson",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class is the structure of an emergency contact person. It inherits from class Person"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Person",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html",tooltip="This is Person's class. This will define a person."];
+}

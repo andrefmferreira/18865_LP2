@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb9615f445e656d9c148892aaf3ae709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestScripting</definition>
+        <argsstring>()</argsstring>
+        <name>TestScripting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="33" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a03b76e68482077eaa4dafb8ebdaf4be0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestAddingUser</definition>
+        <argsstring>()</argsstring>
+        <name>TestAddingUser</name>
+        <briefdescription>
+<para>This method handles several steps to add a new sick person, with complementary information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if success false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="49" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="49" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a33b1d3de68dc20231c6d1d6c1b38f486" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestPrintSickPersonsFile</definition>
+        <argsstring>(string fullName)</argsstring>
+        <name>TestPrintSickPersonsFile</name>
+        <param>
+          <type>string</type>
+          <declname>fullName</declname>
+        </param>
+        <briefdescription>
+<para>Test method that tests the printing of a sickperson&apos;s data file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full Name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if success or false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="226" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="226" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb12a8876400212eb1686ad2d7995c87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestMedDischargeSickPerson</definition>
+        <argsstring>()</argsstring>
+        <name>TestMedDischargeSickPerson</name>
+        <briefdescription>
+<para>This method handles the informatic administration of a sick person&apos;s medical discharge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if success false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="307" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="307" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a3fbf9854f6e035a3ed83d2834af7610e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestAddHospitalToList</definition>
+        <argsstring>()</argsstring>
+        <name>TestAddHospitalToList</name>
+        <briefdescription>
+<para>This method is a test method that adds up a new hospital to the hospitals portfolio </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if success false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="329" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="329" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ab91123fe9c6b9f79f963224deb02cd86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestAddPandemicVirus</definition>
+        <argsstring>()</argsstring>
+        <name>TestAddPandemicVirus</name>
+        <briefdescription>
+<para>This is a test Method that adds a new pandemic virus to the portfolio </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if success false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="360" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="360" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a560fb7bdba0157560881ef63e918e213" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestSetDeathOfSickPerson</definition>
+        <argsstring>(string fullName)</argsstring>
+        <name>TestSetDeathOfSickPerson</name>
+        <param>
+          <type>string</type>
+          <declname>fullName</declname>
+        </param>
+        <briefdescription>
+<para>This method is a test method that handles the request to set a sick person which is alive, to dead </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>full name of sick person</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sussess or false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="393" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="393" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ae0203a1c3c8b905b7b65c1b6f9bc2fa2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.ConsoleApp.TestScripting.TestListDashBoard</definition>
+        <argsstring>(out int numSP, out int totSP, out int numDeaths)</argsstring>
+        <name>TestListDashBoard</name>
+        <param>
+          <type>out int</type>
+          <declname>numSP</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>totSP</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numDeaths</declname>
+        </param>
+        <briefdescription>
+<para>This method is a test method that request information to the database in order to get information to print a dashboard </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numSP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of active infected sick persons</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>totSP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>total number of sick persons</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numDeads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of deaths</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if there is data or false if there is no data</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="416" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="416" bodyend="438"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a testing class. It contains code to test and call functions in a testing environment </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" line="25" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/TestScripting.cs" bodystart="26" bodyend="445"/>
+    <listofallmembers>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a3fbf9854f6e035a3ed83d2834af7610e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestAddHospitalToList</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a03b76e68482077eaa4dafb8ebdaf4be0" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestAddingUser</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ab91123fe9c6b9f79f963224deb02cd86" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestAddPandemicVirus</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1ae0203a1c3c8b905b7b65c1b6f9bc2fa2" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestListDashBoard</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb12a8876400212eb1686ad2d7995c87" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestMedDischargeSickPerson</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a33b1d3de68dc20231c6d1d6c1b38f486" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestPrintSickPersonsFile</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1afb9615f445e656d9c148892aaf3ae709" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestScripting</name></member>
+      <member refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting_1a560fb7bdba0157560881ef63e918e213" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::TestScripting</scope><name>TestSetDeathOfSickPerson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BO::ContactPerson</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a95606ee422bef72d9d0aa5855084948d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.phoneNumber</definition>
+        <argsstring></argsstring>
+        <name>phoneNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="27" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a246ae390539728e64880905dda833e4f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="28" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2ab10eab3af31120ef0e654b86126f19" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.addressCountry</definition>
+        <argsstring></argsstring>
+        <name>addressCountry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="29" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0a53763ef484d3aeb714e9b7443ec0fd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.addressDistrict</definition>
+        <argsstring></argsstring>
+        <name>addressDistrict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="30" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a86ffc534a2ec2b2fc697d580ec8166f2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.addressCity</definition>
+        <argsstring></argsstring>
+        <name>addressCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="31" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1acb1bd68e08be3663710ad74f01056f1f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.addressDesc</definition>
+        <argsstring></argsstring>
+        <name>addressDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="32" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aac676b22fc9cf777b832543dd779ffd7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.ContactPerson.addressZipCode</definition>
+        <argsstring></argsstring>
+        <name>addressZipCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="33" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a11017af0ce316bf840aecee8de1ee30b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string??</type>
+        <definition>string?? AF_IPCA.PandemicApp.BO.ContactPerson.PhoneNumber</definition>
+        <argsstring></argsstring>
+        <name>PhoneNumber</name>
+        <briefdescription>
+<para>Validates a <ref refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" kindref="compound">Person</ref>&apos;s contact phone number; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="50" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="51" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aeccf93211457a33aa23f9b22baa381a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.ContactPerson.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+<para>validates the inserted email (as an alternative contact method) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="75" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="76" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a6511b4c0f11850341008dfd0584401d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.ContactPerson.AddressCountry</definition>
+        <argsstring></argsstring>
+        <name>AddressCountry</name>
+        <briefdescription>
+<para>defines the country of address of a person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="94" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0fdfe29943156ad303b0f2fe6837c870" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.ContactPerson.AddressDistrict</definition>
+        <argsstring></argsstring>
+        <name>AddressDistrict</name>
+        <briefdescription>
+<para>defines the district of address of a person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="109" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="110" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aef99dd3c932fd01d075b971c09a9bbfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.ContactPerson.AddressCity</definition>
+        <argsstring></argsstring>
+        <name>AddressCity</name>
+        <briefdescription>
+<para>defines the city of address of a person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="124" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="125" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a189f340d3e6cc1b55127c854f6600e86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? AF_IPCA.PandemicApp.BO.ContactPerson.AddressDesc</definition>
+        <argsstring></argsstring>
+        <name>AddressDesc</name>
+        <briefdescription>
+<para>defines the address of a person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="139" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="140" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2614e89e89d57bcf0136ad2e299e835c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string??</type>
+        <definition>string?? AF_IPCA.PandemicApp.BO.ContactPerson.AddressZipCode</definition>
+        <argsstring></argsstring>
+        <name>AddressZipCode</name>
+        <briefdescription>
+<para>defines the zipcode of person&apos;s address </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="154" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="155" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a495b956a1c4d0e10bb0a7ff353a98708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.ContactPerson.ContactPerson</definition>
+        <argsstring>()</argsstring>
+        <name>ContactPerson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="39" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="39" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a371b0aa116226209907c5f6a25113262" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AF_IPCA.PandemicApp.BO.ContactPerson.CapitalLetter</definition>
+        <argsstring>(string s)</argsstring>
+        <name>CapitalLetter</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>will capitalize the first letter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives a string as parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns the string with the first letter capitalized</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="177" column="30" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="177" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a8c7c949cd418e9ad8ad222712d79ac52" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.ContactPerson.Validate</definition>
+        <argsstring>(string n, string pattern)</argsstring>
+        <name>Validate</name>
+        <param>
+          <type>string</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+<para>Using regular expression library, and specifics patterns, it validates data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives a string to validate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pattern</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives a patter to be the base to validate the string n</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns true if n is valid or false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="188" column="22" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="188" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this class handles a person&apos;s contact. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="23" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" bodystart="24" bodyend="198"/>
+    <listofallmembers>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a86ffc534a2ec2b2fc697d580ec8166f2" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>addressCity</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aef99dd3c932fd01d075b971c09a9bbfc" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>AddressCity</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2ab10eab3af31120ef0e654b86126f19" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>addressCountry</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a6511b4c0f11850341008dfd0584401d3" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>AddressCountry</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1acb1bd68e08be3663710ad74f01056f1f" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>addressDesc</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a189f340d3e6cc1b55127c854f6600e86" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>AddressDesc</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0a53763ef484d3aeb714e9b7443ec0fd" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>addressDistrict</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a0fdfe29943156ad303b0f2fe6837c870" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>AddressDistrict</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a2614e89e89d57bcf0136ad2e299e835c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>AddressZipCode</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aac676b22fc9cf777b832543dd779ffd7" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>addressZipCode</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a371b0aa116226209907c5f6a25113262" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>CapitalLetter</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a495b956a1c4d0e10bb0a7ff353a98708" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>ContactPerson</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1aeccf93211457a33aa23f9b22baa381a8" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>Email</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a246ae390539728e64880905dda833e4f" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>email</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a11017af0ce316bf840aecee8de1ee30b" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>PhoneNumber</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a95606ee422bef72d9d0aa5855084948d" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>phoneNumber</name></member>
+      <member refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person_1a8c7c949cd418e9ad8ad222712d79ac52" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::ContactPerson</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

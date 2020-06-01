@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BL::DiseaseRules</compoundname>
+    <basecompoundref refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BL.CrossRules</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a18d01639e8ccdd02b0dfe23f263b0d89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BL.DiseaseRules.DiseaseRules</definition>
+        <argsstring>()</argsstring>
+        <name>DiseaseRules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="31" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2ce40d6116ae63f60b9caaa8993a2bec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AF_IPCA.PandemicApp.BL.DiseaseRules.ShowDiseasesRequest</definition>
+        <argsstring>()</argsstring>
+        <name>ShowDiseasesRequest</name>
+        <briefdescription>
+<para>this method mediates a request for printing a list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="46" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a7d996acb9092390689af4ed437308e6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease" kindref="compound">Disease</ref></type>
+        <definition>static Disease AF_IPCA.PandemicApp.BL.DiseaseRules.GetDiseaseRequest</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetDiseaseRequest</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>This methodo mediates the request to get a disease from a given list </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="56" column="31" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a58bdae0164e7917f793ddd6099a7477e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.DiseaseRules.AddDiseaseRequest</definition>
+        <argsstring>(string dType, string dSintoms, string incubationPer)</argsstring>
+        <name>AddDiseaseRequest</name>
+        <param>
+          <type>string</type>
+          <declname>dType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dSintoms</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>incubationPer</declname>
+        </param>
+        <briefdescription>
+<para>Mthod that parses a request to add a new disease to the list. It will return false. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object disease</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>return true if added, false if object already exists</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="66" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2c9a91232ae032520827b4005b90fa25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.DiseaseRules.SaveAllRequest</definition>
+        <argsstring>(string fName)</argsstring>
+        <name>SaveAllRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for saving an entire structure into a file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full path and name of bin file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sucess false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="84" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a489eeed9fddb90e69c70561dc3862896" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.DiseaseRules.LoadAllRequest</definition>
+        <argsstring>(string fName)</argsstring>
+        <name>LoadAllRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for loading an entire structure into memory (not ideal) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full path and name of bin file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sucess false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="95" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class mediates the logic on the process realated to diseases </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CrossRules</label>
+        <link refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules"/>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BL.DiseaseRules</label>
+        <link refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CrossRules</label>
+        <link refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules"/>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BL.DiseaseRules</label>
+        <link refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" line="23" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/DiseaseRules.cs" bodystart="24" bodyend="106"/>
+    <listofallmembers>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a58bdae0164e7917f793ddd6099a7477e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>AddDiseaseRequest</name></member>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a2239c5b8bfdde047278a396ca803c09a" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>CapitalLetter</name></member>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a531ddd20f9cde13ca6810b2a432e1176" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>CrossRules</name></member>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a18d01639e8ccdd02b0dfe23f263b0d89" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>DiseaseRules</name></member>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a7d996acb9092390689af4ed437308e6b" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>GetDiseaseRequest</name></member>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a489eeed9fddb90e69c70561dc3862896" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>LoadAllRequest</name></member>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2c9a91232ae032520827b4005b90fa25" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>SaveAllRequest</name></member>
+      <member refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_1a2ce40d6116ae63f60b9caaa8993a2bec" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::DiseaseRules</scope><name>ShowDiseasesRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

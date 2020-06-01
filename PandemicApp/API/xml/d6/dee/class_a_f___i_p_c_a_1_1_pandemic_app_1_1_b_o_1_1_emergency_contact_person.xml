@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</compoundname>
+    <basecompoundref refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BO.Person</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a66736e58d5d6adca6c68ee3e56486a40" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.EmergencyContactPerson.hasEmergencyPersonContact</definition>
+        <argsstring></argsstring>
+        <name>hasEmergencyPersonContact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="28" column="22" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1ae350244cdc8be974c5d70e977c8b7756" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.EmergencyContactPerson.relativeStatus</definition>
+        <argsstring></argsstring>
+        <name>relativeStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="29" column="24" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a4ca0ca3f23ec44b7a74500c264e2bcc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AF_IPCA.PandemicApp.BO.EmergencyContactPerson.RelativeStatus</definition>
+        <argsstring></argsstring>
+        <name>RelativeStatus</name>
+        <briefdescription>
+<para>Defines the relationship between the pacient and the emergency contact person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="68" column="23" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1afbc761a73d6089004ab832e262c1dfb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AF_IPCA.PandemicApp.BO.EmergencyContactPerson.HasEPC</definition>
+        <argsstring></argsstring>
+        <name>HasEPC</name>
+        <briefdescription>
+<para>stores bool value if there is a emergency contact person. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="83" column="21" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="84" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a52c111a95d191e685a2331a1b3663e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.EmergencyContactPerson.EmergencyContactPerson</definition>
+        <argsstring>()</argsstring>
+        <name>EmergencyContactPerson</name>
+        <briefdescription>
+<para>default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="40" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a2a43ee07ef5710d480d0bede3aad9fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BO.EmergencyContactPerson.EmergencyContactPerson</definition>
+        <argsstring>(string fName, string lName, string phoneNum, string relStatus)</argsstring>
+        <name>EmergencyContactPerson</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phoneNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relStatus</declname>
+        </param>
+        <briefdescription>
+<para>Parameterized constructor. It gives all the info needed to build this object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EMR first name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EMR last name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phoneNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EMR phone number</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>relStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EMR relationship with sick person</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="52" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="52" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is the structure of an emergency contact person. It inherits from class <ref refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" kindref="compound">Person</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Person</label>
+        <link refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person"/>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BO.EmergencyContactPerson</label>
+        <link refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>AF_IPCA.PandemicApp.BO.ContactPerson</label>
+        <link refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person"/>
+      </node>
+      <node id="2">
+        <label>Person</label>
+        <link refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>contactInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BO.EmergencyContactPerson</label>
+        <link refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" line="22" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/EmergencyContactPerson.cs" bodystart="23" bodyend="108"/>
+    <listofallmembers>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5850adbc7a66497a657e163cbe78d7f1" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>age</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a5555e24085b801ae5ee2053f7b3abaf3" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Age</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa247a11f5383636de9a3b9563c8f475d" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>BirthDate</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ab0132bd6c818d38e688634816a0e51dd" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>birthDate</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a2dbff0d89cc64be4ed6871b05d221b3e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Citizenship</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a979ea14437ecd3e6ba9570030ec9bdd7" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>citizenship</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7817d2227671bda70c588f7cffd8dcae" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>ContactInfo</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aba32e762a9f426841ec09439db878150" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>contactInfo</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1ac71fc040d07879b23490a096f0825c6c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Country</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1afc52539e0cbe28686de370ea4c39ac58" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>country</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a52c111a95d191e685a2331a1b3663e9d" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>EmergencyContactPerson</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a2a43ee07ef5710d480d0bede3aad9fd6" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>EmergencyContactPerson</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a1f2bca40230f2aa56b5c0508b2f81c1d" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>firstName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a10ef503c54673904f948c4cbd52173b2" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>FirstName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a895c06f613a0bc5cce2e0f4e2cc1692a" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>FullName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa51bc058537c13b72aea5ff146fa692e" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>fullName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1aa68489549e5e290b8915e3965623e395" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Gender</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a3ba75dd1e46f7230cce8d832b7d85d1f" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>gender</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a66736e58d5d6adca6c68ee3e56486a40" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>hasEmergencyPersonContact</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1afbc761a73d6089004ab832e262c1dfb0" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>HasEPC</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a7196090c4c7edb103badb003c7d546a0" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>language</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a0216b3d23eb4e9c1cdc25040ccf32ebc" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Language</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1abc877ce18a8031b34914adf266e1d1d3" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>LastName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a446aae06f926648c338e14fd734a212e" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>lastName</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a94b27e3290629a54f7f9fce2b42a4beb" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Person</name></member>
+      <member refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person_1a97bda7737457e429fea57099f74aec8e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>Person</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1ae350244cdc8be974c5d70e977c8b7756" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>relativeStatus</name></member>
+      <member refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person_1a4ca0ca3f23ec44b7a74500c264e2bcc5" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BO::EmergencyContactPerson</scope><name>RelativeStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

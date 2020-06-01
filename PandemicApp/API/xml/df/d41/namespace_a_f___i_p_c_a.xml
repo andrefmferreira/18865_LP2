@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="df/d41/namespace_a_f___i_p_c_a" kind="namespace" language="C#">
+    <compoundname>AF_IPCA</compoundname>
+    <innernamespace refid="d0/de4/namespace_a_f___i_p_c_a_1_1_pandemic_app">AF_IPCA::PandemicApp</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

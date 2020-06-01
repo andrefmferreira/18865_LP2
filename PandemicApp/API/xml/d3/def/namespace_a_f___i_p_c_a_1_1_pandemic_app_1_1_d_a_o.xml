@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d3/def/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o" kind="namespace" language="C#">
+    <compoundname>AF_IPCA::PandemicApp::DAO</compoundname>
+    <innerclass refid="d7/d76/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases" prot="public">AF_IPCA::PandemicApp::DAO::Diseases</innerclass>
+    <innerclass refid="d1/d9d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_hospitals" prot="public">AF_IPCA::PandemicApp::DAO::Hospitals</innerclass>
+    <innerclass refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions" prot="package">AF_IPCA::PandemicApp::DAO::PandemicExceptions</innerclass>
+    <innerclass refid="d9/ddf/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_sick_persons" prot="public">AF_IPCA::PandemicApp::DAO::SickPersons</innerclass>
+    <briefdescription>
+<para>This is the lowest level dll. This handles all file and lists mediation. It stores information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/Diseases.cs" line="21" column="1"/>
+  </compounddef>
+</doxygen>

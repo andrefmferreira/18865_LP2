@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_3596a1e1fdc1f52dec7b3beb2970386e" kind="dir">
+    <compoundname>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL</compoundname>
+    <innerdir refid="dir_833e238cd39008e8bb42fa5621bf66ae">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/obj</innerdir>
+    <innerfile refid="d4/dc6/_cross_rules_8cs">CrossRules.cs</innerfile>
+    <innerfile refid="d7/d7b/_disease_rules_8cs">DiseaseRules.cs</innerfile>
+    <innerfile refid="d9/d76/_hospital_rules_8cs">HospitalRules.cs</innerfile>
+    <innerfile refid="d0/d8a/_sick_person_rules_8cs">SickPersonRules.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/"/>
+  </compounddef>
+</doxygen>

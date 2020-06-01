@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_e62d84ec894ffab601b517add7f2d86e" kind="dir">
+    <compoundname>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp</compoundname>
+    <innerdir refid="dir_3596a1e1fdc1f52dec7b3beb2970386e">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL</innerdir>
+    <innerdir refid="dir_0d7dc9357c4b5f09793155e7d32924ff">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO</innerdir>
+    <innerdir refid="dir_ff17339291fca4c355709415037594da">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO</innerdir>
+    <innerdir refid="dir_778da54f9f99f3c88d7028bfc0cf0118">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/"/>
+  </compounddef>
+</doxygen>

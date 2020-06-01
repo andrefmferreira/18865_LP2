@@ -1,0 +1,249 @@
+.TH "AF_IPCA.PandemicApp.BO.Hospital" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.Hospital \- This will struct the information, if a sickperson is admited at a hospital  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHospital\fP ()"
+.br
+.RI "hospital default constructor "
+.ti -1c
+.RI "\fBHospital\fP (string hName, string hDistrict, string hCity, bool \fBisPublic\fP)"
+.br
+.ti -1c
+.RI "bool \fBValIsIsPublic\fP (string n)"
+.br
+.RI "Receives an answer from user and converts the y or Y to bool "
+.ti -1c
+.RI "void \fBAskUserForHospitalInfo\fP ()"
+.br
+.RI "Prompts the user for additional information\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static string \fBCapitalLetter\fP (string s)"
+.br
+.RI "will capitalize the first letter\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBGetNextHospitalID\fP ()"
+.br
+.RI "sets the autoincremented ID for hospital "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "DateTime \fBAdmitDate\fP\fC [get, set]\fP"
+.br
+.RI "This property defines the date when a sick person is hospitalized\&. "
+.ti -1c
+.RI "int \fBHospId\fP\fC [get, private set]\fP"
+.br
+.RI "Defines the hospital ID autoincremented "
+.ti -1c
+.RI "string? \fBHospitalName\fP\fC [get, set]\fP"
+.br
+.RI "stores the name of the hospital in wich a patient is hospitalized "
+.ti -1c
+.RI "string? \fBHospitalDistrict\fP\fC [get, set]\fP"
+.br
+.RI "stores the district of the hospital in wich a patient is hospitalized "
+.ti -1c
+.RI "string? \fBHospitalCity\fP\fC [get, set]\fP"
+.br
+.RI "stores the city of the hospital in wich a patient is hospitalized "
+.ti -1c
+.RI "bool \fBIsPublic\fP\fC [get, set]\fP"
+.br
+.RI "as a patient is at a hospital, for 'future statistical mesures', stores if it is a public or private hospital "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBhospId\fP"
+.br
+.ti -1c
+.RI "string \fBhospitalName\fP"
+.br
+.ti -1c
+.RI "string \fBhospitalDistrict\fP"
+.br
+.ti -1c
+.RI "string \fBhospitalCity\fP"
+.br
+.ti -1c
+.RI "bool \fBisPublic\fP"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBglobalHospId\fP"
+.br
+.ti -1c
+.RI "static DateTime \fBadmitDate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This will struct the information, if a sickperson is admited at a hospital 
+
+
+.PP
+Definition at line 24 of file Hospital\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.Hospital ()"
+
+.PP
+hospital default constructor 
+.PP
+Definition at line 42 of file Hospital\&.cs\&.
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.Hospital (string hName, string hDistrict, string hCity, bool isPublic)"
+
+.PP
+Definition at line 47 of file Hospital\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.AskUserForHospitalInfo ()"
+
+.PP
+Prompts the user for additional information\&. 
+.PP
+Definition at line 187 of file Hospital\&.cs\&.
+.SS "static string AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.CapitalLetter (string s)\fC [static]\fP"
+
+.PP
+will capitalize the first letter\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIs\fP receives a string as parameter
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns the string with the first letter capitalized
+.RE
+.PP
+
+.PP
+Definition at line 169 of file Hospital\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.GetNextHospitalID ()\fC [protected]\fP"
+
+.PP
+sets the autoincremented ID for hospital 
+.PP
+\fBReturns\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 159 of file Hospital\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.ValIsIsPublic (string n)"
+
+.PP
+Receives an answer from user and converts the y or Y to bool 
+.PP
+\fBParameters\fP
+.RS 4
+\fIn\fP Input from user
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if y or Y, else false
+.RE
+.PP
+
+.PP
+Definition at line 179 of file Hospital\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.admitDate\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 34 of file Hospital\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.globalHospId\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 28 of file Hospital\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.hospId\fC [private]\fP"
+
+.PP
+Definition at line 29 of file Hospital\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.hospitalCity\fC [private]\fP"
+
+.PP
+Definition at line 32 of file Hospital\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.hospitalDistrict\fC [private]\fP"
+
+.PP
+Definition at line 31 of file Hospital\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.hospitalName\fC [private]\fP"
+
+.PP
+Definition at line 30 of file Hospital\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.isPublic\fC [private]\fP"
+
+.PP
+Definition at line 33 of file Hospital\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.AdmitDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+This property defines the date when a sick person is hospitalized\&. 
+.PP
+Definition at line 64 of file Hospital\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.HospId\fC [get]\fP, \fC [private set]\fP"
+
+.PP
+Defines the hospital ID autoincremented 
+.PP
+Definition at line 79 of file Hospital\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.HospitalCity\fC [get]\fP, \fC [set]\fP"
+
+.PP
+stores the city of the hospital in wich a patient is hospitalized 
+.PP
+Definition at line 124 of file Hospital\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.HospitalDistrict\fC [get]\fP, \fC [set]\fP"
+
+.PP
+stores the district of the hospital in wich a patient is hospitalized 
+.PP
+Definition at line 109 of file Hospital\&.cs\&.
+.SS "string? AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.HospitalName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+stores the name of the hospital in wich a patient is hospitalized 
+.PP
+Definition at line 94 of file Hospital\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.Hospital\&.IsPublic\fC [get]\fP, \fC [set]\fP"
+
+.PP
+as a patient is at a hospital, for 'future statistical mesures', stores if it is a public or private hospital 
+.PP
+Definition at line 139 of file Hospital\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

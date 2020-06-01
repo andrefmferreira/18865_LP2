@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="df/d65/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app" kind="namespace" language="C#">
+    <compoundname>AF_IPCA::PandemicApp::ConsoleApp</compoundname>
+    <innerclass refid="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program" prot="package">AF_IPCA::PandemicApp::ConsoleApp::Program</innerclass>
+    <innerclass refid="dc/d8d/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_test_scripting" prot="public">AF_IPCA::PandemicApp::ConsoleApp::TestScripting</innerclass>
+    <briefdescription>
+<para>This is the mainspace of this application. The frondend </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Program.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+.TH "AF_IPCA.PandemicApp.BL.DiseaseRules" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BL.DiseaseRules \- This class mediates the logic on the process realated to diseases  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAF_IPCA\&.PandemicApp\&.BL\&.CrossRules\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDiseaseRules\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBShowDiseasesRequest\fP ()"
+.br
+.RI "this method mediates a request for printing a list "
+.ti -1c
+.RI "static \fBDisease\fP \fBGetDiseaseRequest\fP (int id)"
+.br
+.RI "This methodo mediates the request to get a disease from a given list "
+.ti -1c
+.RI "static bool \fBAddDiseaseRequest\fP (string dType, string dSintoms, string incubationPer)"
+.br
+.RI "Mthod that parses a request to add a new disease to the list\&. It will return false\&. "
+.ti -1c
+.RI "static bool \fBSaveAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for saving an entire structure into a file "
+.ti -1c
+.RI "static bool \fBLoadAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for loading an entire structure into memory (not ideal) "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class mediates the logic on the process realated to diseases 
+
+
+.PP
+Definition at line 23 of file DiseaseRules\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.DiseaseRules ()"
+
+.PP
+Definition at line 31 of file DiseaseRules\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.AddDiseaseRequest (string dType, string dSintoms, string incubationPer)\fC [static]\fP"
+
+.PP
+Mthod that parses a request to add a new disease to the list\&. It will return false\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fId\fP object disease
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+return true if added, false if object already exists
+.RE
+.PP
+
+.PP
+Definition at line 66 of file DiseaseRules\&.cs\&.
+.SS "static \fBDisease\fP AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.GetDiseaseRequest (int id)\fC [static]\fP"
+
+.PP
+This methodo mediates the request to get a disease from a given list 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 56 of file DiseaseRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.LoadAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for loading an entire structure into memory (not ideal) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 95 of file DiseaseRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.SaveAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for saving an entire structure into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 84 of file DiseaseRules\&.cs\&.
+.SS "static void AF_IPCA\&.PandemicApp\&.BL\&.DiseaseRules\&.ShowDiseasesRequest ()\fC [static]\fP"
+
+.PP
+this method mediates a request for printing a list 
+.PP
+Definition at line 46 of file DiseaseRules\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

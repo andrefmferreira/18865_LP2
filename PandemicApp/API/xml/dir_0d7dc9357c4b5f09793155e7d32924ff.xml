@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_0d7dc9357c4b5f09793155e7d32924ff" kind="dir">
+    <compoundname>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO</compoundname>
+    <innerdir refid="dir_d9e54d1b4ef4d7973cdbe42ead7dff7a">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/obj</innerdir>
+    <innerfile refid="d0/df5/_contact_person_8cs">ContactPerson.cs</innerfile>
+    <innerfile refid="db/dbe/_disease_8cs">Disease.cs</innerfile>
+    <innerfile refid="d3/d9a/_disease_history_8cs">DiseaseHistory.cs</innerfile>
+    <innerfile refid="d3/ded/_emergency_contact_person_8cs">EmergencyContactPerson.cs</innerfile>
+    <innerfile refid="d0/dd9/_hospital_8cs">Hospital.cs</innerfile>
+    <innerfile refid="d9/d2d/_person_8cs">Person.cs</innerfile>
+    <innerfile refid="dd/d0e/_sick_person_8cs">SickPerson.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/"/>
+  </compounddef>
+</doxygen>

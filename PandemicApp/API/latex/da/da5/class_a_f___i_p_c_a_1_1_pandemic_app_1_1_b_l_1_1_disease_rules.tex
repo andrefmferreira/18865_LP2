@@ -1,0 +1,165 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules}\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+
+
+This class mediates the logic on the process realated to diseases  
+
+
+
+
+Inheritance diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules\+:
+% FIG 0
+
+
+Collaboration diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a18d01639e8ccdd02b0dfe23f263b0d89}{Disease\+Rules}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2ce40d6116ae63f60b9caaa8993a2bec}{Show\+Diseases\+Request}} ()
+\begin{DoxyCompactList}\small\item\em this method mediates a request for printing a list \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a7d996acb9092390689af4ed437308e6b}{Get\+Disease\+Request}} (int id)
+\begin{DoxyCompactList}\small\item\em This methodo mediates the request to get a disease from a given list \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a58bdae0164e7917f793ddd6099a7477e}{Add\+Disease\+Request}} (string d\+Type, string d\+Sintoms, string incubation\+Per)
+\begin{DoxyCompactList}\small\item\em Mthod that parses a request to add a new disease to the list. It will return false. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2c9a91232ae032520827b4005b90fa25}{Save\+All\+Request}} (string f\+Name)
+\begin{DoxyCompactList}\small\item\em This method mediates the request for saving an entire structure into a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a489eeed9fddb90e69c70561dc3862896}{Load\+All\+Request}} (string f\+Name)
+\begin{DoxyCompactList}\small\item\em This method mediates the request for loading an entire structure into memory (not ideal) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class mediates the logic on the process realated to diseases 
+
+
+
+Definition at line 23 of file Disease\+Rules.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a18d01639e8ccdd02b0dfe23f263b0d89}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a18d01639e8ccdd02b0dfe23f263b0d89}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!DiseaseRules@{DiseaseRules}}
+\index{DiseaseRules@{DiseaseRules}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{DiseaseRules()}{DiseaseRules()}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Disease\+Rules (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file Disease\+Rules.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a58bdae0164e7917f793ddd6099a7477e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a58bdae0164e7917f793ddd6099a7477e}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!AddDiseaseRequest@{AddDiseaseRequest}}
+\index{AddDiseaseRequest@{AddDiseaseRequest}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{AddDiseaseRequest()}{AddDiseaseRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Add\+Disease\+Request (\begin{DoxyParamCaption}\item[{string}]{d\+Type,  }\item[{string}]{d\+Sintoms,  }\item[{string}]{incubation\+Per }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Mthod that parses a request to add a new disease to the list. It will return false. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & object disease\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return true if added, false if object already exists
+\end{DoxyReturn}
+
+
+Definition at line 66 of file Disease\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a7d996acb9092390689af4ed437308e6b}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a7d996acb9092390689af4ed437308e6b}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!GetDiseaseRequest@{GetDiseaseRequest}}
+\index{GetDiseaseRequest@{GetDiseaseRequest}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{GetDiseaseRequest()}{GetDiseaseRequest()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Get\+Disease\+Request (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This methodo mediates the request to get a disease from a given list 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 56 of file Disease\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a489eeed9fddb90e69c70561dc3862896}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a489eeed9fddb90e69c70561dc3862896}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!LoadAllRequest@{LoadAllRequest}}
+\index{LoadAllRequest@{LoadAllRequest}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{LoadAllRequest()}{LoadAllRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Load\+All\+Request (\begin{DoxyParamCaption}\item[{string}]{f\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method mediates the request for loading an entire structure into memory (not ideal) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Name} & Full path and name of bin file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Disease\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2c9a91232ae032520827b4005b90fa25}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2c9a91232ae032520827b4005b90fa25}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!SaveAllRequest@{SaveAllRequest}}
+\index{SaveAllRequest@{SaveAllRequest}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{SaveAllRequest()}{SaveAllRequest()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Save\+All\+Request (\begin{DoxyParamCaption}\item[{string}]{f\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method mediates the request for saving an entire structure into a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Name} & Full path and name of bin file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if sucess false if not
+\end{DoxyReturn}
+
+
+Definition at line 84 of file Disease\+Rules.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2ce40d6116ae63f60b9caaa8993a2bec}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules_a2ce40d6116ae63f60b9caaa8993a2bec}} 
+\index{AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}!ShowDiseasesRequest@{ShowDiseasesRequest}}
+\index{ShowDiseasesRequest@{ShowDiseasesRequest}!AF\_IPCA.PandemicApp.BL.DiseaseRules@{AF\_IPCA.PandemicApp.BL.DiseaseRules}}
+\doxysubsubsection{\texorpdfstring{ShowDiseasesRequest()}{ShowDiseasesRequest()}}
+{\footnotesize\ttfamily static void A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L.\+Disease\+Rules.\+Show\+Diseases\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+this method mediates a request for printing a list 
+
+
+
+Definition at line 46 of file Disease\+Rules.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+L/\mbox{\hyperlink{_disease_rules_8cs}{Disease\+Rules.\+cs}}\end{DoxyCompactItemize}

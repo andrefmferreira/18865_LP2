@@ -1,0 +1,140 @@
+.TH "AF_IPCA.PandemicApp.BL.HospitalRules" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BL.HospitalRules \- This class handles the logic and rules in the hospitals portfolio  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAF_IPCA\&.PandemicApp\&.BL\&.CrossRules\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHospitalRules\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBPrintHospitalsFromDistrictRequest\fP (string hDistrict, out int[] ids)"
+.br
+.RI "this method moderates the rquest made by user, filtering the hospital database in order to print the hospitals acording to the district "
+.ti -1c
+.RI "static \fBHospital\fP \fBGetHospitalByIDRequest\fP (int id)"
+.br
+.ti -1c
+.RI "static bool \fBAddNewHospitalRequest\fP (string hName, string hDistrict, string hCity, string hPublic, out int id)"
+.br
+.ti -1c
+.RI "static bool \fBSaveAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for saving an entire structure into a file "
+.ti -1c
+.RI "static bool \fBLoadAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for loading an entire structure into memory (not ideal) "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class handles the logic and rules in the hospitals portfolio 
+
+
+.PP
+Definition at line 24 of file HospitalRules\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.HospitalRules ()"
+
+.PP
+Definition at line 32 of file HospitalRules\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.AddNewHospitalRequest (string hName, string hDistrict, string hCity, string hPublic, out int id)\fC [static]\fP"
+
+.PP
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIhName\fP 
+.br
+\fIhDistrict\fP 
+.br
+\fIhCity\fP 
+.br
+\fIhPublic\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 76 of file HospitalRules\&.cs\&.
+.SS "static \fBHospital\fP AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.GetHospitalByIDRequest (int id)\fC [static]\fP"
+
+.PP
+Definition at line 63 of file HospitalRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.LoadAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for loading an entire structure into memory (not ideal) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 106 of file HospitalRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.PrintHospitalsFromDistrictRequest (string hDistrict, out int[] ids)\fC [static]\fP"
+
+.PP
+this method moderates the rquest made by user, filtering the hospital database in order to print the hospitals acording to the district 
+.PP
+\fBParameters\fP
+.RS 4
+\fIhDistrict\fP user input a district for norrow information
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns true if sucessd, or false if no hospitals found in the district
+.RE
+.PP
+
+.PP
+Definition at line 50 of file HospitalRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.HospitalRules\&.SaveAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for saving an entire structure into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 95 of file HospitalRules\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

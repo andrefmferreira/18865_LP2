@@ -1,0 +1,25 @@
+var class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person =
+[
+    [ "Person", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a94b27e3290629a54f7f9fce2b42a4beb", null ],
+    [ "Person", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a97bda7737457e429fea57099f74aec8e", null ],
+    [ "age", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a5850adbc7a66497a657e163cbe78d7f1", null ],
+    [ "birthDate", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#ab0132bd6c818d38e688634816a0e51dd", null ],
+    [ "citizenship", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a979ea14437ecd3e6ba9570030ec9bdd7", null ],
+    [ "contactInfo", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#aba32e762a9f426841ec09439db878150", null ],
+    [ "country", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#afc52539e0cbe28686de370ea4c39ac58", null ],
+    [ "firstName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a1f2bca40230f2aa56b5c0508b2f81c1d", null ],
+    [ "fullName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#aa51bc058537c13b72aea5ff146fa692e", null ],
+    [ "gender", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a3ba75dd1e46f7230cce8d832b7d85d1f", null ],
+    [ "language", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a7196090c4c7edb103badb003c7d546a0", null ],
+    [ "lastName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a446aae06f926648c338e14fd734a212e", null ],
+    [ "Age", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a5555e24085b801ae5ee2053f7b3abaf3", null ],
+    [ "BirthDate", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#aa247a11f5383636de9a3b9563c8f475d", null ],
+    [ "Citizenship", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a2dbff0d89cc64be4ed6871b05d221b3e", null ],
+    [ "ContactInfo", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a7817d2227671bda70c588f7cffd8dcae", null ],
+    [ "Country", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#ac71fc040d07879b23490a096f0825c6c", null ],
+    [ "FirstName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a10ef503c54673904f948c4cbd52173b2", null ],
+    [ "FullName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a895c06f613a0bc5cce2e0f4e2cc1692a", null ],
+    [ "Gender", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#aa68489549e5e290b8915e3965623e395", null ],
+    [ "Language", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#a0216b3d23eb4e9c1cdc25040ccf32ebc", null ],
+    [ "LastName", "de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person.html#abc877ce18a8031b34914adf266e1d1d3", null ]
+];

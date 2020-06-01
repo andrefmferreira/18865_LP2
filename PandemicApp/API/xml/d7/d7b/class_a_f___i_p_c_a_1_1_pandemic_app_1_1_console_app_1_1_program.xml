@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program" kind="class" language="C#" prot="package">
+    <compoundname>AF_IPCA::PandemicApp::ConsoleApp::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program_1a0c81752009f81bd639976aee616c7b19" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AF_IPCA.PandemicApp.ConsoleApp.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Main procedure. Will run allways </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Program.cs" line="29" column="29" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Program.cs" bodystart="29" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Main class. Here is the main procedure. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Program.cs" line="23" column="13" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Program.cs" bodystart="24" bodyend="135"/>
+    <listofallmembers>
+      <member refid="d7/d7b/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app_1_1_program_1a0c81752009f81bd639976aee616c7b19" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::ConsoleApp::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

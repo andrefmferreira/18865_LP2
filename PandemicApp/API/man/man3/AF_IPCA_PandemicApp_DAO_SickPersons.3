@@ -1,0 +1,347 @@
+.TH "AF_IPCA.PandemicApp.DAO.SickPersons" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.DAO.SickPersons \- this class handles all the sickpersons objects\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBSetDeathOfSickPerson\fP (string fullName)"
+.br
+.RI "This methodo seeks for a sick person in the database, and sets the status of isAlive to false (person's death) "
+.ti -1c
+.RI "static bool \fBAddSickPerson\fP (\fBSickPerson\fP sickPerson)"
+.br
+.RI "Methodo responsible to add a sickperson to a list of sickPerson's\&. "
+.ti -1c
+.RI "static string \fBGetGenderFromList\fP (\fBSickPerson\fP sickPerson)"
+.br
+.RI "This method queries the list of sickpersons, in order to get information from sickPerson "
+.ti -1c
+.RI "static bool \fBSetPersonsContact\fP (\fBSickPerson\fP sickPerson, string phoneNum, string email, string addDesc, string addZipCode, string addCity, string addDistrict, string addCountry)"
+.br
+.RI "This method sets the values for contact information of a person\&. "
+.ti -1c
+.RI "static bool \fBSetEmrContactPerson\fP (\fBSickPerson\fP sickPerson, \fBEmergencyContactPerson\fP emrPerson)"
+.br
+.RI "Method responsible to set the emergency contact of a sickPerson\&. It will store the information in the sickperson's 'object' "
+.ti -1c
+.RI "static bool \fBAddDiseaseToSickPersonHistory\fP (\fBSickPerson\fP sickPerson, \fBDiseaseHistory\fP personDisease)"
+.br
+.RI "This method adds a disease to the person's disease history\&. "
+.ti -1c
+.RI "static bool \fBAddBaseInfoToSickPerson\fP (\fBSickPerson\fP sickPerson, DateTime bdate, string pCountry, string pCitizen, string pLang)"
+.br
+.RI "This method adds more information to the person's file "
+.ti -1c
+.RI "static \fBSickPerson\fP \fBGetSickPerson\fP (string fullName)"
+.br
+.RI "This method searches all persons registered as sick persons, and pulls the information out\&. "
+.ti -1c
+.RI "static bool \fBMedDischargeSickPerson\fP (string spName)"
+.br
+.RI "This methodo seeks for all listed sick persons in the 'database', using as criteria the full name (not ideal)\&. If found, seeks for the pandemic virus wich is not cured, and set it to cured, assigning the date when this change is made as medical discharge date\&. "
+.ti -1c
+.RI "static bool \fBSaveAll\fP (string fileName)"
+.br
+.RI "Method that handles the save procedure of data into a file "
+.ti -1c
+.RI "static bool \fBLoadAll\fP (string fileName)"
+.br
+.RI "Method that handles the load procedure of data from a file "
+.ti -1c
+.RI "static bool \fBListSickPersonDashBoard\fP (out int numSP, out int totSP, out int numDeaths)"
+.br
+.RI "This functiion gets data from the database in order to print a dashboard "
+.in -1c
+.SS "Static Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBSickPersons\fP ()"
+.br
+.RI "default constructor for sickPerson's class "
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBSickPerson\fP > \fBallSickPersons\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+this class handles all the sickpersons objects\&. 
+
+
+.PP
+Definition at line 27 of file SickPersons\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "static AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.SickPersons ()\fC [static]\fP, \fC [private]\fP"
+
+.PP
+default constructor for sickPerson's class 
+.PP
+Definition at line 40 of file SickPersons\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.AddBaseInfoToSickPerson (\fBSickPerson\fP sickPerson, DateTime bdate, string pCountry, string pCitizen, string pLang)\fC [static]\fP"
+
+.PP
+This method adds more information to the person's file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP sick person
+.br
+\fIbdate\fP birthdate
+.br
+\fIpCountry\fP country
+.br
+\fIpCitizen\fP citzenship
+.br
+\fIpLang\fP language
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 186 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.AddDiseaseToSickPersonHistory (\fBSickPerson\fP sickPerson, \fBDiseaseHistory\fP personDisease)\fC [static]\fP"
+
+.PP
+This method adds a disease to the person's disease history\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP sick person
+.br
+\fIpersonDisease\fP virus disease
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 167 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.AddSickPerson (\fBSickPerson\fP sickPerson)\fC [static]\fP"
+
+.PP
+Methodo responsible to add a sickperson to a list of sickPerson's\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPer\fP Sick Person object
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 79 of file SickPersons\&.cs\&.
+.SS "static string AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.GetGenderFromList (\fBSickPerson\fP sickPerson)\fC [static]\fP"
+
+.PP
+This method queries the list of sickpersons, in order to get information from sickPerson 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP Sick Person object 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 99 of file SickPersons\&.cs\&.
+.SS "static \fBSickPerson\fP AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.GetSickPerson (string fullName)\fC [static]\fP"
+
+.PP
+This method searches all persons registered as sick persons, and pulls the information out\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP person's full name
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+object sickPerson
+.RE
+.PP
+
+.PP
+Definition at line 205 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.ListSickPersonDashBoard (out int numSP, out int totSP, out int numDeaths)\fC [static]\fP"
+
+.PP
+This functiion gets data from the database in order to print a dashboard 
+.PP
+\fBParameters\fP
+.RS 4
+\fInumSP\fP number of active sickperson
+.br
+\fItotSP\fP number of sickperson
+.br
+\fInumDeaths\fP number of deaths
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if success or false if not
+.RE
+.PP
+
+.PP
+Definition at line 308 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.LoadAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the load procedure of data from a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if file is loaded, or false if something whent wrong
+.RE
+.PP
+
+.PP
+Definition at line 281 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.MedDischargeSickPerson (string spName)\fC [static]\fP"
+
+.PP
+This methodo seeks for all listed sick persons in the 'database', using as criteria the full name (not ideal)\&. If found, seeks for the pandemic virus wich is not cured, and set it to cured, assigning the date when this change is made as medical discharge date\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIspName\fP sick person's full name
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if found and updated, or false if not
+.RE
+.PP
+
+.PP
+Definition at line 226 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.SaveAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the save procedure of data into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if save is ok\&. False if not
+.RE
+.PP
+
+.PP
+Definition at line 254 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.SetDeathOfSickPerson (string fullName)\fC [static]\fP"
+
+.PP
+This methodo seeks for a sick person in the database, and sets the status of isAlive to false (person's death) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP Uses the full name (not ideal) for searching
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns true if sucess, or false if not
+.RE
+.PP
+
+.PP
+Definition at line 58 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.SetEmrContactPerson (\fBSickPerson\fP sickPerson, \fBEmergencyContactPerson\fP emrPerson)\fC [static]\fP"
+
+.PP
+Method responsible to set the emergency contact of a sickPerson\&. It will store the information in the sickperson's 'object' 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP SickPerson's object
+.br
+\fIemrPerson\fP Emergency contact person object
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if succeed or false if not
+.RE
+.PP
+
+.PP
+Definition at line 154 of file SickPersons\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.SetPersonsContact (\fBSickPerson\fP sickPerson, string phoneNum, string email, string addDesc, string addZipCode, string addCity, string addDistrict, string addCountry)\fC [static]\fP"
+
+.PP
+This method sets the values for contact information of a person\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP Sick Person object
+.br
+\fIphoneNum\fP Phone Number
+.br
+\fIemail\fP Email address
+.br
+\fIaddDesc\fP Address street description
+.br
+\fIaddZipCode\fP Address zip code
+.br
+\fIaddCity\fP Address city
+.br
+\fIaddDistrict\fP Address district
+.br
+\fIaddCountry\fP Address Country
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns truee if insertion is ok!
+.RE
+.PP
+
+.PP
+Definition at line 126 of file SickPersons\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "List<\fBSickPerson\fP> AF_IPCA\&.PandemicApp\&.DAO\&.SickPersons\&.allSickPersons\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 31 of file SickPersons\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

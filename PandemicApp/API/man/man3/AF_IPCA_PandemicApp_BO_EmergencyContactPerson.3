@@ -1,0 +1,107 @@
+.TH "AF_IPCA.PandemicApp.BO.EmergencyContactPerson" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.EmergencyContactPerson \- This class is the structure of an emergency contact person\&. It inherits from class \fBPerson\fP  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAF_IPCA\&.PandemicApp\&.BO\&.Person\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEmergencyContactPerson\fP ()"
+.br
+.RI "default constructor "
+.ti -1c
+.RI "\fBEmergencyContactPerson\fP (string fName, string lName, string phoneNum, string relStatus)"
+.br
+.RI "Parameterized constructor\&. It gives all the info needed to build this object "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBRelativeStatus\fP\fC [get, set]\fP"
+.br
+.RI "Defines the relationship between the pacient and the emergency contact person "
+.ti -1c
+.RI "bool \fBHasEPC\fP\fC [get, set]\fP"
+.br
+.RI "stores bool value if there is a emergency contact person\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBhasEmergencyPersonContact\fP"
+.br
+.ti -1c
+.RI "string \fBrelativeStatus\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class is the structure of an emergency contact person\&. It inherits from class \fBPerson\fP 
+
+
+.PP
+Definition at line 22 of file EmergencyContactPerson\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.EmergencyContactPerson ()"
+
+.PP
+default constructor 
+.PP
+Definition at line 40 of file EmergencyContactPerson\&.cs\&.
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.EmergencyContactPerson (string fName, string lName, string phoneNum, string relStatus)"
+
+.PP
+Parameterized constructor\&. It gives all the info needed to build this object 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP EMR first name
+.br
+\fIlName\fP EMR last name
+.br
+\fIphoneNum\fP EMR phone number
+.br
+\fIrelStatus\fP EMR relationship with sick person
+.RE
+.PP
+
+.PP
+Definition at line 52 of file EmergencyContactPerson\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.hasEmergencyPersonContact\fC [private]\fP"
+
+.PP
+Definition at line 28 of file EmergencyContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.relativeStatus\fC [private]\fP"
+
+.PP
+Definition at line 29 of file EmergencyContactPerson\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.HasEPC\fC [get]\fP, \fC [set]\fP"
+
+.PP
+stores bool value if there is a emergency contact person\&. 
+.PP
+Definition at line 83 of file EmergencyContactPerson\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\&.RelativeStatus\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Defines the relationship between the pacient and the emergency contact person 
+.PP
+Definition at line 68 of file EmergencyContactPerson\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

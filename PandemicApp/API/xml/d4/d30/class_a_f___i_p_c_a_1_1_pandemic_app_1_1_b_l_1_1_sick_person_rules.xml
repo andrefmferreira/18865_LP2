@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BL::SickPersonRules</compoundname>
+    <basecompoundref refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BL.CrossRules</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a379cad176a3930dcb726af007b0c6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BL.SickPersonRules.SickPersonRules</definition>
+        <argsstring>()</argsstring>
+        <name>SickPersonRules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="36" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1ad7e3f83c91ff586b222cb0e5d0c562cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.SetDeathOfSickPersonRequest</definition>
+        <argsstring>(string fullName)</argsstring>
+        <name>SetDeathOfSickPersonRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fullName</declname>
+        </param>
+        <briefdescription>
+<para>this methodo mediates the request to set a sickperson as a death person. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uses the full name to search (not ideal)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sucess, or false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="56" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a0c8fdf6d1ddd6cee8e50257b5174e6c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.InsertsSickPerson</definition>
+        <argsstring>(SickPerson sickPerson)</argsstring>
+        <name>InsertsSickPerson</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <briefdescription>
+<para>This method gives the link needed to the frondend insert a new SickPerson </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="66" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a42034fb8c7d49019febeaff9c4404d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AF_IPCA.PandemicApp.BL.SickPersonRules.GetGender</definition>
+        <argsstring>(SickPerson sickPerson)</argsstring>
+        <name>GetGender</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <briefdescription>
+<para>This methodo access the stored information in order to return a more &quot;friendly&quot; designation of gender </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Its the object it self.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sr or Sra</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="76" column="30" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaaa11edc67554ee708fe7b381ce327ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.SetContactInfo</definition>
+        <argsstring>(SickPerson sickPerson, string phoneNum, string email, string addDesc, string addZipCode, string addCity, string addDistrict, string addCountry)</argsstring>
+        <name>SetContactInfo</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phoneNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addDesc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addZipCode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addCity</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addDistrict</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addCountry</declname>
+        </param>
+        <briefdescription>
+<para>This methodo sets the contact information of the sickperson. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sick person object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phoneNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s phone number</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addDesc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s address</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addZipCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s zip code</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addCity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s city</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addDistrict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s district</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addCountry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick person&apos;s country</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="94" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="94" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaeb435bb1cbd057fc2c5e0a94fd39e43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.SetEmrContact</definition>
+        <argsstring>(SickPerson sickPerson, string fName, string lName, string phoneNum, string relStatus)</argsstring>
+        <name>SetEmrContact</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phoneNum</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relStatus</declname>
+        </param>
+        <briefdescription>
+<para>This method is a mediator and sends the information for set in the sickPersons&apos;s &quot;object&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sick persons object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>emergency contact person&apos;s first name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>emergency contact person&apos;s last name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phoneNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>emergency contact person&apos;s phone number</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>relStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>emergency contact person&apos;s relative status of sick person</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="128" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="128" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a63c0dc9b308189e34b993acdf20c4c6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.AddDiseaseToSickPersonHistoryRequest</definition>
+        <argsstring>(SickPerson sickPerson, Disease personDisease, string sickPersonSintoms)</argsstring>
+        <name>AddDiseaseToSickPersonHistoryRequest</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease" kindref="compound">Disease</ref></type>
+          <declname>personDisease</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sickPersonSintoms</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for adding a disease into a sick person&apos;s disease history </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sickperson</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>personDisease</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>registered disease</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sickPersonSintoms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>disease sintoms</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="145" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a7ab64e29e77b2e77c03fdc7e8899cc3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.AddBaseInfoToSickPersonRequest</definition>
+        <argsstring>(SickPerson sickPerson, string birthdate, string country, string citizenship, string language)</argsstring>
+        <name>AddBaseInfoToSickPersonRequest</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>birthdate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>country</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>citizenship</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for adding more info to a person&apos;s file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sick person object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>birthdate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>person&apos;s birthdate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nationality</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>person&apos;s nationality</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>country</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>person&apos;s country</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>citizenship</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>person&apos;s citizenship</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>language</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>person&apos;s language</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="160" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="160" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a48a6fcad34e65711fc9735a16af5a92f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+        <definition>static SickPerson AF_IPCA.PandemicApp.BL.SickPersonRules.GetSickPersonRequest</definition>
+        <argsstring>(string fullName)</argsstring>
+        <name>GetSickPersonRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fullName</declname>
+        </param>
+        <briefdescription>
+<para>Method that mediates the request for seek a sickperson by name. In the future, more reliable parameters should be implemented </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uses the full name as search method</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="181" column="34" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="181" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a2cb498cf695a62471fad65d42a98c370" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AF_IPCA.PandemicApp.BL.SickPersonRules.GetAge</definition>
+        <argsstring>(SickPerson sickPerson)</argsstring>
+        <name>GetAge</name>
+        <param>
+          <type><ref refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" kindref="compound">SickPerson</ref></type>
+          <declname>sickPerson</declname>
+        </param>
+        <briefdescription>
+<para>Returns the person&apos;s current age, given the birthdate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sickPerson</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>passes the sickperson&apos;s object to extract the birthdate</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an int age</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="192" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a4fef86bf336f1de955b36c1e4bb48211" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.MedDischargeSickPersonRequest</definition>
+        <argsstring>(string spName)</argsstring>
+        <name>MedDischargeSickPersonRequest</name>
+        <param>
+          <type>string</type>
+          <declname>spName</declname>
+        </param>
+        <briefdescription>
+<para>This methodo mediates the rquest for mark a sick person as cured. This means the person is no longer sick. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Person&apos;s Name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="216" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a966aa13fba833c744a55a40198cfe579" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.SaveAllRequest</definition>
+        <argsstring>(string fName)</argsstring>
+        <name>SaveAllRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for saving an entire structure into a file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full path and name of bin file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sucess false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="226" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a6c0a9d94f4a5ba4c429dc41b66dfe564" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.LoadAllRequest</definition>
+        <argsstring>(string fName)</argsstring>
+        <name>LoadAllRequest</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <briefdescription>
+<para>This method mediates the request for loading an entire structure into memory (not ideal) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full path and name of bin file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if sucess false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="236" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a60500959b2f9e79dc21e0e3639f9e9b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AF_IPCA.PandemicApp.BL.SickPersonRules.ListSickPersonDashBoardRequest</definition>
+        <argsstring>(out int numSP, out int totSP, out int numDeaths)</argsstring>
+        <name>ListSickPersonDashBoardRequest</name>
+        <param>
+          <type>out int</type>
+          <declname>numSP</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>totSP</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numDeaths</declname>
+        </param>
+        <briefdescription>
+<para>This method handles a the request to gather information to print a dashboard related to stats of the pandemic situation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numSP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of active sickperson</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>totSP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Total number of sickperson</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numDeads</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of deaths</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if there is data, or false if not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="248" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="248" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a68094cc6219a84afaec7b66740cd3c94" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AF_IPCA.PandemicApp.BL.SickPersonRules.DateToAge</definition>
+        <argsstring>(DateTime date)</argsstring>
+        <name>DateToAge</name>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Converts a given birthdate into an age </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>already parsed date, inputed from user</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns the age based on the difference of current date and the inserted birthdate</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="202" column="28" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class handles the comunication between frontend and data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BL.SickPersonRules</label>
+        <link refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CrossRules</label>
+        <link refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BL.SickPersonRules</label>
+        <link refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CrossRules</label>
+        <link refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" line="24" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/SickPersonRules.cs" bodystart="25" bodyend="261"/>
+    <listofallmembers>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a7ab64e29e77b2e77c03fdc7e8899cc3c" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>AddBaseInfoToSickPersonRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a63c0dc9b308189e34b993acdf20c4c6d" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>AddDiseaseToSickPersonHistoryRequest</name></member>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a2239c5b8bfdde047278a396ca803c09a" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>CapitalLetter</name></member>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a531ddd20f9cde13ca6810b2a432e1176" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>CrossRules</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a68094cc6219a84afaec7b66740cd3c94" prot="private" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>DateToAge</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a2cb498cf695a62471fad65d42a98c370" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>GetAge</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a42034fb8c7d49019febeaff9c4404d" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>GetGender</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a48a6fcad34e65711fc9735a16af5a92f" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>GetSickPersonRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a0c8fdf6d1ddd6cee8e50257b5174e6c6" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>InsertsSickPerson</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a60500959b2f9e79dc21e0e3639f9e9b7" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>ListSickPersonDashBoardRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a6c0a9d94f4a5ba4c429dc41b66dfe564" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>LoadAllRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a4fef86bf336f1de955b36c1e4bb48211" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>MedDischargeSickPersonRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a966aa13fba833c744a55a40198cfe579" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>SaveAllRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaaa11edc67554ee708fe7b381ce327ed" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>SetContactInfo</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1ad7e3f83c91ff586b222cb0e5d0c562cc" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>SetDeathOfSickPersonRequest</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1aaeb435bb1cbd057fc2c5e0a94fd39e43" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>SetEmrContact</name></member>
+      <member refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules_1a9a379cad176a3930dcb726af007b0c6e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::SickPersonRules</scope><name>SickPersonRules</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

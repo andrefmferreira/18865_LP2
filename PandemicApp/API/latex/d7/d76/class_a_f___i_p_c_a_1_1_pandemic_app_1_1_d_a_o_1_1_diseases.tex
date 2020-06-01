@@ -1,0 +1,179 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases}\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+
+
+this class manages diseases.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a2c91838e1ad092b9854dbd7661380d77}{Add\+To\+Diseases}} (\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} d)
+\begin{DoxyCompactList}\small\item\em Method responsible to add new pandemic diseases to the list \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ac106159c1586446ad0d5e4494fd5d4ea}{Show\+Diseases}} ()
+\begin{DoxyCompactList}\small\item\em This method prints the list on the screen \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad9e0431eef4374021ccff1c4beca7ff3}{Get\+Disease}} (int id)
+\begin{DoxyCompactList}\small\item\em Method that seeks for an id in the diseases collection, and retrieves it in order to add it to the sick persons disease history \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a8204d511ec86604790b1f861a71de29f}{Save\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the save procedure of data into a file \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad7e9253bd06517443e98474966756ef9}{Load\+All}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Method that handles the load procedure of data from a file \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_aea325f8e6b9716551c2f018f22d4af59}{Diseases}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases}{Diseases}} class \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} $>$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a3b5f30aab54d7d1ca2dde2c62236a6fa}{all\+Diseases}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class manages diseases. 
+
+
+
+Definition at line 27 of file Diseases.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_aea325f8e6b9716551c2f018f22d4af59}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_aea325f8e6b9716551c2f018f22d4af59}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!Diseases@{Diseases}}
+\index{Diseases@{Diseases}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{Diseases()}{Diseases()}}
+{\footnotesize\ttfamily static A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Diseases (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Default constructor for \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases}{Diseases}} class 
+
+
+
+Definition at line 40 of file Diseases.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a2c91838e1ad092b9854dbd7661380d77}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a2c91838e1ad092b9854dbd7661380d77}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!AddToDiseases@{AddToDiseases}}
+\index{AddToDiseases@{AddToDiseases}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{AddToDiseases()}{AddToDiseases()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Add\+To\+Diseases (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}}}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method responsible to add new pandemic diseases to the list 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & This is an object of type Disease. It represents the disease it self\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if added, or false if it already exists
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Diseases.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad9e0431eef4374021ccff1c4beca7ff3}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad9e0431eef4374021ccff1c4beca7ff3}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!GetDisease@{GetDisease}}
+\index{GetDisease@{GetDisease}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{GetDisease()}{GetDisease()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Get\+Disease (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that seeks for an id in the diseases collection, and retrieves it in order to add it to the sick persons disease history 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & integer with id\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+disease or null if not found
+\end{DoxyReturn}
+
+
+Definition at line 103 of file Diseases.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad7e9253bd06517443e98474966756ef9}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ad7e9253bd06517443e98474966756ef9}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!LoadAll@{LoadAll}}
+\index{LoadAll@{LoadAll}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{LoadAll()}{LoadAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Load\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the load procedure of data from a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file is loaded, or false if something whent wrong
+\end{DoxyReturn}
+
+
+Definition at line 150 of file Diseases.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a8204d511ec86604790b1f861a71de29f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a8204d511ec86604790b1f861a71de29f}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!SaveAll@{SaveAll}}
+\index{SaveAll@{SaveAll}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{SaveAll()}{SaveAll()}}
+{\footnotesize\ttfamily static bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Save\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method that handles the save procedure of data into a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Full path and name of the file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if save is ok. False if not
+\end{DoxyReturn}
+
+
+Definition at line 123 of file Diseases.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ac106159c1586446ad0d5e4494fd5d4ea}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_ac106159c1586446ad0d5e4494fd5d4ea}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!ShowDiseases@{ShowDiseases}}
+\index{ShowDiseases@{ShowDiseases}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{ShowDiseases()}{ShowDiseases()}}
+{\footnotesize\ttfamily static void A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+Show\+Diseases (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+This method prints the list on the screen 
+
+
+
+Definition at line 87 of file Diseases.\+cs.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a3b5f30aab54d7d1ca2dde2c62236a6fa}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_diseases_a3b5f30aab54d7d1ca2dde2c62236a6fa}} 
+\index{AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}!allDiseases@{allDiseases}}
+\index{allDiseases@{allDiseases}!AF\_IPCA.PandemicApp.DAO.Diseases@{AF\_IPCA.PandemicApp.DAO.Diseases}}
+\doxysubsubsection{\texorpdfstring{allDiseases}{allDiseases}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease}{Disease}}$>$ A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O.\+Diseases.\+all\+Diseases\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 31 of file Diseases.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+D\+A\+O/\mbox{\hyperlink{_diseases_8cs}{Diseases.\+cs}}\end{DoxyCompactItemize}

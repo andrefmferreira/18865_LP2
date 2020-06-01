@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_778da54f9f99f3c88d7028bfc0cf0118" kind="dir">
+    <compoundname>C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp</compoundname>
+    <innerdir refid="dir_20d05602028ce502d2cea923940ad6fc">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/obj</innerdir>
+    <innerdir refid="dir_a9cb413f976b718b1a76d9aefa2e7de6">C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/Properties</innerdir>
+    <innerfile refid="dd/d5c/_program_8cs">Program.cs</innerfile>
+    <innerfile refid="d1/db2/_test_scripting_8cs">TestScripting.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/PandemicApp/"/>
+  </compounddef>
+</doxygen>

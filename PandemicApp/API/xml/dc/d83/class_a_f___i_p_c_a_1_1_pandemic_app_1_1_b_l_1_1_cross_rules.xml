@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules" kind="class" language="C#" prot="public">
+    <compoundname>AF_IPCA::PandemicApp::BL::CrossRules</compoundname>
+    <derivedcompoundref refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BL.DiseaseRules</derivedcompoundref>
+    <derivedcompoundref refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BL.HospitalRules</derivedcompoundref>
+    <derivedcompoundref refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules" prot="public" virt="non-virtual">AF_IPCA.PandemicApp.BL.SickPersonRules</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a531ddd20f9cde13ca6810b2a432e1176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.BL.CrossRules.CrossRules</definition>
+        <argsstring>()</argsstring>
+        <name>CrossRules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="33" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a2239c5b8bfdde047278a396ca803c09a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AF_IPCA.PandemicApp.BL.CrossRules.CapitalLetter</definition>
+        <argsstring>(string s)</argsstring>
+        <name>CapitalLetter</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>will capitalize the first letter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives a string as parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns the string with the first letter capitalized</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="54" column="30" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this class stores the rules that are common to the classes at this level </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>AF_IPCA.PandemicApp.BL.SickPersonRules</label>
+        <link refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AF_IPCA.PandemicApp.BL.HospitalRules</label>
+        <link refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.BL.CrossRules</label>
+        <link refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules"/>
+      </node>
+      <node id="2">
+        <label>AF_IPCA.PandemicApp.BL.DiseaseRules</label>
+        <link refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="21" column="11" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" bodystart="22" bodyend="69"/>
+    <listofallmembers>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a2239c5b8bfdde047278a396ca803c09a" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::CrossRules</scope><name>CapitalLetter</name></member>
+      <member refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules_1a531ddd20f9cde13ca6810b2a432e1176" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::BL::CrossRules</scope><name>CrossRules</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

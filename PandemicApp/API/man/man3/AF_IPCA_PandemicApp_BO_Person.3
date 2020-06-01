@@ -1,0 +1,241 @@
+.TH "AF_IPCA.PandemicApp.BO.Person" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.Person \- This is \fBPerson\fP's class\&. This will define a person\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBAF_IPCA\&.PandemicApp\&.BO\&.EmergencyContactPerson\fP, and \fBAF_IPCA\&.PandemicApp\&.BO\&.SickPerson\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPerson\fP ()"
+.br
+.RI "standard constructor for class \fBPerson\fP "
+.ti -1c
+.RI "\fBPerson\fP (string fName, string lName, string \fBgender\fP)"
+.br
+.RI "Constructor with base parameters as Name and gender "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBCountry\fP\fC [get, set]\fP"
+.br
+.RI "Responsible to handle a person's citizenship "
+.ti -1c
+.RI "string \fBCitizenship\fP\fC [get, set]\fP"
+.br
+.RI "Responsible to handle a person's citizenship "
+.ti -1c
+.RI "string \fBLanguage\fP\fC [get, set]\fP"
+.br
+.RI "Responsible to handle a person's native language "
+.ti -1c
+.RI "string \fBFirstName\fP\fC [get, set]\fP"
+.br
+.RI "manages a person's first name, making sure the first letter is capitalized, with assistant of a funtion "
+.ti -1c
+.RI "string \fBLastName\fP\fC [get, set]\fP"
+.br
+.RI "manages a person's last name, making sure the first letter is capitalized, with assistant of a funtion "
+.ti -1c
+.RI "string \fBFullName\fP\fC [get, set]\fP"
+.br
+.RI "Manages the concatenation of first and last name "
+.ti -1c
+.RI "DateTime \fBBirthDate\fP\fC [get, set]\fP"
+.br
+.RI "Checks if inserted birthdate is valid\&. If it is, it will be passed to the variable birthDate "
+.ti -1c
+.RI "int \fBAge\fP\fC [get, set]\fP"
+.br
+.RI "Calculates the person's age from the validated birthdate\&. if birthdate is not valid, age will be 0 "
+.ti -1c
+.RI "string \fBGender\fP\fC [get, set]\fP"
+.br
+.RI "Manages a \fBPerson\fP's gender "
+.ti -1c
+.RI "\fBContactPerson\fP \fBContactInfo\fP\fC [get, set]\fP"
+.br
+.RI "property of type \fBContactPerson\fP\&. It is responsible to parse the contacts of a person "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBcountry\fP"
+.br
+.ti -1c
+.RI "string \fBcitizenship\fP"
+.br
+.ti -1c
+.RI "string \fBlanguage\fP"
+.br
+.ti -1c
+.RI "string \fBfirstName\fP"
+.br
+.ti -1c
+.RI "string \fBlastName\fP"
+.br
+.ti -1c
+.RI "string \fBfullName\fP"
+.br
+.ti -1c
+.RI "DateTime \fBbirthDate\fP"
+.br
+.ti -1c
+.RI "int \fBage\fP"
+.br
+.ti -1c
+.RI "string \fBgender\fP"
+.br
+.ti -1c
+.RI "\fBContactPerson\fP \fBcontactInfo\fP = new \fBContactPerson\fP()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is \fBPerson\fP's class\&. This will define a person\&. 
+
+
+.PP
+Definition at line 25 of file Person\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Person ()"
+
+.PP
+standard constructor for class \fBPerson\fP 
+.PP
+Definition at line 49 of file Person\&.cs\&.
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Person (string fName, string lName, string gender)"
+
+.PP
+Constructor with base parameters as Name and gender 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP First Name
+.br
+\fIlName\fP Last Name
+.br
+\fIgender\fP Gender
+.RE
+.PP
+
+.PP
+Definition at line 59 of file Person\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Person\&.age\fC [private]\fP"
+
+.PP
+Definition at line 37 of file Person\&.cs\&.
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.Person\&.birthDate\fC [private]\fP"
+
+.PP
+Definition at line 35 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.citizenship\fC [private]\fP"
+
+.PP
+Definition at line 30 of file Person\&.cs\&.
+.SS "\fBContactPerson\fP AF_IPCA\&.PandemicApp\&.BO\&.Person\&.contactInfo = new \fBContactPerson\fP()\fC [private]\fP"
+
+.PP
+Definition at line 40 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.country\fC [private]\fP"
+
+.PP
+Definition at line 29 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.firstName\fC [private]\fP"
+
+.PP
+Definition at line 32 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.fullName\fC [private]\fP"
+
+.PP
+Definition at line 34 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.gender\fC [private]\fP"
+
+.PP
+Definition at line 38 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.language\fC [private]\fP"
+
+.PP
+Definition at line 31 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.lastName\fC [private]\fP"
+
+.PP
+Definition at line 33 of file Person\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Age\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Calculates the person's age from the validated birthdate\&. if birthdate is not valid, age will be 0 
+.PP
+Definition at line 164 of file Person\&.cs\&.
+.SS "DateTime AF_IPCA\&.PandemicApp\&.BO\&.Person\&.BirthDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Checks if inserted birthdate is valid\&. If it is, it will be passed to the variable birthDate 
+.PP
+Definition at line 149 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Citizenship\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Responsible to handle a person's citizenship 
+.PP
+Definition at line 83 of file Person\&.cs\&.
+.SS "\fBContactPerson\fP AF_IPCA\&.PandemicApp\&.BO\&.Person\&.ContactInfo\fC [get]\fP, \fC [set]\fP"
+
+.PP
+property of type \fBContactPerson\fP\&. It is responsible to parse the contacts of a person 
+.PP
+Definition at line 213 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Country\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Responsible to handle a person's citizenship 
+.PP
+Definition at line 74 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.FirstName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+manages a person's first name, making sure the first letter is capitalized, with assistant of a funtion 
+.PP
+Definition at line 107 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.FullName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Manages the concatenation of first and last name 
+.PP
+Definition at line 137 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Gender\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Manages a \fBPerson\fP's gender 
+.PP
+Definition at line 179 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.Language\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Responsible to handle a person's native language 
+.PP
+Definition at line 92 of file Person\&.cs\&.
+.SS "string AF_IPCA\&.PandemicApp\&.BO\&.Person\&.LastName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+manages a person's last name, making sure the first letter is capitalized, with assistant of a funtion 
+.PP
+Definition at line 122 of file Person\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

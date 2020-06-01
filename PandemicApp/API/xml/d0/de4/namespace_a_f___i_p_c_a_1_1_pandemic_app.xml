@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d0/de4/namespace_a_f___i_p_c_a_1_1_pandemic_app" kind="namespace" language="C#">
+    <compoundname>AF_IPCA::PandemicApp</compoundname>
+    <innernamespace refid="df/d6c/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l">AF_IPCA::PandemicApp::BL</innernamespace>
+    <innernamespace refid="d0/d14/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o">AF_IPCA::PandemicApp::BO</innernamespace>
+    <innernamespace refid="df/d65/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_console_app">AF_IPCA::PandemicApp::ConsoleApp</innernamespace>
+    <innernamespace refid="d3/def/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o">AF_IPCA::PandemicApp::DAO</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

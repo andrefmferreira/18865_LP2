@@ -1,0 +1,200 @@
+.TH "AF_IPCA.PandemicApp.BO.SickPerson" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BO.SickPerson \- sickperson class\&. This class handles all information related to a person wich is infected\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAF_IPCA\&.PandemicApp\&.BO\&.Person\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSickPerson\fP ()"
+.br
+.RI "Default constructor\&. It will set the person's id "
+.ti -1c
+.RI "\fBSickPerson\fP (string fN, string lN, string g)"
+.br
+.RI "constructor for a sickPerson, passing some data "
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "List< \fBDiseaseHistory\fP > \fBdiseases\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBGetNextId\fP ()"
+.br
+.RI "property for contact person data\&. This will store all the contact information required for a sick person "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBIsAlive\fP\fC [get, set]\fP"
+.br
+.RI "This property manages the life status "
+.ti -1c
+.RI "int \fBHospitalId\fP\fC [get, set]\fP"
+.br
+.RI "This property manages the link between a sick person and the hospital where it is hospitalized "
+.ti -1c
+.RI "int \fBPID\fP\fC [get, private set]\fP"
+.br
+.RI "This property manages the autoincremented id, for every sick persons recorded "
+.ti -1c
+.RI "bool \fBIsAdmited\fP\fC [get, set]\fP"
+.br
+.RI "this property is responsible to receive and 'translate' if a persons has been admited in a hospital "
+.ti -1c
+.RI "\fBEmergencyContactPerson\fP \fBEmrContactPerson\fP\fC [get, set]\fP"
+.br
+.RI "property for emergency contact person object "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBEmergencyContactPerson\fP \fBemrContactPerson\fP = new \fBEmergencyContactPerson\fP()"
+.br
+.ti -1c
+.RI "bool \fBisAdmited\fP = false"
+.br
+.ti -1c
+.RI "int \fBpId\fP"
+.br
+.ti -1c
+.RI "bool \fBisAlive\fP"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBhospitalId\fP"
+.br
+.ti -1c
+.RI "static int \fBglobalPID\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+sickperson class\&. This class handles all information related to a person wich is infected\&. 
+
+
+.PP
+Definition at line 25 of file SickPerson\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.SickPerson ()"
+
+.PP
+Default constructor\&. It will set the person's id 
+.PP
+Definition at line 50 of file SickPerson\&.cs\&.
+.SS "AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.SickPerson (string fN, string lN, string g)"
+
+.PP
+constructor for a sickPerson, passing some data 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfN\fP first name
+.br
+\fIlN\fP last name
+.br
+\fIg\fP gender
+.RE
+.PP
+
+.PP
+Definition at line 63 of file SickPerson\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.GetNextId ()\fC [protected]\fP"
+
+.PP
+property for contact person data\&. This will store all the contact information required for a sick person This method has the responsability to autoincrement the sickpersons id\&. It will be unique
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 157 of file SickPerson\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "List<\fBDiseaseHistory\fP> AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.diseases"
+
+.PP
+Definition at line 31 of file SickPerson\&.cs\&.
+.SS "\fBEmergencyContactPerson\fP AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.emrContactPerson = new \fBEmergencyContactPerson\fP()\fC [private]\fP"
+
+.PP
+Definition at line 29 of file SickPerson\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.globalPID\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 40 of file SickPerson\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.hospitalId\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 37 of file SickPerson\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.isAdmited = false\fC [private]\fP"
+
+.PP
+Definition at line 38 of file SickPerson\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.isAlive\fC [private]\fP"
+
+.PP
+Definition at line 41 of file SickPerson\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.pId\fC [private]\fP"
+
+.PP
+Definition at line 39 of file SickPerson\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBEmergencyContactPerson\fP AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.EmrContactPerson\fC [get]\fP, \fC [set]\fP"
+
+.PP
+property for emergency contact person object 
+.PP
+Definition at line 142 of file SickPerson\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.HospitalId\fC [get]\fP, \fC [set]\fP"
+
+.PP
+This property manages the link between a sick person and the hospital where it is hospitalized 
+.PP
+Definition at line 96 of file SickPerson\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.IsAdmited\fC [get]\fP, \fC [set]\fP"
+
+.PP
+this property is responsible to receive and 'translate' if a persons has been admited in a hospital 
+.PP
+Definition at line 127 of file SickPerson\&.cs\&.
+.SS "bool AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.IsAlive\fC [get]\fP, \fC [set]\fP"
+
+.PP
+This property manages the life status 
+.PP
+Definition at line 81 of file SickPerson\&.cs\&.
+.SS "int AF_IPCA\&.PandemicApp\&.BO\&.SickPerson\&.PID\fC [get]\fP, \fC [private set]\fP"
+
+.PP
+This property manages the autoincremented id, for every sick persons recorded 
+.PP
+Definition at line 112 of file SickPerson\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

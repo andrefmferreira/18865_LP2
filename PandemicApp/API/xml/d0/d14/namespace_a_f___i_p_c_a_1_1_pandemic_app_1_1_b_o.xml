@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d0/d14/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o" kind="namespace" language="C#">
+    <compoundname>AF_IPCA::PandemicApp::BO</compoundname>
+    <innerclass refid="d2/dbb/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_contact_person" prot="public">AF_IPCA::PandemicApp::BO::ContactPerson</innerclass>
+    <innerclass refid="d5/d8f/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease" prot="public">AF_IPCA::PandemicApp::BO::Disease</innerclass>
+    <innerclass refid="d9/d55/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history" prot="public">AF_IPCA::PandemicApp::BO::DiseaseHistory</innerclass>
+    <innerclass refid="d6/dee/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person" prot="public">AF_IPCA::PandemicApp::BO::EmergencyContactPerson</innerclass>
+    <innerclass refid="da/df2/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_hospital" prot="public">AF_IPCA::PandemicApp::BO::Hospital</innerclass>
+    <innerclass refid="de/da0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_person" prot="public">AF_IPCA::PandemicApp::BO::Person</innerclass>
+    <innerclass refid="d4/de0/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person" prot="public">AF_IPCA::PandemicApp::BO::SickPerson</innerclass>
+    <briefdescription>
+<para>Pandemic App Business Object level DLL. Here is where everything is defined </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/ContactPerson.cs" line="17" column="1"/>
+  </compounddef>
+</doxygen>

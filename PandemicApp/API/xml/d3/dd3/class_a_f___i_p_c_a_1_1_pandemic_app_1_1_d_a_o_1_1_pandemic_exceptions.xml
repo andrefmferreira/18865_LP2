@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions" kind="class" language="C#" prot="package">
+    <compoundname>AF_IPCA::PandemicApp::DAO::PandemicExceptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1aaa2adb2e657ceaa2446fd4c866eb0cec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.DAO.PandemicExceptions.PandemicExceptions</definition>
+        <argsstring>()</argsstring>
+        <name>PandemicExceptions</name>
+        <briefdescription>
+<para>default exception constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" line="33" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a08defd10fe678a5629ac97c6ccdedc5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.DAO.PandemicExceptions.PandemicExceptions</definition>
+        <argsstring>(string s)</argsstring>
+        <name>PandemicExceptions</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>constructor with custom message </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" line="40" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a31a1bc3bd5dd68a2ae7fcac621431e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AF_IPCA.PandemicApp.DAO.PandemicExceptions.PandemicExceptions</definition>
+        <argsstring>(string s, Exception e)</argsstring>
+        <name>PandemicExceptions</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>constructor with custom message and generic exception </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" line="47" column="16" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this class handles all the exceptions, on this level. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.DAO.PandemicExceptions</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>AF_IPCA.PandemicApp.DAO.PandemicExceptions</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" line="22" column="13" bodyfile="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.DAO/PandemicExceptions.cs" bodystart="23" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1aaa2adb2e657ceaa2446fd4c866eb0cec" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::DAO::PandemicExceptions</scope><name>PandemicExceptions</name></member>
+      <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a08defd10fe678a5629ac97c6ccdedc5e" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::DAO::PandemicExceptions</scope><name>PandemicExceptions</name></member>
+      <member refid="d3/dd3/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_d_a_o_1_1_pandemic_exceptions_1a31a1bc3bd5dd68a2ae7fcac621431e22" prot="public" virt="non-virtual"><scope>AF_IPCA::PandemicApp::DAO::PandemicExceptions</scope><name>PandemicExceptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

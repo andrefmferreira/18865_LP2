@@ -1,0 +1,164 @@
+.TH "AF_IPCA.PandemicApp.DAO.Hospitals" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.DAO.Hospitals \- this class handles hospitals\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHospitals\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBAddToHospitalList\fP (\fBHospital\fP h, out int x)"
+.br
+.RI "checks if a given hospital is already on the list of hospitals and if not, it will add it up\&. "
+.ti -1c
+.RI "static bool \fBPrintHospitalsFromDistrict\fP (string hDistrict, out int[] ids)"
+.br
+.RI "This method prints on the screen all hospitals, that met the district criteria "
+.ti -1c
+.RI "static \fBHospital\fP \fBGetHospitalByID\fP (int id)"
+.br
+.RI "This method searches for an hospital, in the hospitals portfolio, by id\&. "
+.ti -1c
+.RI "static bool \fBSaveAll\fP (string fileName)"
+.br
+.RI "Method that handles the save procedure of data into a file "
+.ti -1c
+.RI "static bool \fBLoadAll\fP (string fileName)"
+.br
+.RI "Method that handles the load procedure of data from a file "
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBHospital\fP > \fBhospitalList\fP = new List<\fBHospital\fP>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+this class handles hospitals\&. 
+
+
+.PP
+Definition at line 29 of file Hospitals\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.Hospitals ()"
+
+.PP
+Definition at line 39 of file Hospitals\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.AddToHospitalList (\fBHospital\fP h, out int x)\fC [static]\fP"
+
+.PP
+checks if a given hospital is already on the list of hospitals and if not, it will add it up\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInameOfHospital\fP Name o
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns true or false\&. If true, it will also adds up the hospital to the List\&.
+.RE
+.PP
+
+.PP
+Definition at line 56 of file Hospitals\&.cs\&.
+.SS "static \fBHospital\fP AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.GetHospitalByID (int id)\fC [static]\fP"
+
+.PP
+This method searches for an hospital, in the hospitals portfolio, by id\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP Its the id of the hospital
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The object hospital, or null if not found
+.RE
+.PP
+
+.PP
+Definition at line 112 of file Hospitals\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.LoadAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the load procedure of data from a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if file is loaded, or false if something whent wrong
+.RE
+.PP
+
+.PP
+Definition at line 156 of file Hospitals\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.PrintHospitalsFromDistrict (string hDistrict, out int[] ids)\fC [static]\fP"
+
+.PP
+This method prints on the screen all hospitals, that met the district criteria 
+.PP
+\fBParameters\fP
+.RS 4
+\fIhDistrict\fP Input from user\&. It will define what hospitals are printed
+.br
+\fIids\fP Out parameter, that gives the ids the user can choose\&. If user chooses a value out of range, it will give an error msg
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if there are hospitals found, or false if no hospitals in the given district
+.RE
+.PP
+
+.PP
+Definition at line 86 of file Hospitals\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.SaveAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the save procedure of data into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if save is ok\&. False if not
+.RE
+.PP
+
+.PP
+Definition at line 129 of file Hospitals\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "List<\fBHospital\fP> AF_IPCA\&.PandemicApp\&.DAO\&.Hospitals\&.hospitalList = new List<\fBHospital\fP>()\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 33 of file Hospitals\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

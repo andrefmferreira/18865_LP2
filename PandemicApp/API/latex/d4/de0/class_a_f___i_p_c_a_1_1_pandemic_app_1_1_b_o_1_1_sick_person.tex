@@ -1,0 +1,285 @@
+\hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}{}\doxysection{A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person Class Reference}
+\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person}\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+
+
+sickperson class. This class handles all information related to a person wich is infected.  
+
+
+
+
+Inheritance diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person\+:
+% FIG 0
+
+
+Collaboration diagram for A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a8325e0d68f59ff7b65491e97b96b0a42}{Sick\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. It will set the person\textquotesingle{}s id \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_addbbbccc635fd33c709425dac636268e}{Sick\+Person}} (string fN, string lN, string g)
+\begin{DoxyCompactList}\small\item\em constructor for a sick\+Person, passing some data \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history}{Disease\+History}} $>$ \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a90b1f946e72ad1c2aeb917f5df026916}{diseases}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae1019f94d381789836fbd779dd461d3e}{Get\+Next\+Id}} ()
+\begin{DoxyCompactList}\small\item\em property for contact person data. This will store all the contact information required for a sick person \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a3466abce894d9bd5649aa8ed8faa902f}{Is\+Alive}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em This property manages the life status \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab07110a46abd6d6d1f5fca318c635c4c}{Hospital\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em This property manages the link between a sick person and the hospital where it is hospitalized \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae264e707fc8089126eb358974ea8eb58}{P\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em This property manages the autoincremented id, for every sick persons recorded \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab6a20d4a4be3685f295ea43b1fd691cb}{Is\+Admited}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em this property is responsible to receive and \char`\"{}translate\char`\"{} if a persons has been admited in a hospital \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae2b3c2bcf3412df5eab245b2ec5800e8}{Emr\+Contact\+Person}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em property for emergency contact person object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}} \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_afb7a7db84a29a79b4365624dcd930246}{emr\+Contact\+Person}} = new \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}}()
+\item 
+bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_abb0f4d1829f66dbe2e5881b505ce773e}{is\+Admited}} = false
+\item 
+int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae4b2e64ae085c4f2ec4cd99806659ea8}{p\+Id}}
+\item 
+bool \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acd9139faf2edf317e4a191ccce6b8461}{is\+Alive}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acf3e6afa9dcb43508ea8e4cca5dd4da1}{hospital\+Id}}
+\item 
+static int \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a29a17bdb9784b51cc88e67deed47d6c0}{global\+P\+ID}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+sickperson class. This class handles all information related to a person wich is infected. 
+
+
+
+Definition at line 25 of file Sick\+Person.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a8325e0d68f59ff7b65491e97b96b0a42}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a8325e0d68f59ff7b65491e97b96b0a42}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!SickPerson@{SickPerson}}
+\index{SickPerson@{SickPerson}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{SickPerson()}{SickPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Sick\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. It will set the person\textquotesingle{}s id 
+
+
+
+Definition at line 50 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_addbbbccc635fd33c709425dac636268e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_addbbbccc635fd33c709425dac636268e}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!SickPerson@{SickPerson}}
+\index{SickPerson@{SickPerson}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{SickPerson()}{SickPerson()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Sick\+Person (\begin{DoxyParamCaption}\item[{string}]{fN,  }\item[{string}]{lN,  }\item[{string}]{g }\end{DoxyParamCaption})}
+
+
+
+constructor for a sick\+Person, passing some data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fN} & first name\\
+\hline
+{\em lN} & last name\\
+\hline
+{\em g} & gender\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 63 of file Sick\+Person.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae1019f94d381789836fbd779dd461d3e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae1019f94d381789836fbd779dd461d3e}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!GetNextId@{GetNextId}}
+\index{GetNextId@{GetNextId}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{GetNextId()}{GetNextId()}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Get\+Next\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+property for contact person data. This will store all the contact information required for a sick person 
+
+This method has the responsability to autoincrement the sickpersons id. It will be unique
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 157 of file Sick\+Person.\+cs.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a90b1f946e72ad1c2aeb917f5df026916}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a90b1f946e72ad1c2aeb917f5df026916}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!diseases@{diseases}}
+\index{diseases@{diseases}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{diseases}{diseases}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_disease_history}{Disease\+History}}$>$ A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+diseases}
+
+
+
+Definition at line 31 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_afb7a7db84a29a79b4365624dcd930246}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_afb7a7db84a29a79b4365624dcd930246}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!emrContactPerson@{emrContactPerson}}
+\index{emrContactPerson@{emrContactPerson}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{emrContactPerson}{emrContactPerson}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+emr\+Contact\+Person = new \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a29a17bdb9784b51cc88e67deed47d6c0}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a29a17bdb9784b51cc88e67deed47d6c0}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!globalPID@{globalPID}}
+\index{globalPID@{globalPID}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{globalPID}{globalPID}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+global\+P\+ID\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 40 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acf3e6afa9dcb43508ea8e4cca5dd4da1}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acf3e6afa9dcb43508ea8e4cca5dd4da1}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!hospitalId@{hospitalId}}
+\index{hospitalId@{hospitalId}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{hospitalId}{hospitalId}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+hospital\+Id\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 37 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_abb0f4d1829f66dbe2e5881b505ce773e}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_abb0f4d1829f66dbe2e5881b505ce773e}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!isAdmited@{isAdmited}}
+\index{isAdmited@{isAdmited}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{isAdmited}{isAdmited}}
+{\footnotesize\ttfamily bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+is\+Admited = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 38 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acd9139faf2edf317e4a191ccce6b8461}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_acd9139faf2edf317e4a191ccce6b8461}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{isAlive}{isAlive}}
+{\footnotesize\ttfamily bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+is\+Alive\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 41 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae4b2e64ae085c4f2ec4cd99806659ea8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae4b2e64ae085c4f2ec4cd99806659ea8}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!pId@{pId}}
+\index{pId@{pId}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{pId}{pId}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+p\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 39 of file Sick\+Person.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae2b3c2bcf3412df5eab245b2ec5800e8}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae2b3c2bcf3412df5eab245b2ec5800e8}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!EmrContactPerson@{EmrContactPerson}}
+\index{EmrContactPerson@{EmrContactPerson}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{EmrContactPerson}{EmrContactPerson}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_emergency_contact_person}{Emergency\+Contact\+Person}} A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Emr\+Contact\+Person\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+property for emergency contact person object 
+
+
+
+Definition at line 142 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab07110a46abd6d6d1f5fca318c635c4c}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab07110a46abd6d6d1f5fca318c635c4c}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!HospitalId@{HospitalId}}
+\index{HospitalId@{HospitalId}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{HospitalId}{HospitalId}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Hospital\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+This property manages the link between a sick person and the hospital where it is hospitalized 
+
+
+
+Definition at line 96 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab6a20d4a4be3685f295ea43b1fd691cb}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ab6a20d4a4be3685f295ea43b1fd691cb}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!IsAdmited@{IsAdmited}}
+\index{IsAdmited@{IsAdmited}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{IsAdmited}{IsAdmited}}
+{\footnotesize\ttfamily bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Is\+Admited\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+this property is responsible to receive and \char`\"{}translate\char`\"{} if a persons has been admited in a hospital 
+
+
+
+Definition at line 127 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a3466abce894d9bd5649aa8ed8faa902f}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_a3466abce894d9bd5649aa8ed8faa902f}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!IsAlive@{IsAlive}}
+\index{IsAlive@{IsAlive}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{IsAlive}{IsAlive}}
+{\footnotesize\ttfamily bool A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+Is\+Alive\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+This property manages the life status 
+
+
+
+Definition at line 81 of file Sick\+Person.\+cs.
+
+\mbox{\Hypertarget{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae264e707fc8089126eb358974ea8eb58}\label{class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_o_1_1_sick_person_ae264e707fc8089126eb358974ea8eb58}} 
+\index{AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}!PID@{PID}}
+\index{PID@{PID}!AF\_IPCA.PandemicApp.BO.SickPerson@{AF\_IPCA.PandemicApp.BO.SickPerson}}
+\doxysubsubsection{\texorpdfstring{PID}{PID}}
+{\footnotesize\ttfamily int A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O.\+Sick\+Person.\+P\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+This property manages the autoincremented id, for every sick persons recorded 
+
+
+
+Definition at line 112 of file Sick\+Person.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Andre/\+Desktop/\+L\+E\+S\+I/\+Ano\+\_\+1/\+L\+P\+\_\+2/\+Code/\+Project/\+Pandemic\+App/\+A\+F\+\_\+\+I\+P\+C\+A.\+Pandemic\+App.\+B\+O/\mbox{\hyperlink{_sick_person_8cs}{Sick\+Person.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="df/d6c/namespace_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l" kind="namespace" language="C#">
+    <compoundname>AF_IPCA::PandemicApp::BL</compoundname>
+    <innerclass refid="dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules" prot="public">AF_IPCA::PandemicApp::BL::CrossRules</innerclass>
+    <innerclass refid="da/da5/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_disease_rules" prot="public">AF_IPCA::PandemicApp::BL::DiseaseRules</innerclass>
+    <innerclass refid="df/d72/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_hospital_rules" prot="public">AF_IPCA::PandemicApp::BL::HospitalRules</innerclass>
+    <innerclass refid="d4/d30/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_sick_person_rules" prot="public">AF_IPCA::PandemicApp::BL::SickPersonRules</innerclass>
+    <briefdescription>
+<para>This is the business logic DLL. This handles all rules and some validations. It does not store information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BL/CrossRules.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

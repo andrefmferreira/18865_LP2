@@ -1,0 +1,153 @@
+.TH "AF_IPCA.PandemicApp.DAO.Diseases" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.DAO.Diseases \- this class manages diseases\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBAddToDiseases\fP (\fBDisease\fP d)"
+.br
+.RI "Method responsible to add new pandemic diseases to the list "
+.ti -1c
+.RI "static void \fBShowDiseases\fP ()"
+.br
+.RI "This method prints the list on the screen "
+.ti -1c
+.RI "static \fBDisease\fP \fBGetDisease\fP (int id)"
+.br
+.RI "Method that seeks for an id in the diseases collection, and retrieves it in order to add it to the sick persons disease history "
+.ti -1c
+.RI "static bool \fBSaveAll\fP (string fileName)"
+.br
+.RI "Method that handles the save procedure of data into a file "
+.ti -1c
+.RI "static bool \fBLoadAll\fP (string fileName)"
+.br
+.RI "Method that handles the load procedure of data from a file "
+.in -1c
+.SS "Static Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBDiseases\fP ()"
+.br
+.RI "Default constructor for \fBDiseases\fP class "
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBDisease\fP > \fBallDiseases\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+this class manages diseases\&. 
+
+
+.PP
+Definition at line 27 of file Diseases\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "static AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.Diseases ()\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Default constructor for \fBDiseases\fP class 
+.PP
+Definition at line 40 of file Diseases\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.AddToDiseases (\fBDisease\fP d)\fC [static]\fP"
+
+.PP
+Method responsible to add new pandemic diseases to the list 
+.PP
+\fBParameters\fP
+.RS 4
+\fId\fP This is an object of type Disease\&. It represents the disease it self
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if added, or false if it already exists
+.RE
+.PP
+
+.PP
+Definition at line 58 of file Diseases\&.cs\&.
+.SS "static \fBDisease\fP AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.GetDisease (int id)\fC [static]\fP"
+
+.PP
+Method that seeks for an id in the diseases collection, and retrieves it in order to add it to the sick persons disease history 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP integer with id
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+disease or null if not found
+.RE
+.PP
+
+.PP
+Definition at line 103 of file Diseases\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.LoadAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the load procedure of data from a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if file is loaded, or false if something whent wrong
+.RE
+.PP
+
+.PP
+Definition at line 150 of file Diseases\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.SaveAll (string fileName)\fC [static]\fP"
+
+.PP
+Method that handles the save procedure of data into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfileName\fP Full path and name of the file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if save is ok\&. False if not
+.RE
+.PP
+
+.PP
+Definition at line 123 of file Diseases\&.cs\&.
+.SS "static void AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.ShowDiseases ()\fC [static]\fP"
+
+.PP
+This method prints the list on the screen 
+.PP
+Definition at line 87 of file Diseases\&.cs\&.
+.SH "Field Documentation"
+.PP 
+.SS "List<\fBDisease\fP> AF_IPCA\&.PandemicApp\&.DAO\&.Diseases\&.allDiseases\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 31 of file Diseases\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

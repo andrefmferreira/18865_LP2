@@ -1,0 +1,177 @@
+.TH "AF_IPCA.PandemicApp.ConsoleApp.TestScripting" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.ConsoleApp.TestScripting \- This is a testing class\&. It contains code to test and call functions in a testing environment  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTestScripting\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBTestAddingUser\fP ()"
+.br
+.RI "This method handles several steps to add a new sick person, with complementary information\&. "
+.ti -1c
+.RI "static bool \fBTestPrintSickPersonsFile\fP (string fullName)"
+.br
+.RI "Test method that tests the printing of a sickperson's data file "
+.ti -1c
+.RI "static bool \fBTestMedDischargeSickPerson\fP ()"
+.br
+.RI "This method handles the informatic administration of a sick person's medical discharge\&. "
+.ti -1c
+.RI "static bool \fBTestAddHospitalToList\fP ()"
+.br
+.RI "This method is a test method that adds up a new hospital to the hospitals portfolio "
+.ti -1c
+.RI "static bool \fBTestAddPandemicVirus\fP ()"
+.br
+.RI "This is a test Method that adds a new pandemic virus to the portfolio "
+.ti -1c
+.RI "static bool \fBTestSetDeathOfSickPerson\fP (string fullName)"
+.br
+.RI "This method is a test method that handles the request to set a sick person which is alive, to dead "
+.ti -1c
+.RI "static bool \fBTestListDashBoard\fP (out int numSP, out int totSP, out int numDeaths)"
+.br
+.RI "This method is a test method that request information to the database in order to get information to print a dashboard "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is a testing class\&. It contains code to test and call functions in a testing environment 
+
+
+.PP
+Definition at line 25 of file TestScripting\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestScripting ()"
+
+.PP
+Definition at line 33 of file TestScripting\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestAddHospitalToList ()\fC [static]\fP"
+
+.PP
+This method is a test method that adds up a new hospital to the hospitals portfolio 
+.PP
+\fBReturns\fP
+.RS 4
+true if success false if not
+.RE
+.PP
+
+.PP
+Definition at line 329 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestAddingUser ()\fC [static]\fP"
+
+.PP
+This method handles several steps to add a new sick person, with complementary information\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true if success false if not
+.RE
+.PP
+
+.PP
+Definition at line 49 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestAddPandemicVirus ()\fC [static]\fP"
+
+.PP
+This is a test Method that adds a new pandemic virus to the portfolio 
+.PP
+\fBReturns\fP
+.RS 4
+true if success false if not
+.RE
+.PP
+
+.PP
+Definition at line 360 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestListDashBoard (out int numSP, out int totSP, out int numDeaths)\fC [static]\fP"
+
+.PP
+This method is a test method that request information to the database in order to get information to print a dashboard 
+.PP
+\fBParameters\fP
+.RS 4
+\fInumSP\fP number of active infected sick persons
+.br
+\fItotSP\fP total number of sick persons
+.br
+\fInumDeads\fP number of deaths
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if there is data or false if there is no data
+.RE
+.PP
+
+.PP
+Definition at line 416 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestMedDischargeSickPerson ()\fC [static]\fP"
+
+.PP
+This method handles the informatic administration of a sick person's medical discharge\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true if success false if not
+.RE
+.PP
+
+.PP
+Definition at line 307 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestPrintSickPersonsFile (string fullName)\fC [static]\fP"
+
+.PP
+Test method that tests the printing of a sickperson's data file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP Full Name
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if success or false if not
+.RE
+.PP
+
+.PP
+Definition at line 226 of file TestScripting\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.ConsoleApp\&.TestScripting\&.TestSetDeathOfSickPerson (string fullName)\fC [static]\fP"
+
+.PP
+This method is a test method that handles the request to set a sick person which is alive, to dead 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP full name of sick person
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sussess or false if not
+.RE
+.PP
+
+.PP
+Definition at line 393 of file TestScripting\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.

@@ -1,0 +1,9 @@
+digraph "AF_IPCA.PandemicApp.BL.HospitalRules"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AF_IPCA.PandemicApp.BL.Hospital\lRules",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="This class handles the logic and rules in the hospitals portfolio"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="CrossRules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d83/class_a_f___i_p_c_a_1_1_pandemic_app_1_1_b_l_1_1_cross_rules.html",tooltip="this class stores the rules that are common to the classes at this level"];
+}

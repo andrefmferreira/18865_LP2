@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dd/d1a/_a_f___i_p_c_a_8_pandemic_app_8_b_o_8csproj_8_file_list_absolute_8txt" kind="file" language="C++">
+    <compoundname>AF_IPCA.PandemicApp.BO.csproj.FileListAbsolute.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.deps.json</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.dll</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\bin\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.pdb</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.csproj.CoreCompileInputs.cache</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.AssemblyInfoInputs.cache</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.AssemblyInfo.cs</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.dll</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">C:\Users\Andre\Desktop\LESI\Ano_1\LP_2\Code\Project\PandemicApp\AF_IPCA.PandemicApp.BO\obj\Debug\netstandard2.0\AF_IPCA.PandemicApp.BO.pdb</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Andre/Desktop/LESI/Ano_1/LP_2/Code/Project/PandemicApp/AF_IPCA.PandemicApp.BO/obj/Debug/netstandard2.0/AF_IPCA.PandemicApp.BO.csproj.FileListAbsolute.txt"/>
+  </compounddef>
+</doxygen>

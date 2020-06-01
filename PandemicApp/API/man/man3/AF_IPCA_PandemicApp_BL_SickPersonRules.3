@@ -1,0 +1,386 @@
+.TH "AF_IPCA.PandemicApp.BL.SickPersonRules" 3 "Mon Jun 1 2020" "Version 1.0" "Pandemic" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AF_IPCA.PandemicApp.BL.SickPersonRules \- This class handles the comunication between frontend and data  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBAF_IPCA\&.PandemicApp\&.BL\&.CrossRules\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSickPersonRules\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBSetDeathOfSickPersonRequest\fP (string fullName)"
+.br
+.RI "this methodo mediates the request to set a sickperson as a death person\&. "
+.ti -1c
+.RI "static bool \fBInsertsSickPerson\fP (\fBSickPerson\fP sickPerson)"
+.br
+.RI "This method gives the link needed to the frondend insert a new SickPerson "
+.ti -1c
+.RI "static string \fBGetGender\fP (\fBSickPerson\fP sickPerson)"
+.br
+.RI "This methodo access the stored information in order to return a more 'friendly' designation of gender "
+.ti -1c
+.RI "static bool \fBSetContactInfo\fP (\fBSickPerson\fP sickPerson, string phoneNum, string email, string addDesc, string addZipCode, string addCity, string addDistrict, string addCountry)"
+.br
+.RI "This methodo sets the contact information of the sickperson\&. "
+.ti -1c
+.RI "static bool \fBSetEmrContact\fP (\fBSickPerson\fP sickPerson, string fName, string lName, string phoneNum, string relStatus)"
+.br
+.RI "This method is a mediator and sends the information for set in the sickPersons's 'object' "
+.ti -1c
+.RI "static bool \fBAddDiseaseToSickPersonHistoryRequest\fP (\fBSickPerson\fP sickPerson, \fBDisease\fP personDisease, string sickPersonSintoms)"
+.br
+.RI "This method mediates the request for adding a disease into a sick person's disease history "
+.ti -1c
+.RI "static bool \fBAddBaseInfoToSickPersonRequest\fP (\fBSickPerson\fP sickPerson, string birthdate, string country, string citizenship, string language)"
+.br
+.RI "This method mediates the request for adding more info to a person's file "
+.ti -1c
+.RI "static \fBSickPerson\fP \fBGetSickPersonRequest\fP (string fullName)"
+.br
+.RI "Method that mediates the request for seek a sickperson by name\&. In the future, more reliable parameters should be implemented "
+.ti -1c
+.RI "static void \fBGetAge\fP (\fBSickPerson\fP sickPerson)"
+.br
+.RI "Returns the person's current age, given the birthdate "
+.ti -1c
+.RI "static bool \fBMedDischargeSickPersonRequest\fP (string spName)"
+.br
+.RI "This methodo mediates the rquest for mark a sick person as cured\&. This means the person is no longer sick\&. "
+.ti -1c
+.RI "static bool \fBSaveAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for saving an entire structure into a file "
+.ti -1c
+.RI "static bool \fBLoadAllRequest\fP (string fName)"
+.br
+.RI "This method mediates the request for loading an entire structure into memory (not ideal) "
+.ti -1c
+.RI "static bool \fBListSickPersonDashBoardRequest\fP (out int numSP, out int totSP, out int numDeaths)"
+.br
+.RI "This method handles a the request to gather information to print a dashboard related to stats of the pandemic situation "
+.in -1c
+.SS "Static Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBDateToAge\fP (DateTime date)"
+.br
+.RI "Converts a given birthdate into an age "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class handles the comunication between frontend and data 
+
+
+.PP
+Definition at line 24 of file SickPersonRules\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.SickPersonRules ()"
+
+.PP
+Definition at line 36 of file SickPersonRules\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.AddBaseInfoToSickPersonRequest (\fBSickPerson\fP sickPerson, string birthdate, string country, string citizenship, string language)\fC [static]\fP"
+
+.PP
+This method mediates the request for adding more info to a person's file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP sick person object
+.br
+\fIbirthdate\fP person's birthdate
+.br
+\fInationality\fP person's nationality
+.br
+\fIcountry\fP person's country
+.br
+\fIcitizenship\fP person's citizenship
+.br
+\fIlanguage\fP person's language
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 160 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.AddDiseaseToSickPersonHistoryRequest (\fBSickPerson\fP sickPerson, \fBDisease\fP personDisease, string sickPersonSintoms)\fC [static]\fP"
+
+.PP
+This method mediates the request for adding a disease into a sick person's disease history 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP sickperson
+.br
+\fIpersonDisease\fP registered disease
+.br
+\fIsickPersonSintoms\fP disease sintoms
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 145 of file SickPersonRules\&.cs\&.
+.SS "static int AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.DateToAge (DateTime date)\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Converts a given birthdate into an age 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdate\fP already parsed date, inputed from user
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+returns the age based on the difference of current date and the inserted birthdate
+.RE
+.PP
+
+.PP
+Definition at line 202 of file SickPersonRules\&.cs\&.
+.SS "static void AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.GetAge (\fBSickPerson\fP sickPerson)\fC [static]\fP"
+
+.PP
+Returns the person's current age, given the birthdate 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP passes the sickperson's object to extract the birthdate
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+an int age
+.RE
+.PP
+
+.PP
+Definition at line 192 of file SickPersonRules\&.cs\&.
+.SS "static string AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.GetGender (\fBSickPerson\fP sickPerson)\fC [static]\fP"
+
+.PP
+This methodo access the stored information in order to return a more 'friendly' designation of gender 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP Its the object it self\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Sr or Sra
+.RE
+.PP
+
+.PP
+Definition at line 76 of file SickPersonRules\&.cs\&.
+.SS "static \fBSickPerson\fP AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.GetSickPersonRequest (string fullName)\fC [static]\fP"
+
+.PP
+Method that mediates the request for seek a sickperson by name\&. In the future, more reliable parameters should be implemented 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP uses the full name as search method
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 181 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.InsertsSickPerson (\fBSickPerson\fP sickPerson)\fC [static]\fP"
+
+.PP
+This method gives the link needed to the frondend insert a new SickPerson 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 66 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.ListSickPersonDashBoardRequest (out int numSP, out int totSP, out int numDeaths)\fC [static]\fP"
+
+.PP
+This method handles a the request to gather information to print a dashboard related to stats of the pandemic situation 
+.PP
+\fBParameters\fP
+.RS 4
+\fInumSP\fP Number of active sickperson
+.br
+\fItotSP\fP Total number of sickperson
+.br
+\fInumDeads\fP Number of deaths
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if there is data, or false if not
+.RE
+.PP
+
+.PP
+Definition at line 248 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.LoadAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for loading an entire structure into memory (not ideal) 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 236 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.MedDischargeSickPersonRequest (string spName)\fC [static]\fP"
+
+.PP
+This methodo mediates the rquest for mark a sick person as cured\&. This means the person is no longer sick\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIspName\fP Person's Name
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 216 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.SaveAllRequest (string fName)\fC [static]\fP"
+
+.PP
+This method mediates the request for saving an entire structure into a file 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfName\fP Full path and name of bin file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess false if not
+.RE
+.PP
+
+.PP
+Definition at line 226 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.SetContactInfo (\fBSickPerson\fP sickPerson, string phoneNum, string email, string addDesc, string addZipCode, string addCity, string addDistrict, string addCountry)\fC [static]\fP"
+
+.PP
+This methodo sets the contact information of the sickperson\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP sick person object
+.br
+\fIphoneNum\fP Sick person's phone number
+.br
+\fIemail\fP Sick person's email
+.br
+\fIaddDesc\fP Sick person's address
+.br
+\fIaddZipCode\fP Sick person's zip code
+.br
+\fIaddCity\fP Sick person's city
+.br
+\fIaddDistrict\fP Sick person's district
+.br
+\fIaddCountry\fP Sick person's country
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 94 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.SetDeathOfSickPersonRequest (string fullName)\fC [static]\fP"
+
+.PP
+this methodo mediates the request to set a sickperson as a death person\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfullName\fP uses the full name to search (not ideal)
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if sucess, or false if not
+.RE
+.PP
+
+.PP
+Definition at line 56 of file SickPersonRules\&.cs\&.
+.SS "static bool AF_IPCA\&.PandemicApp\&.BL\&.SickPersonRules\&.SetEmrContact (\fBSickPerson\fP sickPerson, string fName, string lName, string phoneNum, string relStatus)\fC [static]\fP"
+
+.PP
+This method is a mediator and sends the information for set in the sickPersons's 'object' 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsickPerson\fP Sick persons object
+.br
+\fIfName\fP emergency contact person's first name
+.br
+\fIlName\fP emergency contact person's last name
+.br
+\fIphoneNum\fP emergency contact person's phone number
+.br
+\fIrelStatus\fP emergency contact person's relative status of sick person
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 128 of file SickPersonRules\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Pandemic from the source code\&.
